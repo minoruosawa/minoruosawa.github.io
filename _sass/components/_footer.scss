@@ -8,21 +8,22 @@
   color: $color-text-muted;
 
   p {
-    margin: 0.5rem 0 0 0;
+    margin: 0.3rem 0 0 0;
     padding: 0;
   }
 
   a {
-    color: $color-konpeki;
+    color: $color-text-muted;
     text-decoration: none;
 
     &:hover {
       text-decoration: underline;
+      color: $color-link-hover; 
     }
   }
 
   .foot-sep {
     color: $color-separator; 
-    margin: 0.2rem;
+    margin: 0.1rem;
   }
 }

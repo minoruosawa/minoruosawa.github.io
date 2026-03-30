@@ -34,7 +34,9 @@
 
   li {
     list-style-type: none;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 0.2rem 0.3rem;
     border-bottom: 1px solid $color-border-strong;
 
@@ -47,16 +49,22 @@
     }
 
     time {
-      float: right;
+      font-size: 90%;
       color: $color-text-muted;
     }
 
     @include respond-max($bp-mobile) {
-      time {
-        display: none;
-      }
+        a {
+            flex: 1;
+        }
+
+        time {
+            margin-left: 0.75rem;
+            font-size: 50%;
+            white-space: nowrap;
+        }
     }
-  }
+    }
 }
 
 .post-info {
@@ -91,12 +99,20 @@
   h1 {
     font-size: $FSize-H2;
     text-align: left;
+
+    @include respond-max($bp-mobile) {
+        font-size: $FSize-H3;
+    } 
   }
 
   h2 {
     font-size: $FSize-H3;
     margin-top: 1em;
     text-align: left;
+
+    @include respond-max($bp-mobile) {
+        font-size: $Base;
+    } 
   }
 
   hr {
@@ -120,6 +136,10 @@
     @include respond-max($bp-tablet) {
       max-width: $content-max-width;
     }
+
+    @include respond-max($bp-mobile) {
+       letter-spacing: -0.005em;
+    } 
   }
 
   .math-scroll {
@@ -198,6 +218,10 @@
   .img-80 { width: 80%; }
 
     @include respond-max($bp-mobile) {
+
+        .post-content {
+            letter-spacing: -0.015em;
+        }
         blockquote {
             margin: 0 1rem; 
         }

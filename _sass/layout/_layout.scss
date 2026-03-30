@@ -41,6 +41,10 @@
         text-align: center; 
     }
   }
+
+  @include respond-max($bp-mobile) {
+    margin: 0; 
+  }
 }
 
 @include respond-min($bp-wide) {

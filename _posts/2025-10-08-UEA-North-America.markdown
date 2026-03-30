@@ -1,6 +1,6 @@
 ---
 layout: post
-title: UEA 北米ミーティング（モントリオール）
+title: 北米 UEA（Montréal）
 running_head: 北米UEA
 categories: Misc
 misc: 
