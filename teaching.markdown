@@ -6,12 +6,7 @@ permalink: "/teaching/"
 <h1>Teaching</h1>
 
 <div class="teaching-meta">
-  <p>
-    <a href="/policies/#disclaimer">免責事項</a> |
-    <a href="https://github.com/{{ site.github.user }}/{{ site.github.repo }}/issues/new?title=講義資料について" target="_blank">
-      誤り等を報告 (GitHub)
-    </a>
-  </p>
+  <p class="mobile-center"><a href="/policies/#disclaimer">免責事項</a><span class="separator">・</span><a href="https://github.com/{{ site.github.user }}/{{ site.github.repo }}/issues/new?title=講義資料について" target="_blank">問題を報告 (GitHub)</a></p>
 </div>
 
 
