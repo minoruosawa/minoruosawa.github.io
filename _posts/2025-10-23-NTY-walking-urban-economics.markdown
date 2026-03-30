@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 書評：歩いて学ぶ都市経済学
-running_head: 歩いて学ぶ都市経済学
+running_head: 書評：NTY
 categories: Misc
 misc: 急に寒くなった．
 ---

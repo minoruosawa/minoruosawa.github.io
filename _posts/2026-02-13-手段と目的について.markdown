@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 手段と目的について
-running_head: 手段と目的について
+running_head: 手段と目的
 categories: Misc
 misc: 
 ---
