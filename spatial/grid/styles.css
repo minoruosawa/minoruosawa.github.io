@@ -174,7 +174,8 @@ button.secondary {
 }
 
 .metrics {
-  display: grid;
+  /* display: grid; */
+  display: none;
   gap: 10px;
   margin-bottom: 20px;
 }
