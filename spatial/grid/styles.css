@@ -200,6 +200,47 @@ button.secondary {
   gap: 18px;
 }
 
+.model-panel {
+  margin-top: 20px;
+}
+
+.model-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.model-card {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 253, 249, 0.8);
+  padding: 16px;
+}
+
+.model-card h3 {
+  margin: 0 0 10px;
+  font-size: 1rem;
+}
+
+.model-card p {
+  margin: 0 0 10px;
+  line-height: 1.6;
+}
+
+.equation-block {
+  margin: 12px 0;
+  padding: 12px 14px;
+  border-left: 4px solid var(--accent);
+  border-radius: 12px;
+  background: rgba(15, 118, 110, 0.08);
+}
+
+.equation-block p:last-child,
+.model-card p:last-child {
+  margin-bottom: 0;
+}
+
 .canvas-card {
   margin: 0;
   border-radius: 22px;
@@ -236,6 +277,10 @@ canvas {
 
   .visual-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .model-grid {
+    grid-template-columns: 1fr;
   }
 }
 

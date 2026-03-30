@@ -1,4 +1,4 @@
-import { UrbanSimulation } from "../engine/urban-sim.js";
+import { UrbanSimulation } from "./urban-sim.js";
 
 const sliderSpecs = [
   {
@@ -7,7 +7,7 @@ const sliderSpecs = [
     min: 0,
     max: 6,
     step: 0.1,
-    value: 2.6,
+    value: 0.3,
   },
   {
     key: "travelCost",
@@ -15,15 +15,15 @@ const sliderSpecs = [
     min: 0.02,
     max: 0.45,
     step: 0.01,
-    value: 0.12,
+    value: 0.06,
   },
   {
     key: "agglomerationWeight",
     label: "Agglomeration",
     min: 0,
-    max: 7,
+    max: 6,
     step: 0.1,
-    value: 3.4,
+    value: 0.4,
   },
   {
     key: "crowdingWeight",
@@ -31,7 +31,7 @@ const sliderSpecs = [
     min: 0,
     max: 6,
     step: 0.1,
-    value: 1.4,
+    value: 2.0,
   },
   {
     key: "moveRate",
@@ -39,13 +39,15 @@ const sliderSpecs = [
     min: 0.01,
     max: 0.45,
     step: 0.01,
-    value: 0.12,
+    value: 0.01,
   },
 ];
 
 const fixedParams = {
   logitScale: 10,
 };
+
+const MAX_AUTO_STEPS = 100;
 
 const simulation = new UrbanSimulation({ gridSize: 50, seed: 11 });
 const sliderGroup = document.querySelector("#slider-group");
@@ -194,7 +196,7 @@ function updateMetrics(snapshot) {
     }
   }
 
-  metrics.step.textContent = String(snapshot.time);
+  metrics.step.textContent = String(snapshot.time) + '/' + String(MAX_AUTO_STEPS);
   metrics.entropy.textContent = snapshot.entropy.toFixed(3);
   metrics.peakShare.textContent = peakShare.toFixed(4);
   metrics.peakChoice.textContent = peakChoice.toFixed(4);
@@ -214,6 +216,11 @@ function renderProjectedState() {
 function tick() {
   const snapshot = simulation.step(getParams());
   renderSnapshot(snapshot);
+
+  if (snapshot.time >= MAX_AUTO_STEPS) {
+    setRunning(false);
+    return;
+  }
 
   if (running) {
     animationFrame = window.setTimeout(() => {
