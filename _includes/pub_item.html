@@ -6,7 +6,7 @@
         {%- endif -%}.
         <br>
         <span class="pub-journal">{{ paper.journal }}</span>
-        {%- if paper.state -%}, {{ paper.state }}.{%- endif -%}
+        {%- if paper.state -%}, <span class="pub-state">{{ paper.state }}</span>.{%- endif -%}
         &nbsp;({{ paper.year }})
         {%- if paper.pdf -%}
             &nbsp;[<a href="{{ paper.pdf }}">paper</a>]
