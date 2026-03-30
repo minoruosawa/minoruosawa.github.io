@@ -3,7 +3,7 @@ import { UrbanSimulation } from "./urban-sim.js";
 const sliderSpecs = [
   {
     key: "amenityWeight",
-    label: "Amenity Weight",
+    label: "Amenity Weight (<code>a</code>)",
     min: 0,
     max: 6,
     step: 0.1,
@@ -11,7 +11,7 @@ const sliderSpecs = [
   },
   {
     key: "travelCost",
-    label: "Travel Cost",
+    label: "Travel Cost (<code>tau</code>)",
     min: 0.02,
     max: 0.45,
     step: 0.01,
@@ -19,7 +19,7 @@ const sliderSpecs = [
   },
   {
     key: "agglomerationWeight",
-    label: "Agglomeration",
+    label: "Agglomeration (<code>g</code>)",
     min: 0,
     max: 6,
     step: 0.1,
@@ -27,7 +27,7 @@ const sliderSpecs = [
   },
   {
     key: "crowdingWeight",
-    label: "Congestion",
+    label: "Congestion (<code>c</code>)",
     min: 0,
     max: 6,
     step: 0.1,
@@ -35,7 +35,7 @@ const sliderSpecs = [
   },
   {
     key: "moveRate",
-    label: "Relocation Share",
+    label: "Relocation Share (<code>rho</code>)",
     min: 0.01,
     max: 0.45,
     step: 0.01,

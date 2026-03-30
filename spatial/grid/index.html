@@ -11,7 +11,7 @@
       <section class="hero">
         <div>
           <p class="eyebrow"><a href='/'>Home</a> / Spatial / Grid</p>
-          <h1>Urban Simulation</h1>
+          <h1>Urban Grid Simulation</h1>
         </div>
         <div class="hero-stats">
           <div class="stat">
@@ -31,9 +31,19 @@
 
       <section class="layout">
         <aside class="panel controls">
+
+          <div class="formula-card">
+            <h3>Utility</h3>
+            <p>
+              <code>U_i = a A_i + g Access_i(x, D) - c Crowd_i(x, D)</code>
+            </p>
+            <p class="small">
+                Details are discussed below. 
+            </p>
+          </div>
+
           <div class="panel-header">
             <h2>Controls</h2>
-            <p>Utility stays modular internally; sliders map to coefficient values.</p>
           </div>
 
           <div class="slider-group" id="slider-group"></div>
@@ -57,16 +67,6 @@
               <span>Top Choice Prob.</span>
               <strong id="peak-choice-value">0.0000</strong>
             </div>
-          </div>
-
-          <div class="formula-card">
-            <h3>Utility</h3>
-            <p>
-              <code>U_i = a A_i + g Access_i(x, D) - c Crowd_i(x, D)</code>
-            </p>
-            <p class="small">
-              Distance enters through the matrix <code>D</code>. The engine keeps term evaluation separate so the utility specification can be extended without rewriting the UI.
-            </p>
           </div>
         </aside>
 
