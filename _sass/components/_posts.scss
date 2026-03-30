@@ -176,6 +176,17 @@
       font-size: $FSize-1;
     }
   }
+
+  .img-center {
+    display: block; 
+    text-align: center; 
+    max-width: 90%; 
+    box-shadow: 2px 3px 3px #aaa; 
+    margin: 1.5rem auto;
+  }
+  .img-50 { width: 50%; }
+  .img-60 { width: 60%; }
+  .img-80 { width: 80%; }
 }
 
 .post-nav {
