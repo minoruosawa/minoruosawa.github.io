@@ -1,0 +1,113 @@
+---
+layout: null
+title: Urban Grid Simulator
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Urban Grid Simulator</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Spatial / Grid</p>
+          <h1>Urban Simulation on a 50x50 Grid</h1>
+          <p class="lead">
+            Population shares evolve under a discrete-time logit dynamic:
+            <code>x(t+1) = (1-rho)x(t) + rho P(x(t))</code>.
+          </p>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-label">Grid</span>
+            <strong>50 x 50</strong>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Cells</span>
+            <strong id="cell-count">2500</strong>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Step</span>
+            <strong id="time-step">0</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="layout">
+        <aside class="panel controls">
+          <div class="panel-header">
+            <h2>Controls</h2>
+            <p>Utility stays modular internally; sliders map to coefficient values.</p>
+          </div>
+
+          <div class="slider-group" id="slider-group"></div>
+
+          <div class="button-row">
+            <button id="play-toggle" type="button">Start</button>
+            <button id="step-once" type="button" class="secondary">Step</button>
+            <button id="reset" type="button" class="secondary">Reset</button>
+          </div>
+
+          <div class="metrics">
+            <div class="metric">
+              <span>Entropy</span>
+              <strong id="entropy-value">0.000</strong>
+            </div>
+            <div class="metric">
+              <span>Peak Share</span>
+              <strong id="peak-share-value">0.0000</strong>
+            </div>
+            <div class="metric">
+              <span>Top Choice Prob.</span>
+              <strong id="peak-choice-value">0.0000</strong>
+            </div>
+          </div>
+
+          <div class="formula-card">
+            <h3>Utility</h3>
+            <p>
+              <code>U_i = a A_i + g Access_i(x, D) - c Crowd_i(x, D)</code>
+            </p>
+            <p class="small">
+              Distance enters through the matrix <code>D</code>. The engine keeps term evaluation separate so the utility specification can be extended without rewriting the UI.
+            </p>
+          </div>
+        </aside>
+
+        <section class="panel visuals">
+          <div class="visual-grid">
+            <figure class="canvas-card">
+              <figcaption>
+                <span>Amenity Surface</span>
+                <span class="legend">low to high</span>
+              </figcaption>
+              <canvas id="amenity-canvas" width="500" height="500"></canvas>
+            </figure>
+
+            <figure class="canvas-card">
+              <figcaption>
+                <span>Population Share</span>
+                <span class="legend">current x(t)</span>
+              </figcaption>
+              <canvas id="population-canvas" width="500" height="500"></canvas>
+            </figure>
+
+            <figure class="canvas-card">
+              <figcaption>
+                <span>Choice Probability</span>
+                <span class="legend">logit P(x(t))</span>
+              </figcaption>
+              <canvas id="choice-canvas" width="500" height="500"></canvas>
+            </figure>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+  </html>
