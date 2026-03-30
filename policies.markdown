@@ -4,28 +4,6 @@ title: "M.Osawa - Site Policies"
 permalink: "/policies/"
 ---
 
-<style type="text/css" media="screen">
-  .policies-container {
-    margin: 1rem auto;
-    max-width: 44rem;
-    font-size: 1rem; 
-  }
-  .policies-container p {
-    text-align: justify;
-    text-justify: inter-ideograph;
-  }
-  h1, h2 { text-align: center; }
-  h2 { font-size: 1.3rem; }
-  section { margin-bottom: 1rem; } 
-  ol, ul {
-    margin-left: 0; 
-    padding: 0 0 0 2rem;
-    line-height: 2;
-  }
-</style>
-
-<div class="policies-container">
-
 <h1>Site Policies</h1>
 
 <section>
@@ -69,5 +47,3 @@ permalink: "/policies/"
 <li>2025年5月12日：制定</li>
 </ul>
 </section>
-
-</div>
