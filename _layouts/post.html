@@ -13,7 +13,7 @@ layout: default
     <div class="post-nav">
         {% if page.previous %}
         <a class="prev-post" href="{{ page.previous.url }}">
-            ← 前{% if page.previous.running_head %}：{{ page.previous.running_head }}{% endif %}
+            <span class="post-arrow">＜</span> {% if page.previous.running_head %}{{ page.previous.running_head }}{% endif %}
         </a>
         {% else %}
         <span class="prev-post"></span>
@@ -21,7 +21,7 @@ layout: default
 
         {% if page.next %}
         <a class="next-post" href="{{ page.next.url }}">
-            次{% if page.next.running_head %}：{{ page.next.running_head }}{% endif %} →
+            {% if page.next.running_head %}{{ page.next.running_head }}{% endif %} <span class="post-arrow">＞</span>
         </a>
         {% else %}
         <span class="next-post"></span>

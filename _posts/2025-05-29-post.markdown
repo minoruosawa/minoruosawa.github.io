@@ -298,3 +298,4 @@ $$
 - [Hofbauer, J. and Sandholm, W. H. (2007).](https://www.sciencedirect.com/science/article/abs/pii/S0022053105001754) "Evolution in games with randomly disturbed payoffs." *Journal of Economic Theory*, 132(1), 47–69. 
 - [土木学会 (1998).](https://www.jsce.or.jp/publication/detail/detail.asp?id=966) 『交通ネットワークの均衡分析：最新の理論と解法』. 土木学会出版．（残念ながら絶版）
 - [福田・城間 (2023)](https://www.jstage.jst.go.jp/article/jscejipm/78/5/78_I_1/_article/-char/ja/). 離散選択モデル研究の最近の展開––異質性と摂動性の観点から––. 土木学会論文集 D3 (土木計画学), 78(5), I1-I20.
+{: .references }
