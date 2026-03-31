@@ -7,6 +7,15 @@ permalink: "/policies/"
 <style>
     .post-content { border: none; }
     h1, h2, h3 { text-align: center !important; }
+    p { 
+        text-align:justify;
+        word-break:break-all; 
+        text-justify:inter-ideograph;
+        text-justify:inter-character;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        letter-spacing: -0.02em; 
+    }
     p, ul, ol, strong { font-family: "Computer Modern Sans Serif", sans-serif !important; }
 </style>
 
