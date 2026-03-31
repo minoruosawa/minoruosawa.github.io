@@ -18,7 +18,7 @@ layout: default
         {% else %}
         <span class="prev-post"></span>
         {% endif %}
-
+        <a href="/posts/" aria-label="Jump to list" class="jump-to-post-list">一覧</a>
         {% if page.next %}
         <a class="next-post" href="{{ page.next.url }}">
             {% if page.next.running_head %}{{ page.next.running_head }}{% endif %} <span class="post-arrow">＞</span>
@@ -29,7 +29,7 @@ layout: default
     </div>
     <div class="post-footer">
         <p>
-            <a href="https://github.com/{{ site.github.user }}/{{ site.github.repo }}/issues/new?title={{ page.title | url_encode }}&body=対象記事：{{ site.url }}{{ page.url | url_encode }}" target="_blank">問題を報告 (GitHub)</a>
+            <a href="https://github.com/{{ site.github.user }}/{{ site.github.repo }}/issues/new?title={{ page.title | url_encode }}&body=対象記事：{{ site.url }}{{ page.url | url_encode }}" target="_blank" class="report-issue">問題を報告 (GitHub)</a>
         </p>
     </div>
 </div>

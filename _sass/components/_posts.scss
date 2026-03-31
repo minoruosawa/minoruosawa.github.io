@@ -142,13 +142,22 @@
     }
   }
 
+  p:has(+ .math-scroll) {
+    margin-bottom: 0;
+  }
+
+  .math-scroll + p {
+    margin-top: 0;
+  }
+
   .math-scroll {
     overflow-x: auto;
     overflow-y: hidden;
     contain: inline-size;
+    margin: 0.5rem 0; 
+    padding: 0;
     background: var(--color-math-scroll-bg);
     border: 1px solid var(--color-math-scroll-border);
-    border-radius: 0.2rem;
   }
 
   mjx-container {
@@ -158,10 +167,10 @@
   .back-of-envelope {
     background: $color-surface-strong;
     font-size: 1rem;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 
     .boe-title {
-      padding: 0.2em 1em;
+      padding: 0.5rem 1rem;
       background: $color-surface-emphasis;
       font-family: "Palatino", "Noto Sans JP", sans-serif;
     }
@@ -170,6 +179,12 @@
       border-top: 1px solid $color-border-strong;
       padding: 0.5em 1em;
       font-family: "Palatino", "Noto Serif JP", sans-serif;
+    
+      .math-scroll {
+        padding: 0.3rem 1rem; 
+        border: none; 
+        background: inherit; 
+      }
     }
 
     @include respond-max($bp-tablet) {
@@ -238,10 +253,10 @@
 }
 
 .post-nav {
+  position: relative;
   display: flex;
   justify-content: space-between;
-  gap: 1em;
-  flex-wrap: wrap;
+  align-items: center;
   max-width: $content-max-width;
   padding: 1rem 0;
   margin: 0 auto;
@@ -258,11 +273,45 @@
   }
 
   .prev-post {
-    text-align: left;
+    max-width: 40%;
+  }
+
+  .jump-to-post-list {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        text-decoration: none;
+        white-space: nowrap;
+
+        @include respond-max($bp-mobile) {
+            &::after,
+            &::before {
+                content: "";
+                position: absolute;
+                bottom: 0.2rem;
+                width: .9rem;
+                height: 1.4px;
+                background: currentColor;
+                color: $color-border-strong;
+            }
+
+            &::before {
+                left: 50.5%;
+                    transform: translateX(-100%) rotate(20deg);
+                    transform-origin: right center;
+            }
+
+            &::after {
+                left: 49.95%;
+                transform: rotate(-20deg);
+                transform-origin: left center;
+            }
+        }
   }
 
   .next-post {
     text-align: right;
+    max-width: 40%;
   }
 
   .post-arrow {
@@ -280,7 +329,8 @@
 .post-footer {
   max-width: $content-max-width;
   margin: 0 auto;
-  text-align: right;
+  text-align: center;
+  font-size: $font-size-small;
 
   a {
     color: var(--color-text-muted);
