@@ -4,6 +4,11 @@ title: "M.Osawa - Research Summary"
 permalink: "/summary/"
 ---
 
+<style>
+    .post-content { border: none; }
+    p { letter-spacing: -0.001em !important; }
+</style>
+
 <h1>Research Summary</h1>
 
 <span style="display:block; text-align:right;">January 2026</span>
