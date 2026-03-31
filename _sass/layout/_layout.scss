@@ -114,6 +114,15 @@
             font-size: $FSize-H3;
         }
    }
+
+   @media (prefers-color-scheme: dark) {
+       text-shadow: 0px 0px 2px var(--color-text-shadow); 
+
+       @include respond-max($bp-tablet) {
+            background: $color-surface-strong;
+            box-shadow: 0px 0px 2px var(--color-course-card-shadow); 
+       }
+   }
 }
 
 .course-info {

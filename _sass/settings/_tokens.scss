@@ -62,6 +62,7 @@
     --color-text-strong: #f3f5f8;
     --color-text-muted: #aeb6c3;
     --color-text-soft: #8e98a7;
+    --color-text-shadow: rgba(0, 0, 0, 0.5);
 
     --color-link-muted: #8fa0b3;
     --color-link-strong: #90b4f0;
@@ -96,11 +97,10 @@
     --color-nav-mobile-border: #4c5c74;
     --color-nav-mobile-text: #d7e0ec;
     --color-nav-mobile-active: #f9fbff;
-    --color-nav-mobile-shadow: rgba(0, 0, 0, 0.55);
 
     --color-profile-button-text: #d2d8e0;
     --color-profile-button-hover-bg: #4c5c74;
-    --color-course-card-shadow: rgba(0, 0, 0, 0.24);
+    --color-course-card-shadow: rgba(0, 0, 0, 0.15);
   }
 }
 

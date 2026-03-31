@@ -29,6 +29,10 @@ h3 {
   font-family: "Computer Modern Sans Serif", "Noto Sans JP", sans-serif;
   font-weight: bold;
   margin: 0 0 0.5em 0;
+    
+  @media (prefers-color-scheme: dark) {
+        text-shadow: 0px 0px 2px var(--color-text-shadow); 
+  }
 }
 
 h1 {
