@@ -1,8 +1,14 @@
 ---
-layout: "default"
+layout: "doc"
 title: "M.Osawa - Site Policies"
 permalink: "/policies/"
 ---
+
+<style>
+    .post-content { border: none; }
+    h1, h2, h3 { text-align: center !important; }
+    p, ul, ol, strong { font-family: "Computer Modern Sans Serif", sans-serif !important; }
+</style>
 
 <h1>Site Policies</h1>
 
