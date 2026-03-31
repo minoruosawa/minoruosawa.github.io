@@ -35,7 +35,7 @@
   @include respond-max($bp-tablet) {
     margin: 0 auto; 
     max-width: $content-max-width;
-    font-size: $FSize-1;
+    font-size: $font-size-medium;
 
     h1, h2, h3, .mobile-center {
         text-align: center; 
@@ -83,7 +83,7 @@
     }
 
     h3 {
-        font-size: $Base; 
+        font-size: $font-size-large;
         margin: .8rem 0 0;
     }
 
@@ -99,7 +99,7 @@
   }
 
   .en {
-    font-size: $Base;
+    font-size: $font-size-large;
     color: $color-text-muted;
     font-family: "Computer Modern Typewriter", sans-serif;
   }
@@ -111,7 +111,7 @@
         padding: .5rem; 
 
         .jp {
-            font-size: $FSize-H3;
+            font-size: $font-size-xx-large;
         }
    }
 

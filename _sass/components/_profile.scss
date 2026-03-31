@@ -68,7 +68,7 @@
 
 #em-img {
   display: inline-block;
-  height: $Base; 
+  height: $font-size-large;
   vertical-align: middle;
 
   @media (prefers-color-scheme: dark) {
@@ -92,7 +92,7 @@
   .em-button {
     padding: 0 .2rem;
     width: 4rem;
-    font-size: $FSize-2; 
+    font-size: $font-size-small;
     text-align:center;
     background: inherit;
     border-radius: 10rem;

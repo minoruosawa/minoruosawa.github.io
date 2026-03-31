@@ -7,7 +7,7 @@
   min-width: 0;
 
   @include respond-max($bp-tablet) {
-    font-size: $FSize-1;
+    font-size: $font-size-medium;
   }
 }
 
@@ -72,7 +72,7 @@
 }
 
 .post-title {
-  font-size: $FSize-H1;
+  font-size: $font-size-xxxx-large;
 }
 
 .post-date,
@@ -97,21 +97,21 @@
   word-break: break-word;
 
   h1 {
-    font-size: $FSize-H2;
+    font-size: $font-size-xxx-large;
     text-align: left;
 
     @include respond-max($bp-mobile) {
-        font-size: $FSize-H3;
+        font-size: $font-size-xx-large;
     }
   }
 
   h2 {
-    font-size: $FSize-H3;
+    font-size: $font-size-xx-large;
     margin-top: 1em;
     text-align: left;
 
     @include respond-max($bp-mobile) {
-        font-size: $Base;
+        font-size: $font-size-large;
     }
   }
 
@@ -173,11 +173,11 @@
     }
 
     @include respond-max($bp-tablet) {
-      font-size: $FSize-2;
+      font-size: $font-size-small;
 
       .math-scroll,
       .mjx-math {
-        font-size: $FSize-2;
+        font-size: $font-size-small;
       }
     }
   }
@@ -201,7 +201,7 @@
     }
 
     @include respond-max($bp-tablet) {
-      font-size: $FSize-1;
+      font-size: $font-size-medium;
     }
   }
 
@@ -272,7 +272,7 @@
   @include respond-max($bp-tablet) {
     .prev-post,
     .next-post {
-      font-size: $FSize-1;
+      font-size: $font-size-medium;
     }
   }
 }

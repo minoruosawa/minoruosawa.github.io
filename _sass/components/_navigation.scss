@@ -3,7 +3,7 @@
   font-family: "Computer Modern Sans Serif", "Noto Sans JP", sans-serif;
   border-top: 4px solid var(--color-nav-border);
   margin: 0 0 $section-gap;
-  font-size: $FSize-H2; 
+  font-size: $font-size-xxx-large;
 
   a {
     text-decoration: none;
@@ -68,7 +68,7 @@
 
     .site-title,
     ul li {
-      font-size: $Base;
+      font-size: $font-size-large;
 
       a {
         color: var(--color-nav-mobile-text) !important; 

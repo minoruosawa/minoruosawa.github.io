@@ -14,7 +14,7 @@ body {
 
 body {
   font-family: "Computer Modern Sans Serif", sans-serif;
-  font-size: $Base; 
+  font-size: $font-size-large;
   color: $color-text;
 }
 
@@ -23,9 +23,7 @@ main {
 }
 
 /* === タイポグラフィ・文書構造 === */
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-family: "Computer Modern Sans Serif", "Noto Sans JP", sans-serif;
   font-weight: bold;
   margin: 0 0 0.5em 0;
@@ -36,7 +34,7 @@ h3 {
 }
 
 h1 {
-    font-size: $FSize-H1; 
+    font-size: $font-size-xxxx-large;
 }
 
 h3 {
