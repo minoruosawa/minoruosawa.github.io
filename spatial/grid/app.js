@@ -5,9 +5,9 @@ const sliderSpecs = [
     key: "amenityWeight",
     label: "Amenity Weight (<code>a</code>)",
     min: 0,
-    max: 6,
+    max: 3,
     step: 0.1,
-    value: 0.3,
+    value: 0.2,
   },
   {
     key: "travelCost",
@@ -21,9 +21,9 @@ const sliderSpecs = [
     key: "agglomerationWeight",
     label: "Agglomeration (<code>g</code>)",
     min: 0,
-    max: 6,
+    max: 2,
     step: 0.1,
-    value: 0.4,
+    value: 0.1,
   },
   {
     key: "crowdingWeight",
@@ -31,7 +31,7 @@ const sliderSpecs = [
     min: 0,
     max: 6,
     step: 0.1,
-    value: 2.0,
+    value: 3.0,
   },
   {
     key: "moveRate",
@@ -39,7 +39,7 @@ const sliderSpecs = [
     min: 0.01,
     max: 0.45,
     step: 0.01,
-    value: 0.01,
+    value: 0.05,
   },
 ];
 
