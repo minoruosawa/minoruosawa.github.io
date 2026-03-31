@@ -4,7 +4,7 @@
 }
 
 .pub-journal {
-  color: $color-aisumicha;
+  color: var(--color-journal-text);
   white-space: nowrap;
 }
 
@@ -75,6 +75,7 @@
 .pub-title {
   margin: 0;
   line-height: 1.3;
+  color: $color-text;
 
   a {
     color: inherit;
@@ -94,7 +95,7 @@
 .pub-authors,
 .pub-venue,
 .pub-links {
-  color: $color-nibiiro;
+  color: $color-text-muted;
 }
 
 .pub-authors {
@@ -109,10 +110,6 @@
 
 .pub-venue {
   margin: 0 0 0.18rem;
-}
-
-.pub-journal {
-  color: $color-aisumicha;
 }
 
 .pub-links {

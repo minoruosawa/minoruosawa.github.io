@@ -1,6 +1,7 @@
 /* === ベーススタイル === */
 html { 
   scrollbar-gutter: stable; 
+  background-color: var(--color-page-bg);
 }
 
 html,
@@ -14,7 +15,7 @@ body {
 body {
   font-family: "Computer Modern Sans Serif", sans-serif;
   font-size: $Base; 
-  color: #111;
+  color: $color-text;
 }
 
 main {
@@ -64,7 +65,7 @@ h3 {
   }
     .pub-journal {
         font-weight: bold; 
-        color: $color-koinezu; 
+        color: var(--color-emphasis-muted); 
     }
 }
 
@@ -93,7 +94,7 @@ ol li a {
 
 hr {
   border: none;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid $color-border;
   height: 0;
   margin: 1.5em 0;
 }
@@ -124,4 +125,8 @@ p {
   text-justify: inter-word;
   word-break: normal;
   overflow-wrap: break-word;
+}
+
+code {
+  color: var(--color-inline-code-text);
 }

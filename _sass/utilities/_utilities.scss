@@ -1,12 +1,12 @@
 /* === ユーティリティ === */
 .duration {
   font-weight:bold;
-  color: $color-koinezu; 
+  color: var(--color-emphasis-muted); 
 }
 
 .position {
   font-weight: bold; 
-  color: $color-koinezu; 
+  color: var(--color-emphasis-muted); 
 }
 
 .separator {
@@ -15,13 +15,7 @@
 
 .note,
 .note a {
-  color: #777;
-}
-
-@media (prefers-color-scheme: dark) {
-  .sep::before {
-    color: #bbb;
-  }
+  color: $color-text-soft;
 }
 
 .lozenge-row::before {

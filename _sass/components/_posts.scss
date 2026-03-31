@@ -78,7 +78,7 @@
 .post-date,
 .post-misc {
   font-family: "Computer Modern Typewriter", "Noto Serif JP", sans-serif;
-  color: $color-rurikon;
+  color: var(--color-accent-muted);
 }
 
 .post-misc {
@@ -146,6 +146,13 @@
     overflow-x: auto;
     overflow-y: hidden;
     contain: inline-size;
+    background: var(--color-math-scroll-bg);
+    border: 1px solid var(--color-math-scroll-border);
+    border-radius: 0.2rem;
+  }
+
+  mjx-container {
+    color: inherit !important;
   }
 
   .back-of-envelope {
@@ -177,7 +184,7 @@
 
   blockquote {
     font-size: 98%; 
-    color: $color-kurocha; 
+    color: var(--color-blockquote-text); 
   }
 
   pre {
@@ -186,6 +193,8 @@
     padding: 0.2rem 0.8rem;
     font-size: 0.9rem;
     line-height: 1.5;
+    border: 1px solid $color-border-soft;
+    border-radius: 0.2rem;
 
     code {
       font-size: 0.9rem;
@@ -210,7 +219,7 @@
     display: block; 
     text-align: center; 
     max-width: 90%; 
-    box-shadow: 2px 3px 3px #aaa; 
+    box-shadow: 2px 3px 3px var(--color-image-shadow); 
     margin: 1.5rem auto;
   }
   .img-50 { width: 50%; }

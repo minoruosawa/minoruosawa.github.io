@@ -51,10 +51,10 @@
   html {
     background: linear-gradient(
       to right,
-      $color-surface-muted,
-      $color-surface-subtle 40%,
-      $color-surface-subtle 60%,
-      $color-surface-muted
+      var(--color-page-bg-muted),
+      var(--color-page-bg-subtle) 40%,
+      var(--color-page-bg-subtle) 60%,
+      var(--color-page-bg-muted)
     );
   }
 
@@ -67,7 +67,7 @@
 }
 
 .top-block, .course, .notes {
-    border-top: 1px solid #ddd; 
+    border-top: 1px solid $color-border; 
     padding: 1.5rem 0 1.5rem;
 } 
 
@@ -107,7 +107,7 @@
    @include respond-max($bp-tablet) {
         text-align: center;
         background: $color-surface-soft;
-        box-shadow: inset 0px 0px 2px $color-nibiiro; 
+        box-shadow: inset 0px 0px 2px var(--color-course-card-shadow); 
         padding: .5rem; 
 
         .jp {

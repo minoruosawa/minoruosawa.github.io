@@ -1,37 +1,71 @@
+:root {
+  --syntax-bg: #272822;
+  --syntax-fg: #f8f8f2;
+  --syntax-err-fg: #272822;
+  --syntax-err-bg: #f92672;
+  --syntax-comment: #75715e;
+  --syntax-name: #f4bf75;
+  --syntax-keyword: #ae81ff;
+  --syntax-number: #fd971f;
+  --syntax-string: #a6e22e;
+  --syntax-operator: #f8f8f2;
+  --syntax-accent: #66d9ef;
+  --syntax-regex: #a1efe4;
+  --syntax-interp: #cc6633;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --syntax-bg: #1b222b;
+    --syntax-fg: #dce3eb;
+    --syntax-err-fg: #f9fbff;
+    --syntax-err-bg: #8f3f5e;
+    --syntax-comment: #8a93a3;
+    --syntax-name: #e7c078;
+    --syntax-keyword: #b79cff;
+    --syntax-number: #f0a96b;
+    --syntax-string: #9dd38c;
+    --syntax-operator: #dce3eb;
+    --syntax-accent: #8fc3ff;
+    --syntax-regex: #8fd8cf;
+    --syntax-interp: #d79c74;
+  }
+}
+
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight, .highlight .w {
-  color: #f8f8f2;
-  background-color: #272822;
+  color: var(--syntax-fg);
+  background-color: var(--syntax-bg);
 }
 .highlight .err {
-  color: #272822;
-  background-color: #f92672;
+  color: var(--syntax-err-fg);
+  background-color: var(--syntax-err-bg);
 }
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
-  color: #75715e;
+  color: var(--syntax-comment);
 }
 .highlight .cp {
-  color: #f4bf75;
+  color: var(--syntax-name);
 }
 .highlight .nt {
-  color: #f4bf75;
+  color: var(--syntax-name);
 }
 .highlight .o, .highlight .ow {
-  color: #f8f8f2;
+  color: var(--syntax-operator);
 }
 .highlight .p, .highlight .pi {
-  color: #f8f8f2;
+  color: var(--syntax-operator);
 }
 .highlight .gi {
-  color: #a6e22e;
+  color: var(--syntax-string);
 }
 .highlight .gd {
-  color: #f92672;
+  color: var(--syntax-err-bg);
 }
 .highlight .gh {
-  color: #66d9ef;
-  background-color: #272822;
+  color: var(--syntax-accent);
+  background-color: var(--syntax-bg);
   font-weight: bold;
 }
 .highlight .ge {
@@ -45,47 +79,47 @@
   font-weight: bold;
 }
 .highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
-  color: #ae81ff;
+  color: var(--syntax-keyword);
 }
 .highlight .kc {
-  color: #fd971f;
+  color: var(--syntax-number);
 }
 .highlight .kt {
-  color: #fd971f;
+  color: var(--syntax-number);
 }
 .highlight .kd {
-  color: #fd971f;
+  color: var(--syntax-number);
 }
 .highlight .s, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
-  color: #a6e22e;
+  color: var(--syntax-string);
 }
 .highlight .sa {
-  color: #ae81ff;
+  color: var(--syntax-keyword);
 }
 .highlight .sr {
-  color: #a1efe4;
+  color: var(--syntax-regex);
 }
 .highlight .si {
-  color: #cc6633;
+  color: var(--syntax-interp);
 }
 .highlight .se {
-  color: #cc6633;
+  color: var(--syntax-interp);
 }
 .highlight .nn {
-  color: #f4bf75;
+  color: var(--syntax-name);
 }
 .highlight .nc {
-  color: #f4bf75;
+  color: var(--syntax-name);
 }
 .highlight .no {
-  color: #f4bf75;
+  color: var(--syntax-name);
 }
 .highlight .na {
-  color: #66d9ef;
+  color: var(--syntax-accent);
 }
 .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
-  color: #a6e22e;
+  color: var(--syntax-number);
 }
 .highlight .ss {
-  color: #a6e22e;
+  color: var(--syntax-string);
 }

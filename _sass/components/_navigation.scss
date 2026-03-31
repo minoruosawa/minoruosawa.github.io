@@ -1,7 +1,7 @@
 /* === ナビゲーション === */
 .site-nav {
   font-family: "Computer Modern Sans Serif", "Noto Sans JP", sans-serif;
-  border-top: 4px solid $color-kokihanada;
+  border-top: 4px solid var(--color-nav-border);
   margin: 0 0 $section-gap;
   font-size: $FSize-H2; 
 
@@ -56,14 +56,14 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: $color-kokihanada;
+    background-color: var(--color-nav-mobile-bg);
     border: none;
     margin: 0;
 
     .nav-container {
       padding: 0.5rem $gutter-mobile 0.4rem;
       align-items: flex-start;
-      border-bottom: 1px solid $color-konjou;
+      border-bottom: 1px solid var(--color-nav-mobile-border);
     }
 
     .site-title,
@@ -71,11 +71,11 @@
       font-size: $Base;
 
       a {
-        color: $color-kinunezu !important; 
-        text-shadow: 0px 0px 2px black; 
+        color: var(--color-nav-mobile-text) !important; 
+        text-shadow: 0px 0px 2px var(--color-nav-mobile-shadow); 
 
         &.active {
-            color: white !important; 
+            color: var(--color-nav-mobile-active) !important; 
         }
       }
     }

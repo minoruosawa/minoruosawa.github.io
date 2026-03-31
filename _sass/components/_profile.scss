@@ -32,6 +32,11 @@
     width: clamp(14.0625rem, calc(12.35rem + 8.57vw), 18.0625rem);
     height: auto;
   }
+
+  @media (prefers-color-scheme: dark) {
+    filter: brightness(70%);
+    filter: grayscale(30%);
+  }
 }
 
 #description-wrapper {
@@ -65,6 +70,10 @@
   display: inline-block;
   height: $Base; 
   vertical-align: middle;
+
+  @media (prefers-color-scheme: dark) {
+    filter: invert(1);
+  }
 }
 
 #cv-link {
@@ -87,14 +96,14 @@
     text-align:center;
     background: $color-surface;
     border-radius: .1rem;
-    border: 1px solid $color-border-shadow;
-    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--color-text-muted);
+    box-shadow: 0px 0.5px 1px var(--color-image-shadow);
     font-family: "Computer Modern Sans Serif", sans-serif; 
 
     &:hover {
-      background: $color-unohanairo; 
-      color: $color-konpeki;
-      border: 1px solid $color-konpeki;
+      background: var(--color-profile-button-hover-bg); 
+      color: var(--color-link-hover);
+      border: 1px solid var(--color-link-hover);
     }
   }
 
@@ -121,6 +130,10 @@
   margin: 0 .8rem 0 0;
   background-size: contain;
   background-repeat: no-repeat;
+
+  @media (prefers-color-scheme: dark) {
+    filter: invert(1);
+  }
 }
 
 .em::before {
@@ -181,6 +194,6 @@
     float: right;
     background: $color-surface-strong;
     padding: 0 0.5em;
-    color: #444;
+    color: var(--color-profile-button-text);
   }
 }
