@@ -6,8 +6,8 @@ permalink: "/policies/"
 
 <style>
     .post-content { border: none; }
-    h1, h2, h3 { text-align: center !important; }
-    p { 
+    .post-content h1, h2, h3 { text-align: center !important; }
+    .post-content p { 
         text-align:justify;
         word-break:break-all; 
         text-justify:inter-ideograph;

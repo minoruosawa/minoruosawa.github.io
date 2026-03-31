@@ -6,6 +6,10 @@
 .pub-journal {
   color: var(--color-journal-text);
   white-space: nowrap;
+  font-weight: bold;
+  display: inline-block;
+  transform: translateX($oblique-translate) skewX($oblique-deg);
+  letter-spacing: -0.003em;
 }
 
 .pub-state {

@@ -1,3 +1,5 @@
+/* === Color Scheme and Font Sizes === */
+
 :root {
   color-scheme: light;
 
@@ -69,7 +71,7 @@
     --color-link-hover: #a9c5f4;
     --color-accent-muted: #9dbbf1;
     --color-emphasis-muted: #c8d2e0;
-    --color-journal-text: #c5ceda;
+    --color-journal-text: #cad5e7;
 
     --color-border: #36404d;
     --color-border-strong: #495566;
@@ -103,6 +105,9 @@
     --color-course-card-shadow: rgba(0, 0, 0, 0.15);
   }
 }
+
+$oblique-deg: -6deg; 
+$oblique-translate: 0.08rem; 
 
 $bp-mobile: 600px;
 $bp-tablet: 768px;
