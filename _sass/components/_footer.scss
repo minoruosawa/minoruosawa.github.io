@@ -8,12 +8,13 @@
   color: $color-text-muted;
 
   p {
-    margin: 0.3rem 0 0 0;
+    margin: 0;
     padding: 0;
+    line-height: 1.5; 
   }
 
   a {
-    color: $color-text-muted;
+    color: inherit;
     text-decoration: none;
 
     &:hover {
@@ -24,6 +25,5 @@
 
   .foot-sep {
     color: $color-separator; 
-    margin: 0.1rem;
   }
 }

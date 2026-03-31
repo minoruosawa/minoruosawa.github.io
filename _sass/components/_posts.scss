@@ -102,7 +102,7 @@
 
     @include respond-max($bp-mobile) {
         font-size: $FSize-H3;
-    } 
+    }
   }
 
   h2 {
@@ -112,7 +112,7 @@
 
     @include respond-max($bp-mobile) {
         font-size: $Base;
-    } 
+    }
   }
 
   hr {
@@ -128,7 +128,7 @@
   ul,
   ol {
     font-family: "Palatino", "Noto Serif JP", sans-serif;
-    
+
     strong {
       font-family: "Palatino", "Noto Sans JP", sans-serif;
     }
@@ -139,7 +139,7 @@
 
     @include respond-max($bp-mobile) {
        letter-spacing: -0.003em;
-    } 
+    }
   }
 
   .math-scroll {
@@ -183,8 +183,8 @@
   }
 
   blockquote {
-    font-size: 98%; 
-    color: var(--color-blockquote-text); 
+    font-size: 98%;
+    color: var(--color-blockquote-text);
   }
 
   pre {
@@ -206,7 +206,7 @@
   }
 
   .references {
-    font-size: 95%; 
+    font-size: 95%;
     text-align: left;
     text-justify: inter-word;
     hyphens: auto;
@@ -216,10 +216,10 @@
   }
 
   .img-center {
-    display: block; 
-    text-align: center; 
-    max-width: 90%; 
-    box-shadow: 2px 3px 3px var(--color-image-shadow); 
+    display: block;
+    text-align: center;
+    max-width: 90%;
+    box-shadow: 2px 3px 3px var(--color-image-shadow);
     margin: 1.5rem auto;
   }
   .img-50 { width: 50%; }
@@ -232,7 +232,7 @@
             letter-spacing: -0.015em;
         }
         blockquote {
-            margin: 0 1rem; 
+            margin: 0 1rem;
         }
     }
 }
@@ -266,7 +266,7 @@
   }
 
   .post-arrow {
-    color: $color-border-strong; 
+    color: $color-border-strong;
   }
 
   @include respond-max($bp-tablet) {
@@ -279,18 +279,17 @@
 
 .post-footer {
   max-width: $content-max-width;
-  padding: 1rem 0;
   margin: 0 auto;
   text-align: right;
 
   a {
-    color: $color-border-shadow;
+    color: var(--color-text-muted);
     display: inline-block;
-    padding: 0.6em 0;
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+        color: var(--color-link-hover);
+        text-decoration: underline;
     }
   }
 }

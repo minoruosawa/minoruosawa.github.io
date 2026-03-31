@@ -30,7 +30,7 @@ title: M.Osawa's Website
 <ul class="ref-list">
     <li>Understanding regional dynamics (2025) [<a href="notes/draft/RD.pdf">draft</a>] [<a href="notes/draft/RD_slides.pdf">slides</a>]</li>
     <li>Social interactions, technological externalities, and urban spatial structure (with H.&thinsp;Konishi)</li>
-    <li>Non-monocentric urban agglomeration patterns in two dimensions (with T.&thinsp;Akamatsu, T.&thinsp;Sakai)</li>
+    <li>Non-monocentric urban spatial structure in two dimensions (with T.&thinsp;Akamatsu, T.&thinsp;Sakai)</li>
 </ul>
 </section>
 
