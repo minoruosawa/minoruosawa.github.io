@@ -8,7 +8,7 @@ misc: 完全に春．
 
 Codex CLI にやってもらったら正味5分でできた．体裁の微修正など込みでも20分もかからなかった．ものすごい時代だ．
 
-[https://mino-osawa.github.io/spatial/grid/](/spatial/grid/)
+[Urban Grid Simulator](/spatial/grid/)
 
 ![Urban Grid Simulator](/assets/img/misc/260330.png){: .img-center }
 

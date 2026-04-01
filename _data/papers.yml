@@ -3,7 +3,7 @@
   keypub: true 
   journal: "Journal of Urban Economics"
   url: "https://arxiv.org/abs/1912.05113"
-  pdf: "https://mino-osawa.github.io/notes/draft/AMOT.pdf"
+  pdf: "/notes/draft/AMOT.pdf"
   state: "to appear"
   cover: "jue"
   author: "T.&thinsp;Akamatsu, T.&thinsp;Mori, M.&thinsp;Osawa, Y.&thinsp;Takayama"

@@ -113,7 +113,7 @@ permalink: "/teaching/"
   <ul>
     <li>2024.12: 
       <a href="/notes/misc/N2412_logit.pdf">Logit Choice and Perturbed Optimization</a>,
-      <a href="https://mino-osawa.github.io/rum/2025/05/29/post.html">日本語版</a>
+      <a href="/rum/2025/05/29/post.html">日本語版</a>
     </li>
     <li>2026.01: <a href="/notes/misc/SciTo_260126_SpatialModels.pdf">東京科学大学 CVE.D406『都市経済分析』</a> 話題提供資料</li>
   </ul>
