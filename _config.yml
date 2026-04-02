@@ -15,12 +15,12 @@
 # Site settings
 title: "Minoru Osawa's Website"
 author: "Minoru Osawa"
-description: >- # this means to ignore newlines until "baseurl:"
-  Minoru Osawa (大澤 実; おおさわ みのる) is an assistant professor at Kyoto Institute of Economic Research (KIER), Kyoto University, Japan.
+description: >-
+  Minoru Osawa is an assistant professor at the Institute of Economic Research of Kyoto University (KIER).
 url: "https://www.minoruosawa.com"
 baseurl: ""
-twitter_username: minoru_osawa
-github_username:  mino-osawa
+twitter_username: minoruosawa
+github_username:  minoruosawa
 
 github:
   user: minoruosawa
@@ -60,3 +60,21 @@ markdown: kramdown
 kramdown:
   math_engine: mathjax
 highlighter: rouge
+
+global_nav: 
+  - label: "Home"
+    url: "/"
+  - label: "Teaching"
+    url: "/teaching/"
+  - label: "Posts"
+    url: "/posts/"
+
+footer_nav: 
+  - label: "Home"
+    url: "/"
+  - label: "Teaching"
+    url: "/teaching/"
+  - label: "Posts"
+    url: "/posts/"
+  - label: "Site Policies"
+    url: "/policies/"

@@ -1,15 +1,13 @@
 <footer class="site-footer">
 <div class="footer-content">
 <p>&copy; {{ site.time | date: '%Y' }} Minoru Osawa. Powered by <a href="https://jekyllrb.com/">Jekyll</a>.</p>
-<p><!--
-    --><a href="/">Home</a><!--
-    --><span class="foot-sep">・</span><!--
-    --><a href="/teaching/">Teaching</a><!--
-    --><span class="foot-sep">・</span><!--
-    --><a href="/posts/">Posts</a><!--
-    --><span class="foot-sep">・</span><!--
-    --><a href="/policies/">Site Policies</a><!--
-    --></p>
+<p>
+<ul class="footer-nav">
+  {% for item in site.footer_nav %}
+    <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+  {% endfor %}
+</ul>
+</p>
 </div>
 </footer>
 <script>

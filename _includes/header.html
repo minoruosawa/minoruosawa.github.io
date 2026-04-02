@@ -4,9 +4,9 @@
         <a href="/">M.&thinsp;Osawa</a>
       </div>
       <ul>
-        <li><a href="/"{% if page.url == '/' %} class="active"{% endif %}>Home</a></li>
-        <li><a href="/teaching/"{% if page.url == '/teaching/' %} class="active"{% endif %}>Teaching</a></li>
-        <li><a href="/posts/"{% if page.url == '/posts/' or page.collection == 'posts' %} class="active"{% endif %}>Posts</a></li>
+        {% for item in site.global_nav %}
+            <li><a href="{{ item.url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.label }}</a></li>
+        {% endfor %}
       </ul>
     </div>
 </nav>

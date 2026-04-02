@@ -4,7 +4,7 @@
 <meta name="description" lang="en" content="{{ site.description }}">
 <title>
 {%- if page.layout == "post" -%}
-    {{ page.date | date: "%Y-%m-%d" }}: {% if page.running_head %}{{ page.running_head }}{% else %}雑記{% endif %}
+    {{ page.date | date: "%y.%m.%d" }}: {% if page.running_head %}{{ page.running_head }}{% else %}雑記{% endif %}
 {%- else -%}
     {{ page.title }}
 {%- endif -%}

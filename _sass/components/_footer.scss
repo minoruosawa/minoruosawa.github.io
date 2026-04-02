@@ -3,28 +3,54 @@
   background-color: $color-surface-muted;
   border-top: 1px solid $color-border;
   font-size: $font-size-medium;
-  padding: 1.3rem 2rem;
+  padding: .8rem 0;
   text-align: center;
   color: $color-text-muted;
 
+  a { 
+    color: inherit; 
+    text-decoration: none;
+  }
+
   p {
-    margin: 0;
+    margin: 0.2rem 0;
     padding: 0;
     line-height: 1.9; 
   }
 
-  a {
-    color: inherit;
-    text-decoration: none;
+  .footer-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    row-gap: 0.2rem;
 
-    &:hover {
-      text-decoration: underline;
-      color: $color-link-hover; 
+    li {
+        display: inline-block;
+        vertical-align: baseline;
+
+        + li::before {
+        content: "\30FB";
+        display: inline-block;
+        margin: 0 0.3rem;
+        vertical-align: middle;
+        color: $color-link-muted;
+        }
+    }
+
+    a {
+        &:hover {
+        text-decoration: underline;
+        color: $color-link-hover; 
+        }
     }
   }
 
   .foot-sep {
     color: $color-separator; 
+    margin: 0 0.2rem; 
   }
 
   .only-mobile {
