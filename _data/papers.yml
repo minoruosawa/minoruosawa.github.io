@@ -4,7 +4,7 @@
   journal: "Journal of Urban Economics"
   url: "https://arxiv.org/abs/1912.05113"
   pdf: "/notes/draft/AMOT.pdf"
-  state: "to appear"
+  state: "forthcoming"
   cover: "jue"
   author: "T.&thinsp;Akamatsu, T.&thinsp;Mori, M.&thinsp;Osawa, Y.&thinsp;Takayama"
   coauthors:
@@ -41,6 +41,7 @@
     - "Y.&thinsp;Takayama"
 
 - title: "First-best dynamic assignment of commuters with endogenous heterogeneities in a corridor network"
+  keypub: true 
   year: 2018
   author: "M.&thinsp;Osawa, H.&thinsp;Fu, T.&thinsp;Akamatsu"
   journal: "Transportation Research Part B: Methodological"

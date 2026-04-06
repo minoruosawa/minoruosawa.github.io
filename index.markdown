@@ -13,9 +13,20 @@ title: M.Osawa's Website
 <h3>Publications</h3>
 <ul class="ref-list">
   {% for paper in site.data.papers %}
-    {% include pub_item.html paper=paper %}
+    {% if paper.keypub == true %}
+      {% include pub_item.html paper=paper %}
+    {% endif %}
   {% endfor %}
 </ul>
+{% assign other_papers = site.data.papers | where_exp: "paper", "paper.keypub != true" %}
+<details>
+  <summary>Other publications ({{ other_papers.size }} items)</summary>
+  <ul class="ref-list">
+    {% for paper in other_papers %}
+      {% include pub_item.html paper=paper %}
+    {% endfor %}
+  </ul>
+</details>
 
 <h3>Discussion Papers</h3>
 <ul class="ref-list">
