@@ -11,16 +11,17 @@ title: M.Osawa's Website
 <p class="mobile-center"><a href="/summary/">Research summary</a></p>
 
 <h3>Publications</h3>
+
+{% assign sorted_papers = site.data.papers | sort: "year" | reverse %}
+{% assign key_papers = sorted_papers | where: "keypub", true %}
+{% assign other_papers = sorted_papers | where_exp: "paper", "paper.keypub != true" %}
 <ul class="ref-list">
-  {% for paper in site.data.papers %}
-    {% if paper.keypub == true %}
-      {% include pub_item.html paper=paper %}
-    {% endif %}
+  {% for paper in key_papers %}
+    {% include pub_item.html paper=paper %}
   {% endfor %}
 </ul>
-{% assign other_papers = site.data.papers | where_exp: "paper", "paper.keypub != true" %}
 <details>
-  <summary>Other publications ({{ other_papers.size }} items)</summary>
+  <summary>Other refereed articles ({{ other_papers.size }})</summary>
   <ul class="ref-list">
     {% for paper in other_papers %}
       {% include pub_item.html paper=paper %}
