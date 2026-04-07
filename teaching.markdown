@@ -22,6 +22,7 @@ permalink: "/teaching/"
       <li>水曜1限 8:45-10:15 @ 経済研究所 会議室(105)</li>
       <li>初回講義：4/8</li>
       <li>休講予定：6/17</li>
+      <li>森知也教授「経済地理学」（前期）・「空間経済学」（後期）／山﨑潤一准教授「数量経済史A」（前期）も関連講義です．</li>
     </ul>
   </div>
 
@@ -29,10 +30,8 @@ permalink: "/teaching/"
     <h3>講義資料</h3>
     <ol start="0">
       <li>
-        <a href="/notes/urban/Lecture-Map-2026.pdf">本講義の位置づけ</a>
+        <a href="/notes/urban/UE26-01_Intro.pdf">Introduction</a>
         <ul>
-          <li>森知也教授「集積の経済学」「空間経済学」との相対的位置づけ．</li>
-          <li>山﨑潤一准教授「数量経済史A」も都市・地域経済学の関連講義です．</li>
         </ul>
       </li>
     </ol>
