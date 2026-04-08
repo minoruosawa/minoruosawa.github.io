@@ -245,14 +245,15 @@
   .img-60 { width: 60%; }
   .img-80 { width: 80%; }
 
-    @include respond-max($bp-mobile) {
-
-        .post-content {
-            letter-spacing: -0.015em;
-        }
-        blockquote {
-            margin: 0 1rem;
-        }
+  .vintage-print {
+    display: block;
+    max-width: 100%;
+    border: none; 
+    box-shadow:
+        0 0 0 1px rgba(0,0,0,.1),
+        0 0 0 5px #fffdf9,
+        0 0 0 6px #bfbab0,
+        4px 5px 10px rgba(0,0,0,.9);
     }
 }
 
@@ -365,7 +366,7 @@
   padding: .8rem 1.15rem;
   font-size: 95%;
   line-height: 1.65;
-  background: $color-surface-soft;
+  background: $color-surface;
   border: 1px solid $color-border-strong;
   box-shadow: 0 1px 4px $color-border-shadow;
 }
