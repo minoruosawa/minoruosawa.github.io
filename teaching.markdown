@@ -23,6 +23,7 @@ permalink: "/teaching/"
       <li>初回講義：4/8</li>
       <li>休講予定：6/17</li>
       <li>関連講義：森「経済地理学」（前期）・「空間経済学」（後期）／山﨑「数量経済史A」（前期）</li>
+      <li>興味に応じて <a href="https://www.kier.kyoto-u.ac.jp/workshop_category/urban-economics/">都市経済学ワークショップ</a> もぜひ．（講義の評価とは関係なく，気になるものだけでOK）</li>
     </ul>
   </div>
 
@@ -30,6 +31,7 @@ permalink: "/teaching/"
     <h3>講義資料</h3>
     <ol start="0">
       <li><a href="/notes/urban/UE26-01_Intro.pdf">Introduction</a></li>
+      <li><a href="/notes/urban/UE26-02_AMM.pdf">Monocentric city</a>：半板書形式のため，タブレットまたは物理ノートを利用のこと．</li>
     </ol>
   </div>
 
