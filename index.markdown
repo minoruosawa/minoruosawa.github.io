@@ -5,6 +5,8 @@ title: M.Osawa's Website
 
 {% include profile.html %}
 
+Scheduled Talks: [ITEA Conference 2026](https://www.itea2026.com/) June 17-19 (Bergamo, Italy). 
+
 <section class="top-block">
 <h2>Research</h2>
 
