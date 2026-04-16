@@ -14,11 +14,25 @@ Scheduled Talks: [ITEA Conference 2026](https://www.itea2026.com/) June 17-19 (B
 
 <h3>Publications</h3>
 
+{% assign sorted_papers = site.data.papers | sort: "year" | reverse %}
+{% assign key_papers = sorted_papers | where: "keypub", true %}
+{% assign other_papers = sorted_papers | where_exp: "paper", "paper.keypub != true" %}
+
 <ul class="ref-list">
-  {% for paper in site.data.papers %}
+  {% for paper in key_papers %}
     {% include pub_item.html paper=paper %}
   {% endfor %}
 </ul>
+
+<details>
+  <summary>Other articles ({{ other_papers.size }})</summary>
+  <ul class="ref-list">
+    {% for paper in other_papers %}
+      {% include pub_item.html paper=paper %}
+    {% endfor %}
+  </ul>
+</details>
+
 
 <h3>Discussion Papers</h3>
 <ul class="ref-list">
