@@ -144,3 +144,38 @@
 //     font-size: 0.94rem;
 //   }
 }
+
+.hidden_pubs {
+  summary {
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding-left: 1.25em; // reserve marker space (constant)
+
+    // remove native marker (cross-browser)
+    &::-webkit-details-marker { display: none; }
+    &::marker { content: ""; }
+
+    // custom chevron marker
+    &::before {
+      content: "›\FE0E";
+      position: absolute;
+      left: 0;
+      top: 0.05em;
+      width: 1em;
+      text-align: center;
+      font-size: 1.05em;
+      font-weight: 500;
+      line-height: 1;
+      transform-origin: 50% 55%;
+      transition: transform 0.18s ease;
+    }
+  }
+
+  // rotate marker without affecting layout
+  &[open] {
+    summary::before {
+      transform: rotate(90deg);
+    }
+  }
+}

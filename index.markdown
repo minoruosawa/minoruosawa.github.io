@@ -18,15 +18,15 @@ Scheduled Talks: [ITEA Conference 2026](https://www.itea2026.com/) June 17-19 (B
 {% assign key_papers = sorted_papers | where: "keypub", true %}
 {% assign other_papers = sorted_papers | where_exp: "paper", "paper.keypub != true" %}
 
-<ul class="ref-list">
+<ul class="pub-list">
   {% for paper in key_papers %}
     {% include pub_item.html paper=paper %}
   {% endfor %}
 </ul>
 
-<details>
+<details class="hidden_pubs">
   <summary>Other articles ({{ other_papers.size }})</summary>
-  <ul class="ref-list">
+  <ul class="pub-list">
     {% for paper in other_papers %}
       {% include pub_item.html paper=paper %}
     {% endfor %}
@@ -35,7 +35,7 @@ Scheduled Talks: [ITEA Conference 2026](https://www.itea2026.com/) June 17-19 (B
 
 
 <h3>Discussion Papers</h3>
-<ul class="ref-list">
+<ul class="pub-list">
     <li><a href="https://arxiv.org/abs/2207.05346">Origin of power laws and their spatial fractal structure for city-size distributions</a> (2024) [<a href="https://arxiv.org/pdf/2207.05346">paper</a>] <br> (with T.&thinsp;Mori, T.&thinsp;Akamatsu, and Y.&thinsp;Takayama)</li>
     <li><a href="https://arxiv.org/abs/2603.09539">Sampling logit equilibrium and endogenous payoff distortion</a> (2026) [<a href="notes/draft/SLD.pdf">paper</a>] [<a href="notes/draft/SLD_slides.pdf">slides</a>]</li>
     <li><a href="https://arxiv.org/abs/2011.06778">Most likely retail agglomeration patterns</a> (2025) (with T.&thinsp;Akamatsu and Y.&thinsp;Kogure)</li>
@@ -44,7 +44,7 @@ Scheduled Talks: [ITEA Conference 2026](https://www.itea2026.com/) June 17-19 (B
 </ul>
 
 <h3>Works in Progress</h3>
-<ul class="ref-list">
+<ul class="pub-list">
     <li>Understanding regional dynamics (2025) [<a href="notes/draft/RD.pdf">draft</a>] [<a href="notes/draft/RD_slides.pdf">slides</a>]</li>
     <li>Social interactions, technological externalities, and urban spatial structure (with H.&thinsp;Konishi)</li>
     <li>Non-monocentric urban spatial structure in two dimensions (with T.&thinsp;Akamatsu, T.&thinsp;Sakai)</li>
