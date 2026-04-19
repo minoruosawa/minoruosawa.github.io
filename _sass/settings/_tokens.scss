@@ -40,8 +40,8 @@
   --color-blockquote-text: #{$color-kurocha};
   --color-image-shadow: rgba(0, 0, 0, 0.18);
 
-  --color-nav-border: #{$color-kokihanada};
-  --color-nav-mobile-bg: #{$color-kokihanada};
+  --color-nav-border: #2d4a8a; // #{$color-kokihanada};
+  --color-nav-mobile-bg: #2d4a8a; // #{$color-kokihanada};
   --color-nav-mobile-border: #{$color-konjou};
   --color-nav-mobile-text: #{$color-kinunezu};
   --color-nav-mobile-active: #ffffff;
@@ -94,9 +94,9 @@
     --color-blockquote-text: #c3cad4;
     --color-image-shadow: rgba(0, 0, 0, 0.36);
 
-    --color-nav-border: #4c5c74;
-    --color-nav-mobile-bg: #202835;
-    --color-nav-mobile-border: #4c5c74;
+    --color-nav-border: #1f2f4a; // #4c5c74;
+    --color-nav-mobile-bg: #1f2f4a; // #202835;
+    --color-nav-mobile-border: #1f2f4a; // #4c5c74;
     --color-nav-mobile-text: #d7e0ec;
     --color-nav-mobile-active: #f9fbff;
 
