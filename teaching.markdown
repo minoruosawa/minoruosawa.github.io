@@ -23,15 +23,19 @@ permalink: "/teaching/"
       <li>初回講義：4/8</li>
       <li>休講予定：6/17</li>
       <li>関連講義：森「経済地理学」（前期）・「空間経済学」（後期）／山﨑「数量経済史A」（前期）</li>
-      <li>興味に応じて <a href="https://www.kier.kyoto-u.ac.jp/workshop_category/urban-economics/">都市経済学ワークショップ</a> もぜひ．（講義の評価とは関係なく，気になるものだけでOK）</li>
+      <li>興味に応じて <a href="https://www.kier.kyoto-u.ac.jp/workshop_category/urban-economics/">都市経済学ワークショップ</a> もぜひ．</li>
     </ul>
   </div>
 
   <div class="course-contents">
-    <h3>講義資料</h3>
+    <h3>講義資料等</h3>
+    <p>概ね次のような内容を講義する予定です．</p>
     <ol start="0">
-      <li><a href="/notes/urban/UE26-01_Intro.pdf">Introduction</a></li>
-      <li><a href="/notes/urban/UE26-02_AMM.pdf">Monocentric city</a>：半板書形式のため，タブレットまたは物理ノートを利用のこと．</li>
+      <li><a href="/notes/urban/UE26-01_Intro.pdf">はじめに</a></li>
+      <li><a href="/notes/urban/UE26-02_AMM.pdf">基本的な土地利用モデル（単一中心都市モデル）</a></li>
+      <li>集積の経済と都心の形成</li>
+      <li>定量都市経済学モデル</li>
+      <li>受講者による文献紹介：対象リスト（準備中）</li>
     </ol>
   </div>
 
@@ -63,6 +67,7 @@ permalink: "/teaching/"
       <li><a href="/notes/vip/VI25-06_Congestion.pdf">混雑ゲーム</a></li>
       <li><a href="/notes/vip/VI25-07_Urban.pdf">都市モデル</a></li>
       <li><a href="/notes/vip/24-08_Stability.pdf">均衡選択</a></li>
+      <li>受講者による文献紹介：<a href="/notes/vip/VI25-Readings.pdf">対象リスト</a></li>
     </ol>
   </div>
 
