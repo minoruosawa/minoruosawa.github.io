@@ -21,7 +21,7 @@ permalink: "/teaching/"
     <ul>
       <li>水曜1限 8:45-10:15 @ 経済研究所 大会議室(106)</li>
       <li>初回講義：4/8</li>
-      <li>休講予定：6/17</li>
+      <li>休講予定：6/17．また，5/29, 6 は祝日のため講義はありません．</li>
       <li>関連講義：森「経済地理学」（前期）・「空間経済学」（後期）／山﨑「数量経済史A」（前期）</li>
       <li>興味に応じて <a href="https://www.kier.kyoto-u.ac.jp/workshop_category/urban-economics/">都市経済学ワークショップ</a> もぜひ．</li>
     </ul>
