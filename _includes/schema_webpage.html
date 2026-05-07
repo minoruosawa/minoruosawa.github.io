@@ -1,0 +1,19 @@
+{%- assign schema_name = page.title | default: site.title -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": {{ page.url | absolute_url | append: "#webpage" | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "name": {{ schema_name | jsonify }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": "https://www.minoruosawa.com/#website"
+  },
+  "about": {
+    "@type": "Person",
+    "@id": "https://www.minoruosawa.com/#person",
+    "name": "Minoru Osawa"
+  }
+}
+</script>
