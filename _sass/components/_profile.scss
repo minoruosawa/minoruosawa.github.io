@@ -15,14 +15,17 @@
 
 #profile_pic-wrapper {
   flex-shrink: 0;
+
   @include respond-max($bp-tablet) {
-    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     margin-bottom: 1em;
   }
 }
 
 #profile_pic {
-  width: 250px; 
+  width: clamp(140px, 38vw, 250px);
   max-width: 100%;
   height: auto;
   display: block;
@@ -30,8 +33,7 @@
   box-shadow: 0px 0.5px 1.5px var(--color-image-shadow);
 
   @media (prefers-color-scheme: dark) {
-    filter: brightness(80%);
-    filter: grayscale(10%);
+    filter: brightness(90%) grayscale(10%);
   }
 }
 
