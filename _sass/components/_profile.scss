@@ -119,14 +119,15 @@
 .loc::before,
 .twt::before,
 .lnks::before ,
-.doc::before {
+.doc::before,
+.cal::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   text-align: center; 
   width: 1rem;
   height: 1rem;
-  margin: 0 .8rem 0 0;
+  margin: 0 .7rem .2rem 0;
   background-size: contain;
   background-repeat: no-repeat;
 
@@ -155,44 +156,11 @@
   background-image: url("/assets/img/5-cv.png");
 }
 
-.inline-abstract {
-  display: inline;
+.cal::before {
+  background-image: url("/assets/img/cal.png");
+}
 
-  @include respond-max($bp-tablet) {
-    display: none;
-  }
-
-  summary {
-    display: inline-block;
-    margin-left: 0.5em;
-    text-decoration: underline;
-    cursor: pointer;
-
-    &::marker {
-      content: none;
-    }
-  }
-
-  div {
-    display: block;
-    margin-top: 0.5rem;
-    padding: 0.3rem 1.5rem;
-    max-width: 45em;
-    text-align: justify;
-    text-justify: inter-word;
-    line-height: 1.5;
-    border: 1px solid $color-border;
-    border-bottom: 1px solid $color-border;
-  }
-
-  .abstract-text {
-    font-family: "Computer Modern Serif", serif;
-  }
-
-  .abstract-close {
-    float: right;
-    background: $color-surface-strong;
-    padding: 0 0.5em;
-    color: var(--color-profile-button-text);
-  }
+.cal ul {
+    margin: 0 0 0 1.2rem; 
+    line-height: 1.6;
 }
