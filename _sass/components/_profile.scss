@@ -120,7 +120,8 @@
 .twt::before,
 .lnks::before ,
 .doc::before,
-.cal::before {
+.cal::before,
+.interests::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -137,7 +138,7 @@
 }
 
 .em::before {
-  background-image: url("/assets/img/1-em.png");
+  background-image: url("/assets/img/misc/envelope.png");
 }
 
 .loc::before {
@@ -157,7 +158,11 @@
 }
 
 .cal::before {
-  background-image: url("/assets/img/cal.png");
+  background-image: url("/assets/img/misc/cal.png");
+}
+
+.interests::before {
+  background-image: url("/assets/img/misc/compass.png");
 }
 
 .cal ul {
