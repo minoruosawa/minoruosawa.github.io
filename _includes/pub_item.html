@@ -5,9 +5,14 @@
             {{ paper.title }}
         {%- endif -%}.
         <br>
+        <span class="pub-paper-info">
         <span class="pub-journal">{{ paper.journal }}</span>
         {%- if paper.state -%}, <span class="pub-state">{{ paper.state }}</span>.{%- endif -%}
         &nbsp;({{ paper.year }})
+        {%- if paper.coauthors -%}
+        <br>
+        <span class="pub-coauthors">(with {{ paper.coauthors | join: ', ' }})</span>
+        {%- endif -%}
         {%- if paper.pdf -%}
             &nbsp;[<a href="{{ paper.pdf }}">paper</a>]
         {%- endif -%}
@@ -16,8 +21,5 @@
             &nbsp;[<a href="{{ link.url }}">{{ link.name }}</a>]
             {%- endfor -%}
         {%- endif -%}
-        {%- if paper.coauthors -%}
-            <br>
-            <span class="pub-coauthors">(with {{ paper.coauthors | join: ', ' }})</span>
-        {%- endif -%}
+        </span>
     </li>

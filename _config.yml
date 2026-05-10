@@ -82,6 +82,8 @@ highlighter: rouge
 global_nav: 
   - label: "Home"
     url: "/"
+  - label: "Research"
+    url: "/research/"
   - label: "Teaching"
     url: "/teaching/"
   - label: "Posts"
@@ -90,6 +92,8 @@ global_nav:
 footer_nav: 
   - label: "Home"
     url: "/"
+  - label: "Research"
+    url: "/research/"
   - label: "Teaching"
     url: "/teaching/"
   - label: "Posts"

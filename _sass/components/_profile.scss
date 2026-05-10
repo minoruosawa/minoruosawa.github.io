@@ -1,7 +1,7 @@
 /* === プロフィール === */
 #profile {
   display: flex;
-  gap: 1.5rem;
+  gap: 3rem;
   align-items: flex-start;
   justify-content: flex-start;
   margin: 1rem 0 2rem 0;
@@ -25,7 +25,7 @@
 }
 
 #profile_pic {
-  width: 230px;
+  width: min(220px,40vw);
   max-width: 100%;
   height: auto;
   display: block;

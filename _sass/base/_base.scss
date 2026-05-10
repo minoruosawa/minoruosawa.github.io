@@ -26,7 +26,7 @@ main {
 h1, h2, h3 {
   font-family: "Computer Modern Sans Serif", "Noto Sans JP", sans-serif;
   font-weight: bold;
-  margin: 0 0 0.5em 0;
+  margin: 0.5rem 0;
     
   @media (prefers-color-scheme: dark) {
         text-shadow: 0px 0px 2px var(--color-text-shadow); 
@@ -37,8 +37,14 @@ h1 {
     font-size: $font-size-xxxx-large;
 }
 
+h2 {
+  margin: 1.5rem 0 0.5rem;
+    font-size: $font-size-xx-large; 
+}
+
 h3 {
   margin: 1.5rem 0 0; 
+  font-size: $font-size-large; 
 }
 
 .pub-list {
@@ -110,7 +116,7 @@ a {
   &[href*="drive.google.com"],
   &[href*="draft/"] {
     color: $color-link-strong;
-    font-weight: bold;
+    // font-weight: bold;
   }
 
   &[href$=".pdf"]:not(.pub-list a[href$=".pdf"]) {

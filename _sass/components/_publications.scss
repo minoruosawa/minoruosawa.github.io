@@ -16,6 +16,9 @@
   white-space: nowrap;
 }
 
+.pub-paper-info {
+}
+
 
 /* === Card Publications === */
 .pub-list-card {
@@ -146,10 +149,12 @@
 }
 
 .hidden_pubs {
+  margin-bottom: 1rem;
   summary {
     list-style: none;
     cursor: pointer;
     position: relative;
+    padding: .5em 0; 
     padding-left: 1.25em; // reserve marker space (constant)
 
     // remove native marker (cross-browser)
@@ -161,7 +166,7 @@
       content: "›\FE0E";
       position: absolute;
       left: 0;
-      top: 0.05em;
+      top: 0.5em;
       width: 1em;
       text-align: center;
       font-size: 1.05em;
