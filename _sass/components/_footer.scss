@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* === フッター === */
 .site-footer {
   background-color: $color-surface-muted;
@@ -48,22 +50,9 @@
     }
   }
 
-  .foot-sep {
-    color: $color-separator; 
-    margin: 0 0.2rem; 
-  }
-
-  .only-mobile {
-    display: none; 
-  }
-
   @include respond-max($bp-mobile) {
     p {
         line-height: 1.5; 
-    }
-
-    .only-mobile {
-        display: inline;  
     }
   }
 }

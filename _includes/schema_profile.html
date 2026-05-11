@@ -2,12 +2,13 @@
 {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
-  "@id": "https://www.minoruosawa.com/#profilepage",
-  "url": "https://www.minoruosawa.com/",
+  "@id": {{ site.url | append: "/#profilepage" | jsonify }},
+  "url": {{ site.url | append: "/" | jsonify }},
   "name": "Minoru Osawa",
+  "isPartOf": {% include schema_website_ref.html %},
   "mainEntity": {
     "@type": "Person",
-    "@id": "https://www.minoruosawa.com/#person",
+    "@id": {{ site.url | append: "/#person" | jsonify }},
     "name": "Minoru Osawa",
     "givenName": "Minoru",
     "familyName": "Osawa",
@@ -17,10 +18,10 @@
       "おおさわ みのる",
       "Minoru OSAWA"
     ],
-    "image": "https://www.minoruosawa.com/assets/img/minoru_osawa.jpg",
-    "url": "https://www.minoruosawa.com/",
+    "image": {{ "/assets/img/minoru_osawa.jpg" | absolute_url | jsonify }},
+    "url": {{ site.url | append: "/" | jsonify }},
     "mainEntityOfPage": {
-      "@id": "https://www.minoruosawa.com/#profilepage"
+      "@id": {{ site.url | append: "/#profilepage" | jsonify }}
     },
     "jobTitle": "Associate Professor",
     "worksFor": {

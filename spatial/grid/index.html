@@ -3,6 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive browser-based urban grid simulator for exploring amenity, agglomeration, congestion, and logit relocation dynamics.">
+    <link rel="canonical" href="https://www.minoruosawa.com/spatial/grid/">
+    <meta property="og:site_name" content="Minoru Osawa">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Urban Grid Simulator">
+    <meta property="og:description" content="Interactive browser-based urban grid simulator for exploring spatial economic dynamics.">
+    <meta property="og:url" content="https://www.minoruosawa.com/spatial/grid/">
     <title>Urban Grid Simulator</title>
     <link rel="stylesheet" href="./styles.css">
     <!-- Google Analytics -->
@@ -44,6 +51,10 @@
       <section class="layout">
         <aside class="panel controls">
 
+          <div class="panel-header">
+            <h2>Controls</h2>
+          </div>
+
           <div class="formula-card">
             <h3>Utility</h3>
             <p>
@@ -52,10 +63,6 @@
             <p class="small">
                 Details are discussed below. 
             </p>
-          </div>
-
-          <div class="panel-header">
-            <h2>Controls</h2>
           </div>
 
           <div class="slider-group" id="slider-group"></div>
@@ -89,7 +96,7 @@
                 <span>Amenity Surface</span>
                 <span class="legend">low to high</span>
               </figcaption>
-              <canvas id="amenity-canvas" width="500" height="500"></canvas>
+              <canvas id="amenity-canvas" width="500" height="500" role="img" aria-label="Heatmap of the exogenous amenity surface"></canvas>
             </figure>
 
             <figure class="canvas-card">
@@ -97,7 +104,7 @@
                 <span>Population Share</span>
                 <span class="legend">current x(t)</span>
               </figcaption>
-              <canvas id="population-canvas" width="500" height="500"></canvas>
+              <canvas id="population-canvas" width="500" height="500" role="img" aria-label="Heatmap of current population shares"></canvas>
             </figure>
 
             <figure class="canvas-card">
@@ -105,7 +112,7 @@
                 <span>Choice Probability</span>
                 <span class="legend">logit P(x(t))</span>
               </figcaption>
-              <canvas id="choice-canvas" width="500" height="500"></canvas>
+              <canvas id="choice-canvas" width="500" height="500" role="img" aria-label="Heatmap of current logit choice probabilities"></canvas>
             </figure>
           </div>
         </section>
@@ -226,12 +233,19 @@
       </section>
     </main>
 
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p>&copy; 2026 Minoru Osawa. Assisted by <a href="https://developers.openai.com/codex">Codex</a>.</p>
+        <nav aria-label="Footer navigation">
+          <ul class="footer-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/teaching/">Teaching</a></li>
+            <li><a href="/posts/">Posts</a></li>
+            <li><a href="/policies/">Site Policies</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
     <script type="module" src="./app.js"></script>
   </body>
-  <style>footer { color: #555; text-align:center; padding: 1rem; } footer a { color: #555; }</style>
-    <footer class="site-footer">
-    <div class="footer-content">
-    <p>&copy; 2026 Minoru Osawa. Assisted by <a href="https://developers.openai.com/codex">Codex</a><span class="foot-sep">・</span><a href="/">Home</a><span class="foot-sep">・</span><a href="/teaching/">Teaching</a><span class="foot-sep">・</span><a href="/posts/">Posts</a><span class="foot-sep">・</span><a href="/policies/">Site Policies</a></p>
-    </div>
-    </footer>
-  </html>
+</html>

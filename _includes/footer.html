@@ -1,13 +1,13 @@
 <footer class="site-footer">
 <div class="footer-content">
 <p>&copy; {{ site.time | date: '%Y' }} Minoru Osawa. Powered by <a href="https://jekyllrb.com/">Jekyll</a>.</p>
-<p>
+<nav aria-label="Footer navigation">
 <ul class="footer-nav">
   {% for item in site.footer_nav %}
     <li><a href="{{ item.url }}">{{ item.label }}</a></li>
   {% endfor %}
 </ul>
-</p>
+</nav>
 </div>
 </footer>
 <script>

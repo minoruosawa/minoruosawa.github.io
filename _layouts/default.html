@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 <head>
 {% include head.html %}
 {% if page.layout == "post" %}
@@ -22,7 +23,7 @@
 <div class="page-wrapper">
 {% include header.html %}
 
-<main class="page-content">
+<main id="main-content" class="page-content">
 {{ content }}
 </main>
 

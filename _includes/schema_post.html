@@ -9,16 +9,8 @@
   "headline": {{ page.title | jsonify }},
   "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
   "dateModified": {{ schema_modified | date_to_xmlschema | jsonify }},
-  "author": {
-    "@type": "Person",
-    "@id": "https://www.minoruosawa.com/#person",
-    "name": "Minoru Osawa"
-  },
-  "publisher": {
-    "@type": "Person",
-    "@id": "https://www.minoruosawa.com/#person",
-    "name": "Minoru Osawa"
-  },
+  "author": {% include schema_person_ref.html %},
+  "publisher": {% include schema_person_ref.html %},
   "mainEntityOfPage": {
     "@id": {{ page.url | absolute_url | append: "#webpage" | jsonify }}
   }{% if schema_description %},
