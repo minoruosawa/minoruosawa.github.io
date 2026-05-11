@@ -52,6 +52,12 @@ defaults:
       path: "notes/vip/*.pdf"
     values:
       sitemap: false
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      lang: ja
   
 # Exclude from processing.
 # The following items will not be processed, by default.
