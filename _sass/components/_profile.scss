@@ -83,9 +83,22 @@
 }
 
 .info {
+  --info-marker-size: 1em;
+  --info-marker-gap: .7em;
+  --info-line-height: 1.45;
+
   list-style: none;
   padding-left: 0rem;
-  line-height: 2;
+  line-height: var(--info-line-height);
+
+  > li {
+    position: relative;
+    padding-left: calc(var(--info-marker-size) + var(--info-marker-gap));
+  }
+
+  > li + li {
+    margin-top: .45em;
+  }
 
   .em-button {
       padding: 0 .2rem;
@@ -109,26 +122,28 @@
   @include respond-max($bp-tablet) {
     padding-left: 0;
 
-    li {
+    > li {
       text-align: left;
     }
   }
 }
 
-.em::before,
-.loc::before,
-.twt::before,
-.lnks::before ,
-.doc::before,
-.cal::before,
-.interests::before {
+.info > .em::before,
+.info > .loc::before,
+.info > .twt::before,
+.info > .lnks::before ,
+.info > .doc::before,
+.info > .cal::before,
+.info > .interests::before {
   content: "";
-  display: inline-block;
-  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: .225em;
+  margin-top: calc((1lh - var(--info-marker-size)) / 2);
   text-align: center; 
-  width: 1rem;
-  height: 1rem;
-  margin: 0 .7rem .2rem 0;
+  width: var(--info-marker-size);
+  height: var(--info-marker-size);
   background-size: contain;
   background-repeat: no-repeat;
 
@@ -163,9 +178,4 @@
 
 .interests::before {
   background-image: url("/assets/img/misc/compass.png");
-}
-
-.cal ul {
-    margin: 0 0 0 1.2rem; 
-    line-height: 1.6;
 }
