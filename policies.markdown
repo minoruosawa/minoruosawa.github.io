@@ -1,6 +1,6 @@
 ---
 layout: "doc"
-title: "M.Osawa - Site Policies"
+title: "Minoru Osawa - Site Policies"
 permalink: "/policies/"
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: M.Osawa's Website
+title: Minoru Osawa - Research
 permalink: "/research/"
+description: Minoru Osawa's publications, working papers, and research projects.
 ---
 
 <h1>Research</h1>

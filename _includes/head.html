@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="{{ site.author }}">
-<meta name="description" lang="en" content="{{ site.description }}">
+{% if page.description %}<meta name="description" lang="en" content="{{ page.description }}">{% endif %}
 <title>
 {%- if page.layout == "post" -%}
     {{ page.date | date: "%y.%m.%d" }}: {% if page.running_head %}{{ page.running_head }}{% else %}雑記{% endif %}

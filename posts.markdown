@@ -1,7 +1,8 @@
 ---
 layout: default
-title: M.Osawa - Posts
+title: Minoru Osawa - Posts
 permalink: /posts/
+description: Minoru Osawa's thoughts on various matters. 
 ---
 
 <div class="posts-container">

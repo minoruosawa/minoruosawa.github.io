@@ -1,7 +1,8 @@
 ---
 layout: "default"
-title: "M.Osawa - Teaching"
+title: "Minoru Osawa - Teaching"
 permalink: "/teaching/"
+description: Minoru Osawa's course materials on urban economics, transport economics, and mathematical optimization with emphasis on equilibrium analysis.
 ---
 <h1>Teaching</h1>
 
