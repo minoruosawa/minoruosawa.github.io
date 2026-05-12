@@ -2,6 +2,7 @@
 layout: "doc"
 title: "Minoru Osawa - Site Policies"
 permalink: "/policies/"
+description: "Site policies for minoruosawa.com, including privacy, cookies, analytics, and terms regarding the use of materials and external links."
 ---
 
 <style>
