@@ -31,10 +31,10 @@ lang: ja
 
   <div class="course-contents">
     <h3>講義資料等</h3>
-    <p>概ね次のような内容を講義する予定です．</p>
+    <p>概ね次のような内容を板書中心で講義する予定です．</p>
     <ol start="0">
       <li><a href="/notes/urban/UE26-01_Intro.pdf">はじめに</a></li>
-      <li><a href="/notes/urban/UE26-02_AMM.pdf">基本的な土地利用モデル（単一中心都市モデル）</a></li>
+      <li>基本的な土地利用モデル（単一中心都市モデル）　<a href="/notes/urban/UE26-02_AMM.pdf">導入</a></li>
       <li>集積の経済と都心の形成</li>
       <li>定量都市経済学モデル</li>
       <li>受講者による文献紹介：対象リスト（準備中）</li>
