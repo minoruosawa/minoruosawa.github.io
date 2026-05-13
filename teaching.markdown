@@ -37,7 +37,7 @@ lang: ja
       <li>基本的な土地利用モデル（単一中心都市モデル）　<a href="/notes/urban/UE26-02_AMM.pdf">導入</a></li>
       <li>集積の経済と都心の形成</li>
       <li>定量都市経済学モデル</li>
-      <li>受講者による文献紹介：対象リスト（準備中）</li>
+      <li>受講者による文献紹介 7/15, 22, 23[6/17補講, tentative]：<a href="/notes/urban/UE26-Readings.pdf">対象リスト</a></li>
     </ol>
   </div>
 
