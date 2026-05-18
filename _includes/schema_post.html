@@ -3,17 +3,32 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "@id": {{ page.url | absolute_url | append: "#blogposting" | jsonify }},
-  "url": {{ page.url | absolute_url | jsonify }},
-  "headline": {{ page.title | jsonify }},
-  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
-  "dateModified": {{ schema_modified | date_to_xmlschema | jsonify }},
-  "author": {% include schema_person_ref.html %},
-  "publisher": {% include schema_person_ref.html %},
-  "mainEntityOfPage": {
-    "@id": {{ page.url | absolute_url | append: "#webpage" | jsonify }}
-  }{% if schema_description %},
-  "description": {{ schema_description | strip_html | strip_newlines | truncate: 160 | jsonify }}{% endif %}
+  "@graph": [
+    {% include schema_website_ref.html %},
+    {
+      "@type": "WebPage",
+      "@id": {{ page.url | absolute_url | append: "#webpage" | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "name": {{ page.title | jsonify }},
+      "isPartOf": {
+        "@id": {{ site.url | append: "/#website" | jsonify }}
+      },
+      "about": {% include schema_person_ref.html %}
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": {{ page.url | absolute_url | append: "#blogposting" | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "headline": {{ page.title | jsonify }},
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+      "dateModified": {{ schema_modified | date_to_xmlschema | jsonify }},
+      "author": {% include schema_person_ref.html %},
+      "publisher": {% include schema_person_ref.html %},
+      "mainEntityOfPage": {
+        "@id": {{ page.url | absolute_url | append: "#webpage" | jsonify }}
+      }{% if schema_description %},
+      "description": {{ schema_description | strip_html | strip_newlines | truncate: 160 | jsonify }}{% endif %}
+    }
+  ]
 }
 </script>

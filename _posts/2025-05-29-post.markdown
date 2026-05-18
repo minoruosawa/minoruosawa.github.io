@@ -6,7 +6,7 @@ categories: rum
 misc: 
 ---
 
-ロジット (logit) モデルと摂動付き最適化 (perturbed optimization) との交通分野ではよく知られた関係について簡潔にまとめる．内容は [別のメモ](/notes/N2412_logit.pdf) とほぼ同一である．より包括的・一般的なサーベイは [福田・城間 (2023)](https://www.jstage.jst.go.jp/article/jscejipm/78/5/78_I_1/_article/-char/ja/) を参照のこと．
+ロジット (logit) モデルと摂動付き最適化 (perturbed optimization) との交通分野ではよく知られた関係について簡潔にまとめる．内容は [別のメモ](/notes/misc/N2412_logit.pdf) とほぼ同一である．より包括的・一般的なサーベイは [福田・城間 (2023)](https://www.jstage.jst.go.jp/article/jscejipm/78/5/78_I_1/_article/-char/ja/) を参照のこと．
 
 <hr>
 
