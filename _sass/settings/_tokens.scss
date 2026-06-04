@@ -41,7 +41,12 @@
   --color-image-shadow: rgba(0, 0, 0, 0.18);
 
   --color-nav-border: #2d4a8a; // #{$color-kokihanada};
-  --color-nav-mobile-bg: #2d4a8a; // #{$color-kokihanada};
+  --color-nav-overlay-text: rgba(245, 248, 255, 0.86);
+  --color-nav-overlay-muted: rgba(245, 248, 255, 0.68);
+  --color-nav-overlay-active: #ffffff;
+  --color-nav-overlay-hover: #ffffff;
+  --color-nav-overlay-shadow: rgba(0, 0, 0, 0.72);
+  --color-nav-mobile-bg: #2d5a8a; // #{$color-kokihanada};
   --color-nav-mobile-border: #{$color-konjou};
   --color-nav-mobile-text: #{$color-kinunezu};
   --color-nav-mobile-active: #ffffff;
@@ -95,6 +100,11 @@
     --color-image-shadow: rgba(0, 0, 0, 0.36);
 
     --color-nav-border: #1f2f4a; // #4c5c74;
+    --color-nav-overlay-text: rgba(245, 248, 255, 0.88);
+    --color-nav-overlay-muted: rgba(245, 248, 255, 0.72);
+    --color-nav-overlay-active: #ffffff;
+    --color-nav-overlay-hover: #ffffff;
+    --color-nav-overlay-shadow: rgba(0, 0, 0, 0.78);
     --color-nav-mobile-bg: #1f2f4a; // #202835;
     --color-nav-mobile-border: #1f2f4a; // #4c5c74;
     --color-nav-mobile-text: #d7e0ec;

@@ -2,27 +2,32 @@
 
 /* === ナビゲーション === */
 .site-nav {
+  --site-nav-overlay-height: 3.35rem;
+
   font-family: "Computer Modern Sans Serif", "Noto Sans JP", sans-serif;
-  border-top: 1px solid var(--color-nav-border);
-  margin: 0 0 $section-gap;
+  position: relative;
+  z-index: 1;
+  border-top: none;
+  margin: calc(-1 * var(--site-nav-overlay-height)) 0 $section-gap;
   font-size: $font-size-xx-large;
 
   a {
     text-decoration: none;
-    color: $color-link-muted;
+    color: var(--color-nav-overlay-muted);
     font-weight: bold;
+    text-shadow: 0 1px 2px var(--color-nav-overlay-shadow);
 
     &.active {
-      color: $color-text-strong;
+      color: var(--color-nav-overlay-active);
     }
   }
 
   .site-title a {
-    color: $color-text-strong;
+    color: var(--color-nav-overlay-active);
     text-decoration: none;
 
     &:hover {
-      color: $color-text-strong;
+      color: var(--color-nav-overlay-hover);
     }
   }
 
@@ -52,12 +57,12 @@
         background-size: contain;
         vertical-align: middle;
         background-repeat: no-repeat;
-        color: $color-link-muted;
+        color: var(--color-nav-overlay-muted);
       }
     }
 
     a:hover {
-      color: var(--color-link-hover);
+      color: var(--color-nav-overlay-hover);
     }
   }
 
@@ -70,6 +75,7 @@
     margin: 0;
 
     .nav-container {
+      min-height: 0;
       padding: 0.5rem $gutter-mobile 0.4rem;
       align-items: center;
       flex-wrap: wrap;
@@ -217,8 +223,10 @@
 }
 
 .nav-container {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.83rem $gutter-desktop 0.5rem;
+  min-height: var(--site-nav-overlay-height);
+  padding: 0 $gutter-desktop;
 }
