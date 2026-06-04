@@ -10,6 +10,16 @@
   margin: 0 auto;
 }
 
+.global-header {
+    height: 130px; 
+    background-image: url("/assets/img/header.webp");
+    background-size: cover;
+    background-position: center;
+    @include respond-max($bp-mobile) {
+        display: none;
+    }
+}
+
 .page-content {
   flex: 1;
   padding: 0 $gutter-desktop $section-gap;
@@ -149,4 +159,3 @@
         margin: .2rem 0 0 .5rem; 
     }
 }
-
