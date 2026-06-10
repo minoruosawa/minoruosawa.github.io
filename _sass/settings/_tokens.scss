@@ -11,6 +11,7 @@
   --color-text-strong: #000000;
   --color-text-muted: #555555;
   --color-text-soft: #777777;
+  --color-text-x-soft: #999999;
 
   --color-link-muted: #999999;
   --color-link-strong: #{$color-konpeki};
@@ -69,6 +70,7 @@
     --color-text-strong: #f3f5f8;
     --color-text-muted: #aeb6c3;
     --color-text-soft: #8e98a7;
+    --color-text-x-soft: #46505d;
     --color-text-shadow: rgba(0, 0, 0, 0.5);
 
     --color-link-muted: #8fa0b3;
@@ -144,6 +146,7 @@ $color-text: var(--color-text);
 $color-text-strong: var(--color-text-strong);
 $color-text-muted: var(--color-text-muted);
 $color-text-soft: var(--color-text-soft);
+$color-text-x-soft: var(--color-text-x-soft);
 $color-link-muted: var(--color-link-muted);
 $color-link-strong: var(--color-link-strong);
 $color-link-hover: var(--color-link-hover);

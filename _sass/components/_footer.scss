@@ -7,7 +7,7 @@
   font-size: $font-size-medium;
   padding: .8rem 0;
   text-align: center;
-  color: $color-text-muted;
+  color: $color-text-x-soft;
 
   a { 
     color: inherit; 
@@ -36,9 +36,8 @@
         + li::before {
         content: "\30FB";
         display: inline-block;
-        margin: 0 0.3rem;
+        margin: 0 0.2rem;
         vertical-align: middle;
-        color: $color-link-muted;
         }
     }
 
