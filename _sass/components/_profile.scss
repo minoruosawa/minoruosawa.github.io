@@ -144,7 +144,7 @@
   margin-top: calc((1lh - var(--info-marker-size)) / 2);
   width: var(--info-marker-size);
   height: var(--info-marker-size);
-  background-size: contain;
+  background-size: $font-size-medium $font-size-medium; 
   background-repeat: no-repeat;
   background-position: center;
 
@@ -154,23 +154,19 @@
 }
 
 .em::before {
-//   background-image: url("/assets/img/misc/envelope.png");
   background-image: url("/assets/img/svg/envelope-regular.svg");
 }
 
 .lnks::before {
-//   background-image: url("/assets/img/4-link.png");
   background-image: url("/assets/img/svg/link-solid.svg");
 }
 
 .cal::before {
-  background-image: url("/assets/img/misc/cal.png");
-//   background-image: url("/assets/img/svg/calendar-days-regular.svg");
+  background-image: url("/assets/img/svg/calendar-days-solid.svg");
 }
 
 .interests::before {
-  background-image: url("/assets/img/misc/compass.png");
-//   background-image: url("/assets/img/svg/compass-regular.svg");
+  background-image: url("/assets/img/svg/compass-regular.svg");
 }
 
 .name_ja {
