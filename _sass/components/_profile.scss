@@ -141,13 +141,12 @@
   position: absolute;
   left: 0;
   top: 0;
-  margin-top: .225em;
   margin-top: calc((1lh - var(--info-marker-size)) / 2);
-  text-align: center; 
   width: var(--info-marker-size);
   height: var(--info-marker-size);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 
   @media (prefers-color-scheme: dark) {
     filter: invert(1);
@@ -155,19 +154,23 @@
 }
 
 .em::before {
-  background-image: url("/assets/img/misc/envelope.png");
+//   background-image: url("/assets/img/misc/envelope.png");
+  background-image: url("/assets/img/svg/envelope-regular.svg");
 }
 
 .lnks::before {
-  background-image: url("/assets/img/4-link.png");
+//   background-image: url("/assets/img/4-link.png");
+  background-image: url("/assets/img/svg/link-solid.svg");
 }
 
 .cal::before {
   background-image: url("/assets/img/misc/cal.png");
+//   background-image: url("/assets/img/svg/calendar-days-regular.svg");
 }
 
 .interests::before {
   background-image: url("/assets/img/misc/compass.png");
+//   background-image: url("/assets/img/svg/compass-regular.svg");
 }
 
 .name_ja {
