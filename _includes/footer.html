@@ -31,7 +31,17 @@
     }
   };
 </script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+<script>
+  // Load MathJax only when the page content actually contains math.
+  (function () {
+    var c = document.getElementById("main-content");
+    if (!c) return;
+    if (!/\\\(|\\\[|\$\$|\$[^$\n]+\$/.test(c.textContent)) return;
+    var s = document.createElement("script");
+    s.id = "MathJax-script";
+    s.async = true;
+    s.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js";
+    document.head.appendChild(s);
+  })();
 </script>
 <script src="/assets/js/utils.js"></script>
