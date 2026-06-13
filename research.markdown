@@ -42,7 +42,7 @@ description: Minoru Osawa's publications, working papers, and research projects.
 
 <h2>Works in Progress</h2>
 <ul class="pub-list">
-    <li>Understanding regional dynamics (2025) [<a href="/notes/draft/RD.pdf">draft</a>] [<a href="/notes/draft/RD_slides.pdf">slides</a>] [<a href="notes/draft/RD_poster_ja.pdf">ポスター</a>]</li>
+    <li>Understanding regional dynamics (2025) [<a href="/notes/draft/RD.pdf">draft</a>] [<a href="/notes/draft/RD_slides.pdf">slides</a>] [<a href="/notes/draft/RD_poster_ja.pdf">ポスター</a>]</li>
     <li>Social interactions, technological externalities, and urban spatial structure (with H.&thinsp;Konishi)</li>
     <li>Non-monocentric urban spatial structure in two dimensions (with T.&thinsp;Akamatsu, T.&thinsp;Sakai)</li>
 </ul>
