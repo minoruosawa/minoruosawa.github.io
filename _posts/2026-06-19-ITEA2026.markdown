@@ -3,7 +3,7 @@ layout: post
 title: ITEA2026 (Bergamo)
 running_head: ITEA2026 Bergamo
 categories: Misc
-misc: 鴨川が大変なことになっていた．
+misc: 眠い．
 ---
 
 国際交通経済学会 (International Transportation Economics Association) の年次会議のためにベルガモに行った．初参加．プログラムは[こんな感じだ](/assets/pages/itea2026.html)．元々もう少し繋がりを持ちたいと願っていた研究コミュニティだったが，なかなかタイミングが合わず見送ってばかりだったところ，来年度東京開催の現地委員として協力する予定ができ，よし参加するかと踏ん切りがついた．北米 UEA と異なり討論者はつかないが，みな建設的な質問をしてくれる非常に雰囲気の良い学会と感じた．再来年以降もぜひ参加するようにしたい．
@@ -17,3 +17,5 @@ misc: 鴨川が大変なことになっていた．
 ![Area C, Milan](/assets/img/posts/260629-2.jpg){: .img-center .img-60 .vintage-print }
 
 ![Area C, Milan](/assets/img/posts/260629-3.jpg){: .img-center .img-60 .vintage-print }
+
+ところでイタリア出張はその前の名古屋出張（6/13-14，[計画学春大会＠大同大学](https://jsce-ip.org/2026/01/06/post-8977/)）に連続させたので流石にへとへとである．名古屋でもポスター報告をしてたくさん議論をできてよかった．Operation Timewarp という楽しみな予定もできた．関連することで，某国政府にちょっと文句があるが，ここに何か書くと将来渡航に支障がでる可能性があるのでやめておく．自己検閲であり，非常に情けないところではあるが……．
