@@ -1,0 +1,19 @@
+---
+layout: post
+title: ITEA2026 (Bergamo)
+running_head: ITEA2026 Bergamo
+categories: Misc
+misc: 鴨川が大変なことになっていた．
+---
+
+国際交通経済学会 (International Transportation Economics Association) の年次会議のためにベルガモに行った．初参加．プログラムは[こんな感じだ](/assets/pages/itea2026.html)．元々もう少し繋がりを持ちたいと願っていた研究コミュニティだったが，なかなかタイミングが合わず見送ってばかりだったところ，来年度東京開催の現地委員として協力する予定ができ，よし参加するかと踏ん切りがついた．北米 UEA と異なり討論者はつかないが，みな建設的な質問をしてくれる非常に雰囲気の良い学会と感じた．再来年以降もぜひ参加するようにしたい．
+
+会場はイタリアの古い都市ということで，町の雰囲気も含めてたいへんによく，ちょっと来年が心配になった．キーノートが行われた大講堂は元々13世紀末に建設された聖アウグスティヌス教会 (Chiesa di Sant'Agostino) であったということで，ちょっと対抗できない（写真）．とはいえ，交通経済学者たちであれば，東京の公共交通ネットワークについては楽しんでもらえそうな気はする．
+
+![Aula Magna, Università degli studi di Bergamo](/assets/img/posts/260629-1.jpg){: .img-center .img-60 .vintage-print }
+
+おまけとして，帰りの飛行機の都合でミラノで少し時間ができたため，混雑料金システムのカメラを確認しにいった．ミラノでは [Area C](https://en.wikipedia.org/wiki/Milan_Area_C) という，中心部への自動車流入を抑制するための都心課金制度がある．専門的にはエリア課金（コードン課金）と呼ぶもので，平日の日中に指定区域へ車で入る道路においてナンバープレート認識カメラで進入を検知し，通行料が課される．1日あたり事前購入チケットの場合7.50ユーロ（現行レートで1400円程度）で，後払いなら入場から7日以内なら22.50ユーロ（同4200円）．Area C 内の住民は年 50 回無料で，それ以降は3ユーロ．導入後、都心流入交通はおよそ3割減，バスの速度も改善し，概ね成功例と評価されているようである．
+
+![Area C, Milan](/assets/img/posts/260629-2.jpg){: .img-center .img-60 .vintage-print }
+
+![Area C, Milan](/assets/img/posts/260629-3.jpg){: .img-center .img-60 .vintage-print }
