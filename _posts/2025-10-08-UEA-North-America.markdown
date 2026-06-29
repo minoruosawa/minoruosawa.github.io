@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 北米 UEA（Montréal）
+title: 北米 UEA (Montréal)
 running_head: 北米UEA
 categories: Misc
 misc: 
