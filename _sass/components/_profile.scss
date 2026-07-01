@@ -69,6 +69,7 @@
 #em-img {
   display: inline-block;
   height: $font-size-large;
+  width: auto;
   vertical-align: middle;
 
   @media (prefers-color-scheme: dark) {

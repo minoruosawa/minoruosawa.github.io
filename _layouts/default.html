@@ -33,12 +33,9 @@
 
     events.forEach(function (e) { window.addEventListener(e, loadGA, { passive: true }); });
 
-    // Fallback so analytics still fires for visitors who never interact.
-    if ("requestIdleCallback" in window) {
-      requestIdleCallback(loadGA, { timeout: 5000 });
-    } else {
-      window.addEventListener("load", function () { setTimeout(loadGA, 3000); });
-    }
+    window.addEventListener("pagehide", function () {
+      events.forEach(function (e) { window.removeEventListener(e, loadGA); });
+    }, { once: true });
   })();
 </script>
 </head>
