@@ -2,7 +2,7 @@
 layout: "doc"
 title: "Minoru Osawa - Research Summary"
 permalink: "/summary/"
-description: "Overview of Minoru Osawa's research on economic agglomeration, urban spatial structure, and spatial equilibrium models."
+description: "Overview of my research on spatial agglomeration."
 ---
 
 <style>

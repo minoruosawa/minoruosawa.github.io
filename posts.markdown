@@ -2,7 +2,7 @@
 layout: default
 title: Minoru Osawa - Posts
 permalink: /posts/
-description: Minoru Osawa's thoughts on various matters. 
+description: Thoughts on various matters. 
 lang: ja
 ---
 
