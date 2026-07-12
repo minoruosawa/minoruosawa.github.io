@@ -41,17 +41,17 @@
   --color-blockquote-text: #{$color-kurocha};
   --color-image-shadow: rgba(0, 0, 0, 0.18);
 
-  --color-nav-border: #2d4a8a; // #{$color-kokihanada};
-  --color-nav-overlay-text: rgba(245, 248, 255, 0.86);
-  --color-nav-overlay-muted: rgba(245, 248, 255, 0.68);
+  --color-nav-border: #234f75;
+  --color-nav-overlay-text: rgba(247, 251, 255, 0.88);
+  --color-nav-overlay-muted: rgba(232, 240, 250, 0.74);
   --color-nav-overlay-active: #ffffff;
-  --color-nav-overlay-hover: #ffffff;
-  --color-nav-overlay-shadow: rgba(0, 0, 0, 0.72);
-  --color-nav-mobile-bg: #2d5a8a; // #{$color-kokihanada};
-  --color-nav-mobile-border: #{$color-konjou};
-  --color-nav-mobile-text: #{$color-kinunezu};
+  --color-nav-overlay-hover: #f7fbff;
+  --color-nav-overlay-shadow: rgba(6, 18, 32, 0.62);
+  --color-nav-mobile-bg: #1a3c5f;
+  --color-nav-mobile-border: rgba(255, 255, 255, 0.16);
+  --color-nav-mobile-text: #e7eef6;
   --color-nav-mobile-active: #ffffff;
-  --color-nav-mobile-shadow: rgba(0, 0, 0, 0.65);
+  --color-nav-mobile-shadow: rgba(6, 18, 32, 0.38);
 
   --color-profile-button-text: #444444;
   --color-profile-button-hover-bg: #{$color-unohanairo};
@@ -91,8 +91,8 @@
     --color-surface-muted: #11161d;
     --color-surface-soft: #202833;
     --color-surface-alt: #242d39;
-    --color-surface-strong: #2c3744;
-    --color-surface-emphasis: #374454;
+    --color-surface-strong: #29384b;
+    --color-surface-emphasis: #35485d;
 
     --color-inline-code-bg: #202833;
     --color-inline-code-text: #e7ebf1;
@@ -101,20 +101,20 @@
     --color-blockquote-text: #c3cad4;
     --color-image-shadow: rgba(0, 0, 0, 0.36);
 
-    --color-nav-border: #1f2f4a; // #4c5c74;
-    --color-nav-overlay-text: rgba(245, 248, 255, 0.88);
-    --color-nav-overlay-muted: rgba(245, 248, 255, 0.72);
+    --color-nav-border: #26384f; // #4c5c74;
+    --color-nav-overlay-text: rgba(246, 249, 255, 0.9);
+    --color-nav-overlay-muted: rgba(221, 231, 243, 0.74);
     --color-nav-overlay-active: #ffffff;
-    --color-nav-overlay-hover: #ffffff;
-    --color-nav-overlay-shadow: rgba(0, 0, 0, 0.78);
-    --color-nav-mobile-bg: #1f2f4a; // #202835;
-    --color-nav-mobile-border: #1f2f4a; // #4c5c74;
-    --color-nav-mobile-text: #d7e0ec;
-    --color-nav-mobile-active: #f9fbff;
+    --color-nav-overlay-hover: #f8fbff;
+    --color-nav-overlay-shadow: rgba(5, 14, 25, 0.78);
+    --color-nav-mobile-bg: #202b3c; // #202835;
+    --color-nav-mobile-border: rgba(220, 231, 245, 0.16); // #4c5c74;
+    --color-nav-mobile-text: #dce6f2;
+    --color-nav-mobile-active: #ffffff;
 
     --color-profile-button-text: #d2d8e0;
     --color-profile-button-hover-bg: #979ca2;
-    --color-course-card-shadow: rgba(0, 0, 0, 0.15);
+    --color-course-card-shadow: rgba(5, 14, 25, 0.48);
   }
 }
 
