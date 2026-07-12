@@ -6,50 +6,22 @@
   flex-direction: column;
   min-height: 100vh;
   background-color: $color-surface;
-  max-width: $page-max-width;
-  margin: 0 auto;
-}
-
-.global-header {
-    position: relative;
-    height: 160px;
-    overflow: hidden;
-    background-image: url("/assets/img/header.webp");
-    background-size: cover;
-    background-position: center;
-
-    &::after {
-        content: "";
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        height: 4.5rem;
-        background: linear-gradient(
-            to bottom,
-            rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, 0.52)
-        );
-        pointer-events: none;
-    }
-
-    @include respond-max($bp-mobile) {
-        display: none;
-    }
-    @media (prefers-color-scheme: dark) {
-        background-image: url("/assets/img/header-dark.webp");
-    }  
+  width: 100%;
 }
 
 .page-content {
   flex: 1;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: $page-max-width;
+  margin: 0 auto;
   padding: 0 $gutter-desktop $section-gap;
 
   @include respond-max($bp-mobile) {
     padding: 1rem $gutter-mobile;
 
     .top-block {
-        padding-top: 1.2rem; 
+        padding-top: 0rem; 
     }
 
     #profile {
@@ -77,6 +49,7 @@
 
   @include respond-max($bp-mobile) {
     margin: 0; 
+    max-width: none;
   }
 
   @media (prefers-color-scheme: dark) {
@@ -86,26 +59,10 @@
     }  
 }
 
-@include respond-min($bp-wide) {
-  html {
-    background: linear-gradient(
-      to right,
-      var(--color-page-bg-muted),
-      var(--color-page-bg-subtle) 40%,
-      var(--color-page-bg-subtle) 60%,
-      var(--color-page-bg-muted)
-    );
-  }
-
-  .page-wrapper {
-    margin: 0 auto;
-    border-left: 1px solid $color-border;
-    border-right: 1px solid $color-border;
-    box-shadow: 0 0 5px $color-border-shadow;
-  }
-}
-
-.top-block, .course, .notes {
+.top-block {
+    padding: 1.2rem 0 1.5rem;
+} 
+.course, .notes {
     border-top: 1px solid $color-border; 
     padding: 1.5rem 0 1.5rem;
 } 

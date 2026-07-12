@@ -3,7 +3,7 @@
 /* === プロフィール === */
 #profile {
   display: flex;
-  gap: 3rem;
+  gap: 2.5rem;
   align-items: flex-start;
   justify-content: flex-start;
   margin: 1rem 0 2rem 0;
@@ -66,6 +66,10 @@
   }
 }
 
+#profile-affiliation {
+    color: $color-text-muted; 
+}
+
 #em-img {
   display: inline-block;
   height: $font-size-large;
@@ -88,7 +92,7 @@
 .info {
   --info-marker-size: 1em;
   --info-marker-gap: .7em;
-  --info-line-height: 1.45;
+  --info-line-height: 1.6;
 
   list-style: none;
   margin-top: $font-size-x-large; 
@@ -138,6 +142,7 @@
 .info > .lnks::before ,
 .info > .doc::before,
 .info > .cal::before,
+.info > .social::before,
 .info > .interests::before {
   content: "";
   position: absolute;
@@ -168,7 +173,11 @@
 }
 
 .interests::before {
-  background-image: url("/assets/img/svg/compass-regular.svg");
+  background-image: url("/assets/img/svg/people-group.svg");
+}
+
+.social::before  {
+  background-image: url("/assets/img/svg/thumbs-up-regular.svg");
 }
 
 .name_ja {

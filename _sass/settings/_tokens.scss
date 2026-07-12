@@ -42,10 +42,10 @@
   --color-image-shadow: rgba(0, 0, 0, 0.18);
 
   --color-nav-border: #234f75;
-  --color-nav-overlay-text: rgba(247, 251, 255, 0.88);
-  --color-nav-overlay-muted: rgba(232, 240, 250, 0.74);
-  --color-nav-overlay-active: #ffffff;
-  --color-nav-overlay-hover: #f7fbff;
+  --color-nav-overlay-text: rgba(0, 0, 0, 0.88);
+  --color-nav-overlay-muted: rgba(82, 82, 82, 0.74);
+  --color-nav-overlay-active: #000000;
+  --color-nav-overlay-hover: #{$color-konpeki};
   --color-nav-overlay-shadow: rgba(6, 18, 32, 0.62);
   --color-nav-mobile-bg: #1a3c5f;
   --color-nav-mobile-border: rgba(255, 255, 255, 0.16);
@@ -125,10 +125,10 @@ $bp-mobile: 600px;
 $bp-tablet: 768px;
 $bp-wide: 88rem;
 
-$page-max-width: 88rem;
-$posts-max-width: 44rem;
+$page-max-width: 66rem;
+$posts-max-width: 40rem;
 $content-max-width: 40rem;
-$profile-max-width: 800px;
+$profile-max-width: 50rem;
 
 $gutter-desktop: 2.5rem;
 $gutter-mobile: .9rem;

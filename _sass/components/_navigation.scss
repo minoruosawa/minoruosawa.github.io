@@ -2,20 +2,20 @@
 
 /* === ナビゲーション === */
 .site-nav {
-  --site-nav-overlay-height: 3.35rem;
+  --site-nav-overlay-height: 7rem;
 
   font-family: "Computer Modern Sans Serif", "Noto Sans JP", sans-serif;
   position: relative;
   z-index: 1;
-  border-top: none;
-  margin: calc(-1 * var(--site-nav-overlay-height)) 0 $section-gap;
-  font-size: $font-size-xx-large;
+  margin: 0 0 $section-gap;
+  font-size: $font-size-x-large;
+  box-shadow: none;
 
   a {
     text-decoration: none;
     color: var(--color-nav-overlay-muted);
     font-weight: bold;
-    text-shadow: 0 1px 2px var(--color-nav-overlay-shadow);
+    text-shadow: none;
 
     &.active {
       color: var(--color-nav-overlay-active);
@@ -70,8 +70,9 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: var(--color-nav-mobile-bg);
-    border: none;
+    background: var(--color-nav-mobile-bg);
+    border-top: none;
+    border-bottom: 1px solid var(--site-nav-border);
     margin: 0;
 
     .nav-container {
@@ -79,7 +80,7 @@
       padding: 0.5rem $gutter-mobile 0.4rem;
       align-items: center;
       flex-wrap: wrap;
-      border-bottom: 1px solid var(--color-nav-mobile-border);
+      border-bottom: 1px solid var(--site-nav-border);
     }
 
     .nav-toggle {
@@ -142,8 +143,8 @@
       visibility: hidden;
       transform: translateY(-0.75rem);
       pointer-events: none;
-      background-color: var(--color-nav-mobile-bg);
-      border-bottom: 1px solid var(--color-nav-mobile-border);
+      background: var(--color-nav-mobile-bg);
+      border-bottom: 1px solid var(--site-nav-border);
       transition:
         max-height 350ms ease,
         opacity 350ms ease,
@@ -165,7 +166,7 @@
 
       a {
         color: var(--color-nav-mobile-text) !important; 
-        text-shadow: 0px 0px 2px var(--color-text-shadow); 
+        text-shadow: none;
 
         &.active {
             color: var(--color-nav-mobile-active) !important; 
@@ -214,6 +215,11 @@
       }
     }
 
+    @media (prefers-color-scheme: dark) {
+      --site-nav-bg: linear-gradient(135deg, #0d1c2b 0%, #123b4b 100%);
+      --site-nav-border: rgba(220, 231, 245, 0.2);
+    }
+
     @media (prefers-reduced-motion: reduce) {
       .site-nav-collapse {
         transition: none;
@@ -228,5 +234,8 @@
   justify-content: space-between;
   align-items: center;
   min-height: var(--site-nav-overlay-height);
+  width: 100%;
+  max-width: $page-max-width;
+  margin: 0 auto;
   padding: 0 $gutter-desktop;
 }

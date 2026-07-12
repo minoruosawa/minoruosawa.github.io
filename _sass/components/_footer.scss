@@ -2,12 +2,19 @@
 
 /* === フッター === */
 .site-footer {
-  background-color: $color-surface-muted;
-  border-top: 1px solid $color-border;
+  background-color: $color-surface-strong;
   font-size: $font-size-medium;
   padding: .8rem 0;
   text-align: center;
   color: $color-text-soft;
+
+  .footer-content {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: $page-max-width;
+    margin: 0 auto;
+    padding: 0 $gutter-desktop;
+  }
 
   a { 
     color: inherit; 
@@ -50,6 +57,10 @@
   }
 
   @include respond-max($bp-mobile) {
+    .footer-content {
+      padding: 0 $gutter-mobile;
+    }
+
     p {
         line-height: 1.5; 
     }

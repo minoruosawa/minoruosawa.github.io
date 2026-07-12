@@ -13,16 +13,37 @@
     <title>Urban Grid Simulator</title>
     <link rel="stylesheet" href="./styles.css">
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HCEG8X3DQT"></script>
     <script>
-    const isInternal = localStorage.getItem("osawa.analytics.ga4.optout") === "1";
+    (function () {
+        if (localStorage.getItem("osawa.analytics.ga4.optout") === "1") return;
 
-    if (!isInternal) {
+        var GA_ID = "G-HCEG8X3DQT";
+        var loaded = false;
+        var events = ["scroll", "mousemove", "touchstart", "keydown", "click"];
+
+        function loadGA() {
+        if (loaded) return;
+        loaded = true;
+        events.forEach(function (e) { window.removeEventListener(e, loadGA); });
+
+        var s = document.createElement("script");
+        s.async = true;
+        s.src = "https://www.googletagmanager.com/gtag/js?id=" + GA_ID;
+        document.head.appendChild(s);
+
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-HCEG8X3DQT');
-    }
+        function gtag() { dataLayer.push(arguments); }
+        window.gtag = gtag;
+        gtag("js", new Date());
+        gtag("config", GA_ID);
+        }
+
+        events.forEach(function (e) { window.addEventListener(e, loadGA, { passive: true }); });
+
+        window.addEventListener("pagehide", function () {
+        events.forEach(function (e) { window.removeEventListener(e, loadGA); });
+        }, { once: true });
+    })();
     </script>
   </head>
   <body>
