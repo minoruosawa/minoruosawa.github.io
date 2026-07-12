@@ -3,7 +3,7 @@
 /* === プロフィール === */
 #profile {
   display: flex;
-  gap: 2.5rem;
+  gap: 3rem;
   align-items: flex-start;
   justify-content: flex-start;
   margin: 1rem 0 2rem 0;
@@ -27,7 +27,7 @@
 }
 
 #profile_pic {
-  width: min(200px,30vw);
+  width: min(200px,40vw);
   max-width: 100%;
   height: auto;
   display: block;
@@ -46,7 +46,7 @@
   h1 {
     margin: 0;
     line-height: 1;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.2em;
     font-family: "Computer Modern Serif", serif;
     font-size: 1.5em; 
     font-weight: bold;
@@ -92,7 +92,7 @@
 .info {
   --info-marker-size: 1em;
   --info-marker-gap: .7em;
-  --info-line-height: 1.6;
+  --info-line-height: 1.8;
 
   list-style: none;
   margin-top: $font-size-x-large; 
