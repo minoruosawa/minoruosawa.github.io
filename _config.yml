@@ -92,6 +92,8 @@ global_nav:
     url: "/research/"
   - label: "Teaching"
     url: "/teaching/"
+  - label: "CV"
+    url: "/cv/"
   - label: "Posts"
     url: "/posts/"
 
@@ -102,6 +104,8 @@ footer_nav:
     url: "/research/"
   - label: "Teaching"
     url: "/teaching/"
+  - label: "CV"
+    url: "/cv/"
   - label: "Posts"
     url: "/posts/"
   - label: "Site Policies"
