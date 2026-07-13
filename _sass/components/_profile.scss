@@ -22,7 +22,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 1em;
+    margin-bottom: 2.5em;
   }
 }
 
@@ -88,12 +88,12 @@
 }
 
 .info {
-  --info-marker-size: 1em;
+  --info-marker-size: 1.2rem;
   --info-marker-gap: .7em;
-  --info-line-height: 1.8;
+  --info-line-height: 1.6;
 
   list-style: none;
-  margin-top: $font-size-x-large; 
+  margin-top: $font-size-xxx-large; 
   padding-left: 0rem;
   line-height: var(--info-line-height);
 
@@ -132,9 +132,13 @@
       text-align: left;
     }
   }
+
+  @include respond-max($bp-mobile) {
+  }
 }
 
 .info > .em::before,
+.info > .cv::before,
 .info > .loc::before,
 .info > .twt::before,
 .info > .lnks::before ,
@@ -156,6 +160,10 @@
   @media (prefers-color-scheme: dark) {
     filter: invert(1);
   }
+}
+
+.cv::before  {
+  background-image: url("/assets/img/svg/address-card-regular.svg");
 }
 
 .em::before {

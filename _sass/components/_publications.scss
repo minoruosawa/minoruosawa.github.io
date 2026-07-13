@@ -23,9 +23,10 @@
   white-space: nowrap;
 }
 
-.hidden_pubs {
+.my_description {
   margin-bottom: 1rem;
   summary {
+    color: $color-text-strong; 
     list-style: none;
     cursor: pointer;
     position: relative;

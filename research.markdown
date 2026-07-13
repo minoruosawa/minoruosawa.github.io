@@ -21,7 +21,7 @@ description: Publications and ongoing projects.
   {% endfor %}
 </ul>
 
-<details class="hidden_pubs">
+<details class="my_description">
   <summary>Other articles ({{ other_papers.size }})</summary>
   <ul class="pub-list">
     {% for paper in other_papers %}
