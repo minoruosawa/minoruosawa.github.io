@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 /* === List Publications === */
+.pub-list {
+    li {
+        margin-bottom: 1.3rem; 
+    }
+}
+
 .pub-coauthors {
     color: $color-text-soft; 
 }
@@ -8,7 +14,6 @@
 .pub-journal {
   color: var(--color-journal-text);
   white-space: nowrap;
-  font-weight: bold;
   display: inline-block;
   transform: translateX($oblique-translate) skewX($oblique-deg);
   letter-spacing: -0.003em;
@@ -18,9 +23,10 @@
   white-space: nowrap;
 }
 
-.hidden_pubs {
+.my_description {
   margin-bottom: 1rem;
   summary {
+    color: $color-text-strong; 
     list-style: none;
     cursor: pointer;
     position: relative;
