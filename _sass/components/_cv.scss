@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+#profile-title {
+    font-family: "Computer Modern Serif", serif;
+    font-size: 1.5em; 
+    font-weight: bold;
+}
+
 .cv-profile {
   margin-bottom: 0;
 }
@@ -61,4 +67,8 @@
       padding-right: 0;
     }
   }
+}
+
+.cv-ul {
+  line-height: 2.0;
 }

@@ -7,17 +7,17 @@ description: Curriculum vitae for Minoru Osawa.
 
 <h1>Curriculum Vitae</h1>
 
-<p><a href="/assets/CV-Osawa.pdf" id="cv-link">Full CV (PDF)</a><span class="separator">・</span><a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ">Google Scholar</a><span class="separator">・</span><a href="https://researchmap.jp/minoru_osawa">日本語情報</a></p>
 
 <h2 id="profile-title">Minoru&thinsp;OSAWA&thinsp;<span class="separator">/</span>&thinsp;<span class="name_ja">大澤 実</span></h2>
 
-<p class="cv-profile">Associate Professor, Institute of Economic Research, Kyoto University</p>
-
+<p class="mobile-center"><a href="/assets/CV-Osawa.pdf" id="cv-link">CV (PDF)</a><span class="separator">・</span><a href="https://researchmap.jp/minoru_osawa">日本語情報</a><span class="separator">・</span><a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ">Google Scholar</a></p>
 
 <h2 id="positions-title">Contact</h2>
 
-<p>Yoshida-honmachi, Sakyo-ku, Kyoto-shi, Kyoto 606-8501, Japan<br class="on-mobile">606-8501 京都府京都市左京区吉田本町 京都大学経済研究所</p>
-<p class="info"><img src="/assets/img/em-488.png" width="487" height="36" id="em-img"> <button id="cpem" class="em-button" type="button">Copy</button><noscript>This site requires JavaScript.</noscript></p>
+<ul class="cv-ul">
+<li>Institute of Economic Research, Yoshida-honmachi, Sakyo-ku, Kyoto-shi, Kyoto 606-8501, Japan<br class="on-mobile">606-8501 京都府京都市左京区吉田本町 京都大学経済研究所</li>
+<li><img src="/assets/img/em-488.png" width="487" height="36" id="em-img"> <button id="cpem" class="em-button" type="button">Copy</button><noscript>This site requires JavaScript.</noscript></li>
+</ul>
 
 <script>
 const EME = "b3Nhd2EubWlub3J1LjR6QGt5b3RvLXUuYWMuanA=";
@@ -39,7 +39,7 @@ document.getElementById("cpem").addEventListener("click", async (e) => {
 <table class="cv-table" aria-labelledby="positions-title">
   <tbody>
     <tr>
-      <th scope="row">2026.05 – </th>
+      <th scope="row">2026.05 – Present</th>
       <td><strong>Associate Professor</strong>, Institute of Economic Research, Kyoto University</td>
     </tr>
     <tr>
@@ -90,3 +90,15 @@ document.getElementById("cpem").addEventListener("click", async (e) => {
     </tr>
   </tbody>
 </table>
+
+<hr>
+
+<h2 id="others-title">Other Info</h2>
+
+<ul class="cv-ul">
+<li>X: <a href="https://x.com/{{ site.twitter_username }}">@MinoruOsawa</a></li>
+<li><a href="https://www.researchgate.net/profile/Minoru-Osawa">ResearchGate</a></li>
+<li><a href="https://orcid.org/0000-0001-9067-5375">ORCID</a></li>
+<li>Join <a href="https://www.kier.kyoto-u.ac.jp/en/workshop_category/urban-economics/">Urban Economics Workshop</a> @ KIER !</li>
+</ul>
+
