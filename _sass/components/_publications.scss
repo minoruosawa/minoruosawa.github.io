@@ -3,7 +3,12 @@
 /* === List Publications === */
 .pub-list {
     li {
+        margin-left: 0; 
         margin-bottom: 1.3rem; 
+
+        &::marker {
+            content: none; 
+        }
     }
 }
 
