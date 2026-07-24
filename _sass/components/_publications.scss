@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 /* === List Publications === */
+.pub-title {
+    font-weight: 500; 
+}
+
 .pub-list {
     li {
         margin-left: 0; 
@@ -22,6 +26,7 @@
   display: inline-block;
   transform: translateX($oblique-translate) skewX($oblique-deg);
   letter-spacing: -0.003em;
+  font-weight: 400; 
 }
 
 .pub-state {
