@@ -36,15 +36,15 @@ description: Publications and ongoing projects.
 
 <h2>Discussion Papers</h2>
 <ul class="pub-list">
-    <li><a class="pub-title" href="https://arxiv.org/abs/2603.09539">Sampling logit equilibrium and endogenous payoff distortion</a> (2026) [<a href="/notes/draft/SLD.pdf">paper</a>] [<a href="/notes/draft/SLD_slides.pdf">slides</a>]<br> R&R at Games and Economic Behavior</li>
-    <li><a class="pub-title" href="https://arxiv.org/abs/2207.05346">Origin of power laws and their spatial fractal structure for city-size distributions</a> (2024) [<a href="https://arxiv.org/pdf/2207.05346">paper</a>] <br> (with T.&thinsp;Mori, T.&thinsp;Akamatsu, and Y.&thinsp;Takayama)</li>
+    <li><a class="pub-title" href="https://arxiv.org/abs/2603.09539">Sampling logit equilibrium and endogenous payoff distortion</a> (2026) [<a href="/notes/draft/SLD_slides.pdf">slides</a>]<br> R&R at <span class="pub-journal">Games and Economic Behavior</span></li>
+    <li><a class="pub-title" href="https://arxiv.org/abs/2207.05346">Origin of power laws and their spatial fractal structure for city-size distributions</a> (2024) <br> (with T.&thinsp;Mori, T.&thinsp;Akamatsu, and Y.&thinsp;Takayama)</li>
     <li><a class="pub-title" href="https://arxiv.org/abs/2011.06778">Most likely retail agglomeration patterns</a> (2025) (with T.&thinsp;Akamatsu and Y.&thinsp;Kogure)</li>
     <li><a class="pub-title" href="https://arxiv.org/abs/2512.06402">Innovation, spillovers and economic geography</a> (2025) (with J.&thinsp;M.&thinsp;Gaspar)</li>
     <li><a class="pub-title" href="https://arxiv.org/abs/2001.05095">Production externalities and dispersion process in a multi-region economy</a> (2021) (with J.&thinsp;M.&thinsp;Gaspar)</li>
 </ul>
 
 <h2>Works in Progress</h2>
-<ul class="pub-list">
+<ul class="pub-list pub-wip">
     <li><span class="pub-title">Understanding regional dynamics</span> (2025) [<a href="/notes/draft/RD.pdf">draft</a>] [<a href="/notes/draft/RD_slides.pdf">slides</a>] [<a href="/notes/draft/RD_poster_ja.pdf">poster(ja)</a>]</li>
     <li><span class="pub-title">Social interactions, technological externalities, and urban spatial structure</span> (with H.&thinsp;Konishi)</li>
     <li><span class="pub-title">Non-monocentric urban spatial structure in two dimensions</span> (with T.&thinsp;Akamatsu, T.&thinsp;Sakai)</li>
