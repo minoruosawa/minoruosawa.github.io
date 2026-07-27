@@ -19,6 +19,20 @@ span.pub-title {
     }
 }
 
+// Publication lists on the Research page use no native list markers.
+// Set list-style on both elements for consistent behavior on mobile browsers.
+.pub-list.research-pub-list {
+    list-style: none;
+
+    li {
+        list-style: none;
+    }
+
+    @include respond-max($bp-mobile) {
+        padding-left: 0;
+    }
+}
+
 .pub-coauthors {
     color: $color-text-soft; 
 }

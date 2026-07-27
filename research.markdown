@@ -15,14 +15,14 @@ description: Publications and ongoing projects.
 {% assign key_papers = sorted_papers | where: "keypub", true %}
 {% assign other_papers = sorted_papers | where_exp: "paper", "paper.keypub != true" %}
 
-<ul class="pub-list">
+<ul class="pub-list research-pub-list">
 {% for paper in key_papers %}
     {% include pub_item.html paper=paper %}
 {% endfor %}
 </ul>
 
 <h2>Works in Progress</h2>
-<ul class="pub-list">
+<ul class="pub-list research-pub-list">
     <li><a class="pub-title" href="https://arxiv.org/abs/2603.09539">Sampling logit equilibrium and endogenous payoff distortion</a> (2026) [<a href="/notes/draft/SLD_slides.pdf">slides</a>]<br> R&R at <span class="pub-journal">Games and Economic Behavior</span></li>
     <li><a class="pub-title" href="https://arxiv.org/abs/2207.05346">Origin of power laws and their spatial fractal structure for city-size distributions</a> (2024) (with T.&thinsp;Mori, T.&thinsp;Akamatsu, and Y.&thinsp;Takayama)</li>
     <li><a class="pub-title" href="https://arxiv.org/abs/2011.06778">Most likely retail agglomeration patterns</a> (2025) (with T.&thinsp;Akamatsu and Y.&thinsp;Kogure)</li>
@@ -35,7 +35,7 @@ description: Publications and ongoing projects.
 
 
 <h2>Publications</h2>
-<ul class="pub-list">
+<ul class="pub-list research-pub-list">
 {% for paper in sorted_papers %}
     {% include pub_item.html paper=paper %}
 {% endfor %}
@@ -43,6 +43,6 @@ description: Publications and ongoing projects.
 
 <h2>和文論文 / Publications in Japanese</h2>
 
-<ul class="pub-list">
+<ul class="pub-list research-pub-list">
 <li><a href="https://researchmap.jp/minoru_osawa/published_papers" style="text-decoration: underline;">researchmap</a> をご覧ください．</li>
 </ul>
