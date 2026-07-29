@@ -9,8 +9,41 @@ lang: ja
 
 <div class="teaching-meta">
   <p class="mobile-center"><a href="/policies/#disclaimer">免責事項</a><span class="separator">・</span><a href="https://github.com/{{ site.github.user }}/{{ site.github.repo }}/issues/new?title=講義資料について" target="_blank">問題を報告 (GitHub)</a></p>
+ <p>興味に応じて <a href="https://www.kier.kyoto-u.ac.jp/workshop_category/urban-economics/">都市経済学ワークショップ</a> もぜひ参加してみてください．</p>
 </div>
 
+
+
+<section class="course" id="vi">
+
+  <header class="course-header">
+    <h2 class="jp">均衡分析と数理最適化</h2>
+    <div class="en">Variational Inequalities for Economic Equilibrium Analysis</div>
+  </header>
+
+  <div class="course-info">
+    <ul>
+      <li>2026年度　水曜1限 8:45-10:15 @ 経済研究所 大会議室(106)</li>
+    </ul>
+  </div>
+
+  <div class="course-contents">
+    <h3>講義資料（2025年度版）</h3>
+    <ol start="0">
+      <li><a href="/notes/vip/VI25-00_Orientation.pdf">講義概要</a></li>
+      <li><a href="/notes/vip/VI25-01_Opt.pdf">最適化概論</a></li>
+      <li><a href="/notes/vip/VI25-02_LP.pdf">線形最適化問題</a></li>
+      <li><a href="/notes/vip/VI25-03_NLP.pdf">非線形最適化問題</a></li>
+      <li><a href="/notes/vip/VI25-04_VIP.pdf">変分不等式問題</a></li>
+      <li><a href="/notes/vip/VI25-05_PG.pdf">集団ゲーム</a></li>
+      <li><a href="/notes/vip/VI25-06_Congestion.pdf">混雑ゲーム</a></li>
+      <li><a href="/notes/vip/VI25-07_Urban.pdf">都市モデル</a></li>
+      <li><a href="/notes/vip/24-08_Stability.pdf">均衡選択</a></li>
+      <li>受講者による文献紹介：<a href="/notes/vip/VI25-Readings.pdf">対象リスト</a></li>
+    </ol>
+  </div>
+
+</section>
 
 <section class="course" id="ur">
 
@@ -24,7 +57,6 @@ lang: ja
       <li>水曜1限 8:45-10:15 @ 経済研究所 大会議室(106)</li>
       <li>休講予定：6/17</li>
       <li>関連講義：森「経済地理学」（前期）・「空間経済学」（後期）／山﨑「数量経済史A」（前期）</li>
-      <li>興味に応じて <a href="https://www.kier.kyoto-u.ac.jp/workshop_category/urban-economics/">都市経済学ワークショップ</a> もぜひ．</li>
     </ul>
   </div>
 
@@ -42,37 +74,6 @@ lang: ja
 
 </section>
 
-
-<section class="course" id="vi">
-
-  <header class="course-header">
-    <h2 class="jp">均衡分析と数理最適化</h2>
-    <div class="en">Variational Inequalities for Economic Equilibrium Analysis</div>
-  </header>
-
-  <div class="course-info">
-    <ul>
-      <li>水曜1限 8:45-10:15 @ 経済研究所 会議室(105)</li>
-    </ul>
-  </div>
-
-  <div class="course-contents">
-    <h3>講義資料</h3>
-    <ol start="0">
-      <li><a href="/notes/vip/VI25-00_Orientation.pdf">講義概要</a></li>
-      <li><a href="/notes/vip/VI25-01_Opt.pdf">最適化概論</a></li>
-      <li><a href="/notes/vip/VI25-02_LP.pdf">線形最適化問題</a></li>
-      <li><a href="/notes/vip/VI25-03_NLP.pdf">非線形最適化問題</a></li>
-      <li><a href="/notes/vip/VI25-04_VIP.pdf">変分不等式問題</a></li>
-      <li><a href="/notes/vip/VI25-05_PG.pdf">集団ゲーム</a></li>
-      <li><a href="/notes/vip/VI25-06_Congestion.pdf">混雑ゲーム</a></li>
-      <li><a href="/notes/vip/VI25-07_Urban.pdf">都市モデル</a></li>
-      <li><a href="/notes/vip/24-08_Stability.pdf">均衡選択</a></li>
-      <li>受講者による文献紹介：<a href="/notes/vip/VI25-Readings.pdf">対象リスト</a></li>
-    </ol>
-  </div>
-
-</section>
 
 
 <section class="course" id="tr">
