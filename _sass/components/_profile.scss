@@ -24,6 +24,10 @@
     justify-content: center;
     margin-bottom: 2.5em;
   }
+
+  @include respond-max($bp-mobile) {
+    margin-bottom: 1.25rem;
+  }
 }
 
 #profile_pic {
@@ -115,6 +119,11 @@
   }
 
   @include respond-max($bp-mobile) {
+    margin-top: 1rem;
+
+    > li + li {
+      margin-top: .35em;
+    }
   }
 }
 

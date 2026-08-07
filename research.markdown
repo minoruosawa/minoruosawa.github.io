@@ -43,6 +43,4 @@ description: Publications and ongoing projects.
 
 <h2>和文論文 / Publications in Japanese</h2>
 
-<ul class="pub-list research-pub-list">
-<li><a href="https://researchmap.jp/minoru_osawa/published_papers" style="text-decoration: underline;">researchmap</a> をご覧ください．</li>
-</ul>
+<ul class="mobile-center pub-list research-pub-list"><li><a href="https://researchmap.jp/minoru_osawa/published_papers" style="text-decoration: underline;">researchmap</a> をご覧ください．</li></ul>

@@ -73,4 +73,8 @@
 
 .cv-ul {
   line-height: 2.0;
+
+  @include respond-max($bp-mobile) {
+    line-height: 1.65;
+  }
 }

@@ -18,7 +18,7 @@
   padding: 0 $gutter-desktop $section-gap;
 
   @include respond-max($bp-mobile) {
-    padding: 1rem $gutter-mobile;
+    padding: 0.65rem $gutter-mobile 1.25rem;
 
     .top-block {
         padding-top: 0rem; 
@@ -29,7 +29,7 @@
     }
 
     h3 {
-        margin-top: 1rem; 
+        margin-top: 0.9rem;
     }
 
     br:not(.on-mobile) {
@@ -79,7 +79,7 @@
 
    @include respond-max($bp-mobile) {
         border-top: none; 
-        padding: .5rem 0 1rem;
+        padding: .4rem 0 .8rem;
 
         ol {
             ul {
@@ -112,6 +112,20 @@
         }
    }
 
+   @include respond-max($bp-mobile) {
+        padding: .4rem .6rem;
+
+        .jp {
+            font-size: 1.2rem;
+            line-height: 1.25;
+        }
+
+        .en {
+            font-size: .95rem;
+            line-height: 1.35;
+        }
+   }
+
    @media (prefers-color-scheme: dark) {
        text-shadow: 0px 0px 2px var(--color-text-shadow); 
 
@@ -128,6 +142,10 @@
 
 .course-contents {
     padding: .5rem 0;
+
+    @include respond-max($bp-mobile) {
+        padding: .4rem 0;
+    }
 
     h3 {
         margin: .3rem 0 0; 

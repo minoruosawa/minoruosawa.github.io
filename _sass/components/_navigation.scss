@@ -89,7 +89,7 @@
       text-align: center;
       align-items: baseline;
       margin: 0 auto; 
-      padding: 0.3rem $gutter-mobile;
+      padding: 0.15rem $gutter-mobile;
       font-size: $font-size-large; 
 
       li {
@@ -97,7 +97,7 @@
         width: auto;
         margin: 0;
         padding: 0; 
-        line-height: 2.5rem;
+        line-height: 2.4rem;
         
         + li::before {
             content: "\30FB";
@@ -130,7 +130,7 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    height: 3rem;
+    height: 2.7rem;
   }
 }
 
@@ -145,6 +145,6 @@
   margin: 0 auto;
   padding: 0 $gutter-desktop;
   @include respond-max($bp-mobile) {
-    min-height: 2.5rem; 
+    min-height: 2.4rem;
   }
 }

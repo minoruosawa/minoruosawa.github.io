@@ -28,6 +28,10 @@ span.pub-title {
 
     @include respond-max($bp-mobile) {
         padding-left: 0;
+
+        li {
+            margin-bottom: 1rem;
+        }
     }
 }
 

@@ -20,6 +20,10 @@
   @include respond-max($bp-tablet) {
     text-align: left;
   }
+
+  @include respond-max($bp-mobile) {
+    margin-bottom: 1.25em;
+  }
 }
 
 .posts-header {
@@ -105,6 +109,7 @@
 
     @include respond-max($bp-mobile) {
         font-size: $font-size-xx-large;
+        margin-top: .8rem;
     }
   }
 
@@ -115,6 +120,7 @@
 
     @include respond-max($bp-mobile) {
         font-size: $font-size-large;
+        margin-top: .85rem;
     }
   }
 
