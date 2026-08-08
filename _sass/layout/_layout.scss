@@ -91,6 +91,7 @@
 }
 
 .course-header {
+
   .jp {
     margin: 0;
   }
@@ -113,7 +114,7 @@
    }
 
    @include respond-max($bp-mobile) {
-        padding: .4rem .6rem;
+        padding: .8rem .6rem;
 
         .jp {
             font-size: 1.2rem;
