@@ -15,7 +15,7 @@ description: Curriculum vitae for Minoru Osawa.
 <h2 id="positions-title">Contact</h2>
 
 <ul class="cv-ul">
-<li>Institute of Economic Research, Yoshida-honmachi, Sakyo-ku, Kyoto-shi, Kyoto 606-8501, Japan<br class="on-mobile">606-8501 京都府京都市左京区吉田本町 京都大学経済研究所</li>
+<li><a href="https://www.kier.kyoto-u.ac.jp/en/">Institute of Economic Research</a>, Yoshida-honmachi, Sakyo-ku, Kyoto-shi, Kyoto 606-8501, Japan</li>
 <li><img src="/assets/img/em-488.png" width="487" height="36" id="em-img"> <button id="cpem" class="em-button" type="button">Copy</button><noscript>This site requires JavaScript.</noscript></li>
 </ul>
 
@@ -68,25 +68,6 @@ document.getElementById("cpem").addEventListener("click", async (e) => {
     <tr>
       <th scope="row">2008.03</th>
       <td>長野県立松本深志高等学校 卒業</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="honors-title">Honors and Fellowships</h2>
-
-<table class="cv-table" aria-labelledby="honors-title">
-  <tbody>
-    <tr>
-      <th scope="row">2017</th>
-      <td><strong>Kometani-Sasaki Award for Doctoral Theses</strong>, Institute of Systems Science Research</td>
-    </tr>
-    <tr>
-      <th scope="row">2016</th>
-      <td><strong>JSCE Paper Encouragement Award</strong>,  Japan Society of Civil Engineers.</td>
-    </tr>
-    <tr>
-      <th scope="row">2014</th>
-      <td><strong>JSCE Paper Award</strong>,  Japan Society of Civil Engineers. (Joint with T. Akamatsu, T. Nagae, and H. Yamaguchi)</td>
     </tr>
   </tbody>
 </table>
