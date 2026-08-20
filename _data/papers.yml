@@ -2,9 +2,8 @@
   year: 2026
   keypub: true 
   journal: "Journal of Urban Economics"
-  url: "https://arxiv.org/abs/1912.05113"
+  url: "https://www.sciencedirect.com/science/article/pii/S0094119026000781"
   pdf: "/notes/draft/AMOT.pdf"
-  state: "forthcoming"
   cover: "jue"
   author: "T.&thinsp;Akamatsu, T.&thinsp;Mori, M.&thinsp;Osawa, Y.&thinsp;Takayama"
   coauthors:
