@@ -134,13 +134,14 @@ $gutter-desktop: 2.5rem;
 $gutter-mobile: .9rem;
 $section-gap: 2rem;
 
-$font-size-small: clamp(0.82rem, calc(0.72rem + 0.28vw), 0.92rem);
-$font-size-medium: clamp(0.92rem, calc(0.82rem + 0.38vw), 1.02rem);
-$font-size-large: clamp(1rem, calc(0.92rem + 0.5vw), 1.1rem); // base size 
-$font-size-x-large: clamp(1.12rem, calc(1.02rem + 0.6vw), 1.28rem);
-$font-size-xx-large: clamp(1.28rem, calc(1.12rem + 0.75vw), 1.42rem);  // h3 
-$font-size-xxx-large: clamp(1.42rem, calc(1.22rem + 1.0vw), 1.6rem);   // h2 
-$font-size-xxxx-large: clamp(1.68rem, calc(1.38rem + 1.2vw), 1.92rem); // h1
+$font-size-small: clamp(0.78rem, calc(0.73rem + 0.18vw), 0.86rem);
+$font-size-medium: clamp(0.86rem, calc(0.80rem + 0.22vw), 0.94rem);
+$font-size-large: clamp(0.94rem, calc(0.88rem + 0.26vw), 1.02rem); // base size
+
+$font-size-x-large: clamp(1.02rem, calc(0.95rem + 0.30vw), 1.12rem);
+$font-size-xx-large: clamp(1.14rem, calc(1.04rem + 0.42vw), 1.26rem);  // h3
+$font-size-xxx-large: clamp(1.28rem, calc(1.14rem + 0.56vw), 1.42rem); // h2
+$font-size-xxxx-large: clamp(1.46rem, calc(1.26rem + 0.72vw), 1.66rem); // h1
 
 $color-text: var(--color-text);
 $color-text-strong: var(--color-text-strong);

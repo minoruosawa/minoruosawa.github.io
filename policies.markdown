@@ -16,8 +16,10 @@ description: "Site policies for minoruosawa.com, including privacy, cookies, ana
         word-wrap: break-word;
         overflow-wrap: break-word;
         letter-spacing: -0.02em; 
+        font-family: "Inter", sans-serif;
     }
-    p, ul, ol, strong { font-family: "Computer Modern Sans Serif", sans-serif !important; }
+    .post-content ol, .post-content ul, .post-content p strong { font-family: "Inter", sans-serif; }
+    .post-content p strong { font-family: "Inter", sans-serif; font-weight: bold; }
 </style>
 
 <h1>Site Policies</h1>
@@ -34,7 +36,7 @@ description: "Site policies for minoruosawa.com, including privacy, cookies, ana
 
 <section>
   <h2>著作権について</h2>
-  <p>当サイトに掲載している文章・図表等の著作権は，特に記載のない限り大澤実に帰属します．学術的または教育的な目的（例：講義資料，学会発表等）での引用・参照については，<strong>出所を正確に明示</strong> していただければ（例：著者名・ページURLなど），下記の条件を満足する範囲で自由にご利用いただいて構いません．</p>
+  <p>当サイトに掲載している文章・図表等の著作権は，特に記載のない限り大澤実に帰属します．学術的または教育的な目的（例：講義資料，学会発表等）での引用・参照については，<strong class="ex">出所を正確に明示</strong> していただければ（例：著者名・ページURLなど），下記の条件を満足する範囲で自由にご利用いただいて構いません．</p>
   <ol>
     <li>公益性のある利用目的であること．</li>
     <li>引用部分と自著との境界が明示されていること．</li>
@@ -54,7 +56,7 @@ description: "Site policies for minoruosawa.com, including privacy, cookies, ana
 <section>
 <h2 id="disclaimer">免責事項</h2>
 
-<p>当サイトに掲載されている内容は，すべて <strong>大澤実個人の見解・意見に基づくものであり，所属するいかなる組織・団体の公式な立場や意見を代表するものではありません</strong>．掲載する情報については，可能な限り正確かつ最新の内容となるよう努めていますが，その正確性・完全性・信頼性等を保証するものではありません．また，当サイトの内容を利用したことによって生じたいかなる損害・不利益についても，当方は一切の責任を負いかねます．本ページのポリシーの内容は，必要に応じて予告なく変更されることがあります．ご理解の上，自己責任にてご利用ください．</p>
+<p>当サイトに掲載されている内容は，すべて <strong class="ex">大澤実個人の見解・意見に基づくものであり，所属するいかなる組織・団体の公式な立場や意見を代表するものではありません</strong>．掲載する情報については，可能な限り正確かつ最新の内容となるよう努めていますが，その正確性・完全性・信頼性等を保証するものではありません．また，当サイトの内容を利用したことによって生じたいかなる損害・不利益についても，当方は一切の責任を負いかねます．本ページのポリシーの内容は，必要に応じて予告なく変更されることがあります．ご理解の上，自己責任にてご利用ください．</p>
 </section>
 
 <section>
