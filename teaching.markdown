@@ -29,7 +29,6 @@ lang: ja
   </div>
 
   <div class="course-contents">
-    <h3>講義資料（2025年度版）</h3>
     <ol start="0">
       <li><a href="/notes/vip/VI25-00_Orientation.pdf">講義概要</a></li>
       <li><a href="/notes/vip/VI25-01_Opt.pdf">最適化概論</a></li>
@@ -62,8 +61,6 @@ lang: ja
   </div>
 
   <div class="course-contents">
-    <h3>講義資料等</h3>
-    <p>概ね次のような内容を板書中心で講義する予定です．</p>
     <ol start="0">
       <li><a href="/notes/urban/UE26-01_Intro.pdf">はじめに</a></li>
       <li>基本的な土地利用モデル（単一中心都市モデル）　<a href="/notes/urban/UE26-02_AMM.pdf">導入</a></li>
@@ -85,7 +82,6 @@ lang: ja
   </header>
 
   <div class="course-contents">
-    <h3>講義資料</h3>
     <ol start="0">
       <li><a href="/notes/transport/TE25-00_Syllabus.pdf">シラバス</a></li>
       <li><a href="/notes/transport/TE25-00_Introduction.pdf">講義概要</a></li>
