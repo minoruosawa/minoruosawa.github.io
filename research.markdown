@@ -28,7 +28,7 @@ description: Publications and ongoing projects.
     <li><a class="pub-title" href="https://arxiv.org/abs/2011.06778">Most likely retail agglomeration patterns</a> (2025) (with T.&thinsp;Akamatsu and Y.&thinsp;Kogure)</li>
     <li><a class="pub-title" href="https://arxiv.org/abs/2512.06402">Innovation, spillovers and economic geography</a> (2025) (with J.&thinsp;M.&thinsp;Gaspar)</li>
     <li><a class="pub-title" href="https://arxiv.org/abs/2001.05095">Production externalities and dispersion process in a multi-region economy</a> (2021) (with J.&thinsp;M.&thinsp;Gaspar)</li>
-    <li><span class="pub-title">Understanding regional dynamics</span> (2025) [<a href="/notes/draft/RD.pdf">draft</a>] [<a href="/notes/draft/RD_slides.pdf">slides</a>] [<a href="/notes/draft/RD_poster_ja.pdf">poster(ja)</a>]</li>
+    <li><span class="pub-title">How do expectations shape spatial dynamics?</span> (2026) [<a href="/notes/draft/RD.pdf">old draft</a>] [<a href="/notes/draft/RD_slides.pdf">slides</a>] [<a href="/notes/draft/RD_poster_ja.pdf">poster(ja)</a>]</li>
     <li><span class="pub-title">Social interactions, technological externalities, and urban spatial structure</span> (with H.&thinsp;Konishi)</li>
     <li><span class="pub-title">Non-monocentric urban spatial structure in two dimensions</span> (with T.&thinsp;Akamatsu, T.&thinsp;Sakai)</li>
 </ul>
