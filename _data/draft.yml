@@ -1,0 +1,55 @@
+# Works in progress listed on /research/
+
+- title: "Sampling logit equilibrium and endogenous payoff distortion"
+  year: 2026
+  url: "https://arxiv.org/abs/2603.09539"
+  rr: "Games and Economic Behavior"
+  misclinks:
+    - name: "slides"
+      url: "/notes/draft/SLD_slides.pdf"
+
+- title: "Origin of power laws and their spatial fractal structure for city-size distributions"
+  year: 2024
+  url: "https://arxiv.org/abs/2207.05346"
+  coauthors:
+    - "T.&thinsp;Mori"
+    - "T.&thinsp;Akamatsu"
+    - "Y.&thinsp;Takayama"
+
+- title: "Most likely retail agglomeration patterns: Potential maximization and stochastic stability of spatial equilibria"
+  year: 2025
+  url: "https://arxiv.org/abs/2011.06778"
+  coauthors:
+    - "T.&thinsp;Akamatsu"
+    - "Y.&thinsp;Kogure"
+
+- title: "Innovation, spillovers and economic geography"
+  year: 2025
+  url: "https://arxiv.org/abs/2512.06402"
+  coauthors:
+    - "J.&thinsp;M.&thinsp;Gaspar"
+
+- title: "Production externalities and dispersion process in a multi-region economy"
+  year: 2021
+  url: "https://arxiv.org/abs/2001.05095"
+  coauthors:
+    - "J.&thinsp;M.&thinsp;Gaspar"
+
+- title: "How do expectations shape spatial dynamics?"
+  year: 2026
+  misclinks:
+    - name: "old draft"
+      url: "/notes/draft/RD.pdf"
+    - name: "slides"
+      url: "/notes/draft/RD_slides.pdf"
+    - name: "poster(ja)"
+      url: "/notes/draft/RD_poster_ja.pdf"
+
+- title: "Social interactions, technological externalities, and urban spatial structure"
+  coauthors:
+    - "H.&thinsp;Konishi"
+
+- title: "Non-monocentric urban spatial structure in two dimensions"
+  coauthors:
+    - "T.&thinsp;Akamatsu"
+    - "T.&thinsp;Sakai"
