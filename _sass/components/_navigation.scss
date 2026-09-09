@@ -90,7 +90,7 @@
       align-items: baseline;
       margin: 0 auto; 
       padding: 0.15rem $gutter-mobile;
-      font-size: $font-size-large; 
+      font-size: $font-size-x-large; 
 
       li {
         display: inline-block;
@@ -100,7 +100,7 @@
         line-height: 2.4rem;
         
         + li::before {
-            content: "\30FB";
+            content: "\2009";
             margin: 0;
         }
 
