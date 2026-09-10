@@ -100,7 +100,7 @@
         line-height: 2.4rem;
         
         + li::before {
-            content: "\2009";
+            content: "\2009\2009";
             margin: 0;
         }
 
