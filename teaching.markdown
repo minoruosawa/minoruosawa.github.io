@@ -45,33 +45,6 @@ lang: ja
 
 </section>
 
-<section class="course" id="ur">
-
-  <header class="course-header">
-    <h2 class="jp">都市経済学</h2>
-    <div class="en">Urban Economics</div>
-  </header>
-
-  <div class="course-info">
-    <ul>
-      <li>2026年度　水曜1限 8:45-10:15 @ 経済研究所 大会議室(106)</li>
-      <!-- <li>休講予定：6/17</li> -->
-      <!-- <li>関連講義：森「経済地理学」（前期）・「空間経済学」（後期）／山﨑「数量経済史A」（前期）</li> -->
-    </ul>
-  </div>
-
-  <div class="course-contents">
-    <ol start="0">
-      <li><a href="/notes/urban/UE26-01_Intro.pdf">はじめに</a></li>
-      <li>基本的な土地利用モデル（単一中心都市モデル）　<a href="/notes/urban/UE26-02_AMM.pdf">導入</a></li>
-      <li>集積の経済と都心の形成</li>
-      <li>定量都市経済学モデル</li>
-      <li>受講者による文献紹介：<a href="/notes/urban/UE26-Readings.pdf">対象リスト</a><br> 7/15, 22(1, 5限)</li>
-    </ol>
-  </div>
-
-</section>
-
 
 
 <section class="course" id="tr">
@@ -80,6 +53,14 @@ lang: ja
     <h2 class="jp">交通経済学</h2>
     <div class="en">Transportation Economics</div>
   </header>
+
+  <div class="course-info">
+    <ul>
+      <li>隔年開講</li>
+      <li>2027年度　火曜2限 10:30-12:00 @ 経済研究所 第二共同（予定）</li>
+    </ul>
+  </div>
+
 
   <div class="course-contents">
     <ol start="0">
@@ -97,6 +78,34 @@ lang: ja
       <li><a href="/notes/transport/TE25-10_Regulation.pdf">規制政策</a></li>
       <li><a href="/notes/transport/TE25-11_Transport-Investment.pdf">交通投資とパラドックス</a></li>
       <li><a href="/notes/transport/TE25-12_WEIs.pdf">交通と都市・地域経済</a></li>
+    </ol>
+  </div>
+
+</section>
+
+<section class="course" id="ur">
+
+  <header class="course-header">
+    <h2 class="jp">都市経済学</h2>
+    <div class="en">Urban Economics</div>
+  </header>
+
+  <div class="course-info">
+    <ul>
+      <li>隔年開講（2027年度は開講しません）</li>
+      <li>2026年度　水曜1限 8:45-10:15 @ 経済研究所 大会議室(106)</li>
+      <!-- <li>休講予定：6/17</li> -->
+      <!-- <li>関連講義：森「経済地理学」（前期）・「空間経済学」（後期）／山﨑「数量経済史A」（前期）</li> -->
+    </ul>
+  </div>
+
+  <div class="course-contents">
+    <ol start="0">
+      <li><a href="/notes/urban/UE26-01_Intro.pdf">はじめに</a></li>
+      <li>基本的な土地利用モデル（単一中心都市モデル）　<a href="/notes/urban/UE26-02_AMM.pdf">導入</a></li>
+      <li>集積の経済と都心の形成</li>
+      <li>定量都市経済学モデル</li>
+      <li>受講者による文献紹介：<a href="/notes/urban/UE26-Readings.pdf">対象リスト</a><br> 7/15, 22(1, 5限)</li>
     </ol>
   </div>
 
