@@ -3,6 +3,7 @@ layout: "doc"
 title: "Minoru Osawa - Research Summary"
 permalink: "/summary/"
 description: "Overview of my research on spatial agglomeration."
+published: false
 ---
 
 <style>

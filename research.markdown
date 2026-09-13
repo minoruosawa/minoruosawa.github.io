@@ -7,8 +7,6 @@ description: Publications and ongoing projects.
 
 <h1>Research</h1>
 
-<p class="mobile-center"><a href="/summary/">Research summary</a></p>
-
 <h2>Selected Works</h2>
 
 {% assign sorted_papers = site.data.papers | sort: "year" | reverse %}
