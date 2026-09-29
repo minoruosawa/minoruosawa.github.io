@@ -21,11 +21,20 @@
             <li class="cv"><a href="/assets/CV-Osawa.pdf" id="cv-link">CV (PDF)</a><span class="separator">・</span><a href="https://researchmap.jp/minoru_osawa">日本語情報</a><span class="separator">・</span><a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ">Google Scholar</a></li>
             {% if site.data.visits and site.data.visits.size > 0 %}
             <li class="cal">Scheduled talks and visits: 
-                <ul>
+                <table class="visits">
+                    <ul>
                     {% for visit in site.data.visits %}
-                    <li>{{ visit }}</li>
+                        <li>
+                        <span class="visit-date">{{ visit.date }}</span>
+                        {% if visit.url %}
+                        <a href="{{ visit.url }}">{{ visit.text }}</a>
+                        {% else %}
+                        {{ visit.text }}
+                        {% endif %}
+                    </li>
                     {% endfor %}
-                </ul>
+                    </ul>
+                </table>
             </li>
             {% endif %}
         </ul>

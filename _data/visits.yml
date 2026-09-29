@@ -1,5 +1,15 @@
-- "Oct 30: Urban Economics Workshop @ U Tokyo"
-- "Nov 9-10: Regional Complexity Workshop（京都）"
-- "Dec 5-7: 土木計画学会秋大会（松江）"
-- "Dec 12-13: 応用地域学会研究発表大会（高知）"
-- "Dec 14-16: 2026 SMU–Jinan CURE @ SMU"
+- date: "Oct 30"
+  text: "Urban Economics Workshop @東京大学"
+  url: https://www.cirje.e.u-tokyo.ac.jp/research/workshops/urban/urban.html
+- date: "Nov 9-10"
+  text: "Regional Complexity Workshop（京都）"
+  url: https://kagawa-regional-science.github.io/
+- date: "Dec 5-7"
+  text: "土木計画学会秋大会（島根）"
+  url: https://jsce-ip.org/2026/09/18/ip74_2/
+- date: "Dec 12-13"
+  text: "応用地域学会研究発表大会（高知）"
+  url: https://arsc.org/M022/forum/arsc2026
+- date: "Dec 14-16"
+  text: "2026 SMU–Jinan CURE @ SMU"
+  url: https://economics.smu.edu.sg/events/urban/2026
