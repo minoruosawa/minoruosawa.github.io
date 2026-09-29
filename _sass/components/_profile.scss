@@ -204,23 +204,14 @@
 .visits {
     border-collapse: collapse;
     margin-top: 0.3em;
-}
 
-.visits td {
-    vertical-align: top;
-    padding: 0.1em 0;
+    a {
+        text-decoration: none; 
+    }
 }
 
 .visit-date {
     display: inline-block;
     min-width: 5.5em;
     white-space: nowrap;
-}
-
-.visit-event {
-    padding-left: 0.5em !important;
-
-    a {
-        text-decoration: none; 
-    }
 }
