@@ -18,7 +18,7 @@ lang: ja
 
   <header class="course-header">
     <h2 class="jp">均衡分析と数理最適化</h2>
-    <div class="en">Variational Inequalities for Economic Equilibrium Analysis</div>
+    <div class="en">Games, Dynamics, and Equilibrium</div>
   </header>
 
   <div class="course-info">
