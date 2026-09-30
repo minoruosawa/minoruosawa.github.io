@@ -8,7 +8,7 @@
 .pub-list {
     li {
         margin-left: 0; 
-        margin-bottom: 1.6rem; 
+        margin-bottom: 1.5rem; 
         list-style: none; 
 
         &::marker {
@@ -49,6 +49,10 @@
         font-weight: 500;
         color: var(--color-link-strong);
     }
+}
+
+.pub-misctext {
+    color: $color-text-muted; 
 }
 
 .my_description {

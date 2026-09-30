@@ -45,9 +45,8 @@
       vertical-align: baseline;
 
       + li::before {
-        content: "\30FB";
+        content: " \30FB ";
         display: inline-block;
-        margin: 0 0.3rem;
         background-size: contain;
         vertical-align: middle;
         background-repeat: no-repeat;

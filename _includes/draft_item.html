@@ -2,15 +2,15 @@
         <span class="pub-title">{{ draft.title }}</span>
         {%- if draft.year %} ({{ draft.year }}){% endif -%}
         {%- if draft.rr -%}
-            <br> R&R at <span class="pub-journal">{{ draft.rr }}</span>
+            <br><span class="pub-misctext"> R&R at </span><span class="pub-journal">{{ draft.rr }}</span>
         {%- endif -%}
-        {%- if draft.coauthors %}<br> (with
+        {%- if draft.coauthors %}<br> <span class="pub-coauthors">(with
             {%- for c in draft.coauthors -%}
                 {%- if forloop.first %} {{ c }}
                 {%- elsif forloop.last %}{% if forloop.length > 2 %},{% endif %} and {{ c }}
                 {%- else %}, {{ c }}
                 {%- endif -%}
-            {%- endfor -%})
+            {%- endfor -%})</span>
         {%- endif -%}
         <span class="pub-links">
         {%- if draft.arxiv -%}

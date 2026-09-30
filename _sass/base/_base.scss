@@ -16,7 +16,7 @@ body {
 
 body {
   font-family: "Inter", sans-serif;
-  font-weight: 300; 
+  font-weight: 400; 
   font-size: $font-size-large;
   color: $color-text;
 }
@@ -41,7 +41,7 @@ h1 {
 }
 
 h2 {
-  margin: 1.5rem 0 0.5rem;
+  margin: 1.8rem 0 1rem;
   font-size: $font-size-xx-large; 
 }
 
@@ -81,12 +81,6 @@ summary {
     color: $color-text-soft; 
 }
 
-.other-list {
-    a {
-        text-decoration: underline !important;
-    }
-}
-
 ul, ol {
   padding-left: 1.5em;
 
@@ -112,22 +106,12 @@ hr {
 }
 
 a {
-  color: $color-text-strong;
-  font-weight: 400;
-
-  &[href*="pdf/"],
-  &[href*="drive.google.com"],
-  &[href*="draft/"] {
-    color: $color-link-strong;
-    // font-weight: bold;
-  }
-
-  &[href$=".pdf"]:not(.pub-list a[href$=".pdf"]) {
-    color: $color-link-strong;
-  }
+  color: $color-link-strong;
+  text-decoration: none;
 
   &:hover {
-    color: $color-link-hover; 
+    text-decoration: underline;
+    text-decoration-color: $color-link-strong;
   }
 }
 

@@ -5,5 +5,3 @@ description: Minoru Osawa is an Associate Professor in spatial economics at the 
 ---
 
 {% include profile.html %}
-
-{% include other.html %}

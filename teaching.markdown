@@ -5,6 +5,7 @@ permalink: "/teaching/"
 description: Course materials on urban economics, transport economics, and mathematical optimization.
 lang: ja
 ---
+
 <h1>Teaching</h1>
 
 <div class="teaching-meta">

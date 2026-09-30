@@ -131,7 +131,7 @@
        text-shadow: 0px 0px 2px var(--color-text-shadow); 
 
        @include respond-max($bp-tablet) {
-            background: $color-surface-strong;
+            background: $color-surface-alt;
             box-shadow: 0px 0px 2px var(--color-course-card-shadow); 
        }
    }
