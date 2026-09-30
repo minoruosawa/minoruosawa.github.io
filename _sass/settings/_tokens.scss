@@ -118,8 +118,8 @@
   }
 }
 
-$oblique-deg: -6deg; 
-$oblique-translate: 0.08rem; 
+$oblique-deg: -5deg; 
+$oblique-translate: 0.09rem; 
 
 $bp-mobile: 600px;
 $bp-tablet: 768px;
@@ -134,14 +134,14 @@ $gutter-desktop: 2.5rem;
 $gutter-mobile: .9rem;
 $section-gap: 2rem;
 
-$font-size-small: clamp(0.78rem, calc(0.73rem + 0.18vw), 0.86rem);
-$font-size-medium: clamp(0.86rem, calc(0.80rem + 0.22vw), 0.94rem);
-$font-size-large: clamp(0.94rem, calc(0.88rem + 0.26vw), 1.02rem); // base size
+$font-size-small: clamp(0.74rem, calc(0.70rem + 0.16vw), 0.82rem);
+$font-size-medium: clamp(0.82rem, calc(0.77rem + 0.20vw), 0.90rem);
+$font-size-large: clamp(0.90rem, calc(0.84rem + 0.23vw), 0.98rem);
 
-$font-size-x-large: clamp(1.02rem, calc(0.95rem + 0.30vw), 1.12rem);
-$font-size-xx-large: clamp(1.14rem, calc(1.04rem + 0.42vw), 1.26rem);  // h3
-$font-size-xxx-large: clamp(1.28rem, calc(1.14rem + 0.56vw), 1.42rem); // h2
-$font-size-xxxx-large: clamp(1.46rem, calc(1.26rem + 0.72vw), 1.66rem); // h1
+$font-size-x-large: clamp(0.98rem, calc(0.91rem + 0.27vw), 1.08rem);
+$font-size-xx-large: clamp(1.08rem, calc(0.99rem + 0.37vw), 1.20rem);
+$font-size-xxx-large: clamp(1.22rem, calc(1.09rem + 0.50vw), 1.35rem);
+$font-size-xxxx-large: clamp(1.38rem, calc(1.20rem + 0.64vw), 1.56rem);
 
 $color-text: var(--color-text);
 $color-text-strong: var(--color-text-strong);

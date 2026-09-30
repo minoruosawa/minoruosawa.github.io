@@ -2,29 +2,26 @@
   year: 2026
   keypub: true 
   journal: "Journal of Urban Economics"
-  url: "https://doi.org/10.1016/j.jue.2026.103907"
+  doi: "https://doi.org/10.1016/j.jue.2026.103907"
   cover: "jue"
   author: "T.&thinsp;Akamatsu, T.&thinsp;Mori, M.&thinsp;Osawa, Y.&thinsp;Takayama"
   coauthors:
     - "T.&thinsp;Akamatsu"
     - "T.&thinsp;Mori"
     - "Y.&thinsp;Takayama"
+  pdf: "https://drive.google.com/file/d/1ws5mUUOvK2-rsP9IF5MsKES9Du61Oy9N/view?usp=drive_link"
   misclinks:
-    - name: "DP2026"
-      url: "/notes/draft/AMOT.pdf"
     - name: "Codes"
       url: "https://data.mendeley.com/datasets/j6b7mcyv6c/1"
-    - name: "DP2017a"
+    - name: "RIETI-DP(2017)"
       url: "https://www.rieti.go.jp/jp/publications/dp/17e125.pdf"
-    - name: "DP2017b"
-      url: "https://mpra.ub.uni-muenchen.de/97496/1/MPRA_paper_97496.pdf"
 
 - title: "Equilibrium refinement for a model of non-monocentric internal structures of cities: A potential game approach"
   year: 2020
   keypub: true 
   journal: "Journal of Economic Theory"
   cover: "jet"
-  url: "https://doi.org/10.1016/j.jet.2020.105025"
+  doi: "https://doi.org/10.1016/j.jet.2020.105025"
   pdf: "https://drive.google.com/open?id=1Y5okEA5ZY9APvol5MFqpGapphfukdB2P&usp=drive_fs"
   coauthors:
     - "T.&thinsp;Akamatsu"
@@ -34,7 +31,7 @@
   author: "M.&thinsp;Osawa, T.&thinsp;Akamatsu, Y.&thinsp;Takayama"
   journal: "Journal of Regional Science"
   cover: "jrs"
-  url: "https://doi.org/10.1111/jors.12306"
+  doi: "https://doi.org/10.1111/jors.12306"
   pdf: "https://drive.google.com/open?id=1YJwRv2AHs2z1Rdb8CxszlRiqytYDv-Fm&usp=drive_fs"
   coauthors:
     - "T.&thinsp;Akamatsu"
@@ -45,7 +42,7 @@
   author: "M.&thinsp;Osawa, H.&thinsp;Fu, T.&thinsp;Akamatsu"
   journal: "Transportation Research Part B: Methodological"
   cover: "tr-b"
-  url: "https://doi.org/10.1016/j.trb.2017.09.003"
+  doi: "https://doi.org/10.1016/j.trb.2017.09.003"
   pdf: "https://drive.google.com/open?id=1YLaqL3wjm49qNP9Nzf_gdUSrkKnAwK8K&usp=drive_fs"
   coauthors:
     - "H.&thinsp;Fu"
@@ -56,7 +53,7 @@
   author: "K.&thinsp;Ikeda, Y.&thinsp;Takayama, J.&thinsp;M.&thinsp;Gaspar, M.&thinsp;Osawa"
   journal: "Journal of Regional Science"
   cover: "jrs"
-  url: "https://doi.org/10.1111/jors.12582"
+  doi: "https://doi.org/10.1111/jors.12582"
   pdf: "https://drive.google.com/open?id=1XkYQaNZZ2R6cWrv5GID_HZHJSsuj_1yw&usp=drive_fs"
   coauthors:
     - "K.&thinsp;Ikeda"
@@ -68,7 +65,7 @@
   author: "H.&thinsp;Aizawa, K.&thinsp;Ikeda, M.&thinsp;Osawa, and J.&thinsp;M.&thinsp;Gaspar"
   journal: "International Journal of Bifurcation and Chaos"
   cover: "ijbc"
-  url: "https://doi.org/10.1142/S0218127420502405"
+  doi: "https://doi.org/10.1142/S0218127420502405"
   pdf: "https://drive.google.com/open?id=1Y-rvKi1loMGUyBpgiKShzXxzxvYvnfqr&usp=drive_fs"
   coauthors:
     - "H.&thinsp;Aizawa"
@@ -80,7 +77,7 @@
   author: "T.&thinsp;Akamatsu, T.&thinsp;Nagae, M.&thinsp;Osawa, K.&thinsp;Satsukawa, T.&thinsp;Sakai, D.&thinsp;Mizutani"
   journal: "Scientific Reports"
   cover: "scirep"
-  url: "https://doi.org/10.1038/s41598-021-81630-9"
+  doi: "https://doi.org/10.1038/s41598-021-81630-9"
   pdf: "https://drive.google.com/open?id=1Xq0fkIJ6Bwq0GU53KIHbaYV1kQuon6tD&usp=drive_fs"
   coauthors:
     - "T.&thinsp;Akamatsu"
@@ -94,7 +91,7 @@
   author: "K.&thinsp;Ikeda, M.&thinsp;Osawa, Y.&thinsp;Takayama"
   journal: "Networks and Spatial Economics"
   cover: "nets"
-  url: "https://doi.org/10.1007/s11067-021-09557-2"
+  doi: "https://doi.org/10.1007/s11067-021-09557-2"
   pdf: "https://drive.google.com/open?id=1Xm8uZ6nL6e_EMwmF1u2Ihw_6J_0ELfLj&usp=drive_fs"
   coauthors:
     - "K.&thinsp;Ikeda"
@@ -105,7 +102,7 @@
   author: "T.&thinsp;Akamatsu, M.&thinsp;Osawa, T.&thinsp;Nagae, H.&thinsp;Yamaguchi"
   journal: "Journal of JSCE"
   cover: "jsce"
-  url: "https://doi.org/10.2208/journalofjsce.1.1_447"
+  doi: "https://doi.org/10.2208/journalofjsce.1.1_447"
   pdf: "https://drive.google.com/open?id=1YLgMtuWF4jn5A_vQNtQdNpSS94GiI77o&usp=drive_fs"
   coauthors:
     - "T.&thinsp;Akamatsu"

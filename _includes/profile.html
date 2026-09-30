@@ -13,7 +13,7 @@
     <div id="description-wrapper">
         <h1 id="profile-title">Minoru&thinsp;OSAWA&thinsp;<span class="separator">/</span>&thinsp;<span class="name_ja">大澤 実</span></h1>
         <p id="profile-affiliation" class="mobile-center">Associate Professor at KIER, Kyoto University</p>
-        <p>Welcome! My research lies at the intersection of spatial economics, transportation science, and learning in games. Thank you for visiting, and I look forward to future discussions and collaborations.</p>
+        <p>Welcome! My research lies at the intersection of spatial economics, transportation, and learning in games. Thank you for visiting, and I look forward to future discussions and collaborations.</p>
 
         <ul class="info">
             <!-- <li class="interests">Spatial Economics, Transportation Science, Learning in Games</li> -->
@@ -21,20 +21,18 @@
             <li class="cv"><a href="/assets/CV-Osawa.pdf" id="cv-link">CV (PDF)</a><span class="separator">・</span><a href="https://researchmap.jp/minoru_osawa">日本語情報</a><span class="separator">・</span><a href="https://scholar.google.co.jp/citations?user=qKxF-dkAAAAJ">Google Scholar</a></li>
             {% if site.data.visits and site.data.visits.size > 0 %}
             <li class="cal">Scheduled talks and visits: 
-                <table class="visits">
-                    <ul>
-                    {% for visit in site.data.visits %}
-                        <li>
-                        <span class="visit-date">{{ visit.date }}</span>
-                        {% if visit.url %}
-                        <a href="{{ visit.url }}">{{ visit.text }}</a>
-                        {% else %}
-                        {{ visit.text }}
-                        {% endif %}
-                    </li>
-                    {% endfor %}
-                    </ul>
-                </table>
+                <ul class="visits">
+                {% for visit in site.data.visits %}
+                    <li>
+                    <span class="visit-date">{{ visit.date }}</span>
+                    {% if visit.url %}
+                    <span class="visit-venue"><a href="{{ visit.url }}">{{ visit.text }}</a></span>
+                    {% else %}
+                    <span class="visit-venue">{{ visit.text }}</span>
+                    {% endif %}
+                </li>
+                {% endfor %}
+                </ul>
             </li>
             {% endif %}
         </ul>

@@ -4,26 +4,15 @@
 .pub-title {
     font-weight: 500; 
 }
-span.pub-title {
-    color: $color-text-soft; 
-}
 
 .pub-list {
     li {
         margin-left: 0; 
-        margin-bottom: 1.25rem; 
+        margin-bottom: 1.6rem; 
 
         &::marker {
             content: none; 
         }
-    }
-}
-
-.pub-list.research-pub-list {
-    list-style: none;
-
-    li {
-        list-style: none;
     }
 
     @include respond-max($bp-mobile) {
@@ -44,12 +33,21 @@ span.pub-title {
   white-space: nowrap;
   display: inline-block;
   transform: translateX($oblique-translate) skewX($oblique-deg);
-  letter-spacing: -0.003em;
+  letter-spacing: -0.007em;
   font-weight: 500; 
 }
 
 .pub-state {
   white-space: nowrap;
+}
+
+.pub-links {
+    a {
+        font-size: $font-size-medium; 
+        display: inline-block; 
+        font-weight: 500;
+        color: var(--color-link-strong);
+    }
 }
 
 .my_description {

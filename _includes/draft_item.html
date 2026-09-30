@@ -1,11 +1,10 @@
     <li>
-        {%- if draft.url -%}
-            <a class="pub-title" href="{{ draft.url }}">{{ draft.title }}</a>
-        {%- else -%}
-            <span class="pub-title">{{ draft.title }}</span>
-        {%- endif -%}
+        <span class="pub-title">{{ draft.title }}</span>
         {%- if draft.year %} ({{ draft.year }}){% endif -%}
-        {%- if draft.coauthors %} (with
+        {%- if draft.rr -%}
+            <br> R&R at <span class="pub-journal">{{ draft.rr }}</span>
+        {%- endif -%}
+        {%- if draft.coauthors %}<br> (with
             {%- for c in draft.coauthors -%}
                 {%- if forloop.first %} {{ c }}
                 {%- elsif forloop.last %}{% if forloop.length > 2 %},{% endif %} and {{ c }}
@@ -13,8 +12,17 @@
                 {%- endif -%}
             {%- endfor -%})
         {%- endif -%}
-        {%- for link in draft.misclinks %} [<a href="{{ link.url }}">{{ link.name }}</a>]{% endfor -%}
-        {%- if draft.rr -%}
-            <br> R&R at <span class="pub-journal">{{ draft.rr }}</span>
+        <span class="pub-links">
+        {%- if draft.arxiv -%}
+            &nbsp;[<a href="{{ draft.arxiv }}">arXiv</a>] 
         {%- endif -%}
+        {%- if draft.misclinks -%}
+            {%- for link in draft.misclinks -%}
+            &nbsp;[<a href="{{ link.url }}">{{ link.name }}</a>]
+            {%- endfor -%}
+        {%- endif -%}
+        {%- if draft.note -%}<br>
+        {{ draft.note }}
+        {%- endif -%}
+        </span>
     </li>

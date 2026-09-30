@@ -1,24 +1,26 @@
     <li class="pub-item">
-        {%- if paper.url -%}
-            <a href="{{ paper.url }}" class="pub-title">{{ paper.title }}</a>
-        {%- else -%}
-            {{ paper.title }}
-        {%- endif -%}.
+        <span class="pub-title">{{ paper.title }}</span>
         <br>
-        <span>
         <span class="pub-journal">{{ paper.journal }}</span>
         {%- if paper.state -%}, <span class="pub-state">{{ paper.state }}</span>.{%- endif -%}
         &nbsp;({{ paper.year }})
         {%- if paper.coauthors -%}
-        <br>
-        <span class="pub-coauthors">(with {{ paper.coauthors | join: ', ' }})</span>
+        <br class="on-mobile">
+        <span class="pub-coauthors">(with {{ paper.coauthors | join: ', ' }})</span><br class="on-mobile">
+        {%- endif -%}
+        <span class="pub-links">
+        {%- if paper.doi -%}
+            <a href="{{ paper.doi }}" class="pub-doi">DOI</a> 
         {%- endif -%}
         {%- if paper.pdf -%}
-            &nbsp;[<a href="{{ paper.pdf }}">paper</a>]
+            &emsp;<a href="{{ paper.pdf }}">PDF</a>
+        {%- endif -%}
+        {%- if paper.arxiv -%}
+            &emsp;<a href="{{ paper.arxiv }}">arXiv</a> 
         {%- endif -%}
         {%- if paper.misclinks -%}
             {%- for link in paper.misclinks -%}
-            &nbsp;[<a href="{{ link.url }}">{{ link.name }}</a>]
+            &emsp;<a href="{{ link.url }}">{{ link.name }}</a>
             {%- endfor -%}
         {%- endif -%}
         </span>

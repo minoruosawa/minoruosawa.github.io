@@ -204,14 +204,27 @@
 .visits {
     border-collapse: collapse;
     margin-top: 0.3em;
+    padding-left: 0em;
+    font-size: 95%; 
 
     a {
         text-decoration: none; 
+        font-weight: inherit; 
+    }
+    
+
+    @include respond-max($bp-mobile) {
+        padding-left: 0em;
+        margin-left: -1rem; 
+
+        li {
+            list-style-type: none;
+        }
     }
 }
 
 .visit-date {
     display: inline-block;
-    min-width: 5.5em;
+    min-width: 5em;
     white-space: nowrap;
 }
