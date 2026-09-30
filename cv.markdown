@@ -3,6 +3,7 @@ layout: default
 title: Minoru Osawa - CV
 permalink: "/cv/"
 description: Curriculum vitae for Minoru Osawa.
+published: false
 ---
 
 <h1>Curriculum Vitae</h1>
