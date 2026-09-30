@@ -9,6 +9,7 @@
     li {
         margin-left: 0; 
         margin-bottom: 1.6rem; 
+        list-style-type: none; 
 
         &::marker {
             content: none; 
