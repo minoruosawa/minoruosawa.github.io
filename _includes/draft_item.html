@@ -12,13 +12,13 @@
                 {%- endif -%}
             {%- endfor -%})</span>
         {%- endif -%}
-        <span class="pub-links">
+        <span class="draft-links">
         {%- if draft.arxiv -%}
-            &nbsp;[<a href="{{ draft.arxiv }}">arXiv</a>] 
+            <a href="{{ draft.arxiv }}">arXiv</a> 
         {%- endif -%}
         {%- if draft.misclinks -%}
             {%- for link in draft.misclinks -%}
-            &nbsp;[<a href="{{ link.url }}">{{ link.name }}</a>]
+            <a href="{{ link.url }}">{{ link.name }}</a>
             {%- endfor -%}
         {%- endif -%}
         {%- if draft.note -%}<br>

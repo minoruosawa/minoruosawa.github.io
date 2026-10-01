@@ -9,19 +9,21 @@
         <span class="pub-coauthors">(with {{ paper.coauthors | join: ', ' }})</span><br class="on-mobile">
         {%- endif -%}
         <span class="pub-links">
+        <ul>
         {%- if paper.doi -%}
-            <a href="{{ paper.doi }}" class="pub-doi">DOI</a> 
+            <li><a href="{{ paper.doi }}" class="pub-doi">DOI</a></li>
         {%- endif -%}
         {%- if paper.pdf -%}
-            &emsp;<a href="{{ paper.pdf }}">PDF</a>
+            <li><a href="{{ paper.pdf }}">PDF</a></li>
         {%- endif -%}
         {%- if paper.arxiv -%}
-            &emsp;<a href="{{ paper.arxiv }}">arXiv</a> 
+            <li><a href="{{ paper.arxiv }}">arXiv</a></li>
         {%- endif -%}
         {%- if paper.misclinks -%}
             {%- for link in paper.misclinks -%}
-            &emsp;<a href="{{ link.url }}">{{ link.name }}</a>
+            <li><a href="{{ link.url }}">{{ link.name }}</a></li>
             {%- endfor -%}
         {%- endif -%}
+        </ul>
         </span>
     </li>
