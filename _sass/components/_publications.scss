@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
 /* === List Publications === */
-.pub-title {
-    font-weight: 500; 
-}
 
 .pub-list {
     li {
@@ -64,6 +61,10 @@
             &::after { content: "]"; color: black; font-weight: 400; }
         }
     }
+}
+
+.pub-title {
+    font-weight: 600; 
 }
 
 .pub-coauthors {

@@ -70,6 +70,12 @@
 
 #profile-affiliation {
     color: $color-text-muted; 
+    a { 
+        color: inherit; 
+        &:hover {
+            color: $color-link-strong; 
+        }
+    }
 }
 
 #em-img {
