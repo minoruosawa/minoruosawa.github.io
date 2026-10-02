@@ -34,8 +34,7 @@
   width: min(160px,40vw);
   max-width: 100%;
   height: auto;
-//   display: block;
-  display: none; 
+  display: block;
 
   @media (prefers-color-scheme: dark) {
     filter: brightness(90%) grayscale(5%);
