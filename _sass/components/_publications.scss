@@ -13,6 +13,42 @@
         }
     }
 
+    .pub-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.3rem;
+
+        @include respond-max($bp-mobile) {
+            gap: .8rem;
+        }
+    }
+
+    .pub-cover {
+        flex: 0 0 5.25rem;
+        width: 5.25rem;
+        height: 7.25rem;
+        display: block;
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @include respond-max($bp-mobile) {
+            // flex-basis: 4.5rem;
+            // width: 4.5rem;
+            // height: 6.25rem;
+            display: none; 
+        }
+    }
+
+    .pub-content {
+        min-width: 0;
+        flex: 1;
+    }
+
     @include respond-max($bp-mobile) {
         padding-left: 0;
 

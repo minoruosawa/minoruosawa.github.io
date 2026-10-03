@@ -1,29 +1,44 @@
     <li class="pub-item">
-        <span class="pub-title">{{ paper.title }}</span>
-        <br>
-        <span class="pub-journal">{{ paper.journal }}</span>
-        {%- if paper.state -%}, <span class="pub-state">{{ paper.state }}</span>.{%- endif -%}
-        &nbsp;({{ paper.year }})
-        {%- if paper.coauthors -%}
-        <br class="on-mobile">
-        <span class="pub-coauthors">(with {{ paper.coauthors | join: ', ' }})</span><br class="on-mobile">
-        {%- endif -%}
-        <span class="pub-links">
-        <ul>
-        {%- if paper.doi -%}
-            <li><a href="{{ paper.doi }}" class="pub-doi">DOI</a></li>
-        {%- endif -%}
-        {%- if paper.pdf -%}
-            <li><a href="{{ paper.pdf }}">PDF</a></li>
-        {%- endif -%}
-        {%- if paper.arxiv -%}
-            <li><a href="{{ paper.arxiv }}">arXiv</a></li>
-        {%- endif -%}
-        {%- if paper.misclinks -%}
-            {%- for link in paper.misclinks -%}
-            <li><a href="{{ link.url }}">{{ link.name }}</a></li>
-            {%- endfor -%}
-        {%- endif -%}
-        </ul>
-        </span>
+        <!-- {%- if paper.cover -%}
+        <picture class="pub-cover">
+            <source
+                srcset="/assets/img/journals/{{ paper.cover }}-90.webp 90w, /assets/img/journals/{{ paper.cover }}-180.webp 180w"
+                sizes="5.25rem"
+                type="image/webp">
+            <img
+                src="/assets/img/journals/{{ paper.cover }}.jpg"
+                alt="{{ paper.journal }} cover"
+                loading="lazy"
+                decoding="async">
+        </picture>
+        {%- endif -%} -->
+        <div class="pub-content">
+            <span class="pub-title">{{ paper.title }}</span>
+            <br>
+            <span class="pub-journal">{{ paper.journal }}</span>
+            {%- if paper.state -%}, <span class="pub-state">{{ paper.state }}</span>.{%- endif -%}
+            &nbsp;({{ paper.year }})
+            {%- if paper.coauthors -%}
+            <br class="on-mobile">
+            <span class="pub-coauthors">(with {{ paper.coauthors | join: ', ' }})</span><br class="on-mobile">
+            {%- endif -%}
+            <span class="pub-links">
+            <ul>
+            {%- if paper.doi -%}
+                <li><a href="{{ paper.doi }}" class="pub-doi">DOI</a></li>
+            {%- endif -%}
+            {%- if paper.pdf -%}
+                <li><a href="{{ paper.pdf }}">PDF</a></li>
+            {%- endif -%}
+            {%- if paper.arxiv -%}
+                <li><a href="{{ paper.arxiv }}">arXiv</a></li>
+            {%- endif -%}
+            {%- if paper.misclinks -%}
+                {%- for link in paper.misclinks -%}
+                <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+                {%- endfor -%}
+            {%- endif -%}
+            </ul>
+            </span>
+        </div>
     </li>
