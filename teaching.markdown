@@ -33,6 +33,7 @@ lang: ja
   <div class="course-contents">
     <ol start="0">
       <li><a href="/notes/vip/VI26-00_Orientation.pdf">講義概要</a></li>
+      <li><a href="/notes/vip/VI26-01_Introduction.pdf">概論：均衡問題の基礎と具体例の導入</a></li>
       ※ 以下は昨年度資料（随時更新）
       <li><a href="/notes/vip/VI25-01_Opt.pdf">最適化概論</a></li>
       <li><a href="/notes/vip/VI25-02_LP.pdf">線形最適化問題</a></li>
