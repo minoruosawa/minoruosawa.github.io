@@ -34,7 +34,7 @@ lang: ja
   <div class="course-contents">
     <ol start="0">
       <li><a href="/notes/vip/VI26-00_Orientation.pdf">講義概要</a></li>
-      <li><a href="/notes/vip/VI26-01_Introduction.pdf">概論：均衡問題の基礎と具体例の導入</a></li>
+      <li><a href="/notes/vip/VI26-01_Introduction.pdf">イントロダクション</a></li>
       <li><a href="/notes/vip/VI26-02_Geometry.pdf">許容集合の幾何</a></li>
       <li>最適化問題と均衡問題</li>
       <li>均衡問題の種々の等価表現</li>
