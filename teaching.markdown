@@ -24,7 +24,8 @@ lang: ja
 
   <div class="course-info">
     <ul>
-      <li>2026年度　水曜1限 8:45-10:15 @ 経済研究所 大会議室(106)</li>
+      <li>2026年度 水曜1限 8:45-10:15</li>
+      <li>経済研究所 大会議室(106)</li>
       <li>休講予定：12/16</li>
       <li>この講義は2027年以降は開講せず，「交通経済学」および「経済学のための数学」へ内容を移植します．</li>
     </ul>
@@ -34,7 +35,7 @@ lang: ja
     <ol start="0">
       <li><a href="/notes/vip/VI26-00_Orientation.pdf">講義概要</a></li>
       <li><a href="/notes/vip/VI26-01_Introduction.pdf">概論：均衡問題の基礎と具体例の導入</a></li>
-      <li>許容集合の幾何</li>
+      <li><a href="/notes/vip/VI26-02_Geometry.pdf">許容集合の幾何</a></li>
       <li>最適化問題と均衡問題</li>
       <li>均衡問題の種々の等価表現</li>
       <li>ベクトル場の構造</li>
@@ -75,7 +76,8 @@ lang: ja
   <div class="course-info">
     <ul>
       <li>隔年開講</li>
-      <li>2027年度　隔週火曜1-2限 8:50-10:20, 10:25-11:55 @ 経済研究所 第二共同（予定）</li>
+      <li>2027年度 隔週火曜1-2限 8:50-10:20, 10:25-11:55</li>
+      <li>経済研究所 第二共同（予定）</li>
     </ul>
   </div>
 
