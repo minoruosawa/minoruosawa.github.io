@@ -93,8 +93,8 @@
     .draft-links {
         a {
             margin-left: .7rem; 
-            &::before { content: "["; color: black; font-weight: 400; }
-            &::after { content: "]"; color: black; font-weight: 400; }
+            &::before { content: "["; color: $color-text-soft; font-weight: 400; }
+            &::after { content: "]"; color: $color-text-soft; font-weight: 400; }
         }
     }
 }
