@@ -36,7 +36,7 @@ lang: ja
       <li><a href="/notes/vip/VI26-00_Orientation.pdf">講義概要</a></li>
       <li><a href="/notes/vip/VI26-01_Introduction.pdf">イントロダクション</a></li>
       <li><a href="/notes/vip/VI26-02_Geometry.pdf">許容集合の幾何</a></li>
-      <li>最適化問題と均衡問題</li>
+      <li><a href="/notes/vip/VI26-03_Optimization.pdf">最適化問題と均衡問題</a></li>
       <li>均衡問題の種々の等価表現</li>
       <li>ベクトル場の構造</li>
       <li>均衡とその安定性・分岐</li>
