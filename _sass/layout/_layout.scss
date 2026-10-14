@@ -131,14 +131,26 @@
        text-shadow: 0px 0px 2px var(--color-text-shadow); 
 
        @include respond-max($bp-tablet) {
-            background: $color-surface-alt;
+            background: $color-surface-emphasis;
             box-shadow: 0px 0px 2px var(--color-course-card-shadow); 
+
+            .jp, .en {
+                color: $color-text-strong;
+            }
        }
    }
 }
 
 .course-info {
   margin: 0.5rem 0 0 0;
+    @include respond-max($bp-mobile) {
+        margin: 0; 
+        padding: .7rem; 
+        @media (prefers-color-scheme: dark) {
+            border-top: 1px solid $color-border-soft; 
+            background: $color-surface-alt;
+        }
+    }
 }
 
 .course-contents {
