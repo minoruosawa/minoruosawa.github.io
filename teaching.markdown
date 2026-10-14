@@ -27,8 +27,8 @@ lang: ja
       <li>2026年度 水曜1限 8:45-10:15</li>
       <li>経済研究所 大会議室(106)</li>
       <li>休講と補講の予定：
-            <table>
-            <tr><th style="text-align:left; padding-right: 1rem;">休講日</th><th style="text-align:left">補講日</th></tr>
+            <table style="font-size: 90%; padding: .2rem .7rem; line-height: 1.3;">
+            <tr><th style="text-align:left; padding-right: 1rem; opacity: .8;">休講日</th><th style="text-align:left; opacity: .8;">補講日</th></tr>
             <tr><td>11/4</td><td>1/18(月) 2限（10:30–12:00）</td></tr>
             <tr><td>12/16</td><td>1/18(月) 3限（13:00–14:30）</td></tr>
             </table>
