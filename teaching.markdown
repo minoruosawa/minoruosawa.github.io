@@ -38,11 +38,11 @@ lang: ja
 
   <div class="course-contents">
     <ol start="0">
-      <li><a href="/notes/vip/VI26-00_Orientation.pdf">講義概要</a> (10/7)</li>
-      <li><a href="/notes/vip/VI26-01_Introduction.pdf">イントロダクション</a> (10/7)</li>
-      <li><a href="/notes/vip/VI26-02_Geometry.pdf">許容集合の幾何</a> (10/14)</li>
-      <li><a href="/notes/vip/VI26-03_Optimization.pdf">最適化問題と均衡問題</a> (10/21)</li>
-      <li><a href="/notes/vip/VI26-04_Equivalent-representations.pdf">均衡問題の種々の等価表現</a> (10/28)</li>
+      <li><a href="/notes/vip/VI26-00_Orientation.pdf">講義概要</a></li>
+      <li><a href="/notes/vip/VI26-01_Introduction.pdf">イントロダクション</a></li>
+      <li><a href="/notes/vip/VI26-02_Geometry.pdf">許容集合の幾何</a></li>
+      <li><a href="/notes/vip/VI26-03_Optimization.pdf">最適化問題と均衡問題</a></li>
+      <li><a href="/notes/vip/VI26-04_Equivalent-representations.pdf">均衡問題の種々の等価表現</a></li>
       <li>ベクトル場の構造</li>
       <li>均衡とその安定性・分岐</li>
       <li>最適化問題の数値解法</li>
