@@ -8,12 +8,12 @@
     - name: "slides"
       url: "/notes/draft/SLD_slides.pdf"
 
-- title: "How do expectations shape spatial dynamics?"
+- title: "History, expectations, and the geography of adjustment"
   year: 2026
   misclinks:
-    - name: "old draft"
-      url: "/notes/draft/RD.pdf"
-    - name: "slides"
+    # - name: "old draft"
+    #   url: "/notes/draft/RD.pdf"
+    - name: "old slides"
       url: "/notes/draft/RD_slides.pdf"
     - name: "poster(ja)"
       url: "/notes/draft/RD_poster_ja.pdf"
