@@ -28,9 +28,11 @@
             {{ draft.comment.text }}
             {%- if draft.comment.text and draft.comment.links -%}&emsp;{%- endif -%}
             {%- if draft.comment.links -%}
+                <span class="pub-comment-links">
                 {%- for link in draft.comment.links -%}
-                <a href="{{ link.url }}">{{ link.name }}</a>
+                <span class="pub-comment-link"><a href="{{ link.url }}">{{ link.name }}</a></span>
                 {%- endfor -%}
+                </span>
             {%- endif -%}
         {%- else -%}
             {{ draft.comment | default: draft.note }}

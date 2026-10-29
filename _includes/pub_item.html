@@ -46,9 +46,11 @@
                 {{ paper.comment.text }}
                 {%- if paper.comment.text and paper.comment.links -%}&#32;{%- endif -%}
                 {%- if paper.comment.links -%}
+                    <span class="pub-comment-links">
                     {%- for link in paper.comment.links -%}
-                    <a href="{{ link.url }}">{{ link.name }}</a>
+                    <span class="pub-comment-link"><a href="{{ link.url }}">{{ link.name }}</a></span>
                     {%- endfor -%}
+                    </span>
                 {%- endif -%}
             {%- else -%}
                 {{ paper.comment | default: paper.note }}

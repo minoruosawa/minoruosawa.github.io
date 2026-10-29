@@ -111,14 +111,18 @@
     color: $color-text-soft;
     font-size: $font-size-medium;
 
-    a {
+    .pub-comment-link {
         display: inline-block;
-        color: var(--color-link-strong);
 
-        + a::before {
+        + .pub-comment-link::before {
             content: "・";
             margin: 0 .2rem;
             color: $color-separator;
+        }
+
+        a {
+            display: inline-block;
+            color: var(--color-link-strong);
         }
     }
 }
