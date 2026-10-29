@@ -21,8 +21,20 @@
             <a href="{{ link.url }}">{{ link.name }}</a>
             {%- endfor -%}
         {%- endif -%}
-        {%- if draft.note -%}<br>
-        {{ draft.note }}
+        </span>
+        {%- if draft.comment or draft.note -%}<br>
+        <span class="pub-comment">
+        {%- if draft.comment.text or draft.comment.links -%}
+            {{ draft.comment.text }}
+            {%- if draft.comment.text and draft.comment.links -%}&emsp;{%- endif -%}
+            {%- if draft.comment.links -%}
+                {%- for link in draft.comment.links -%}
+                <a href="{{ link.url }}">{{ link.name }}</a>
+                {%- endfor -%}
+            {%- endif -%}
+        {%- else -%}
+            {{ draft.comment | default: draft.note }}
         {%- endif -%}
         </span>
+        {%- endif -%}
     </li>

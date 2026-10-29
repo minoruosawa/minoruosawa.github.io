@@ -40,5 +40,20 @@
             {%- endif -%}
             </ul>
             </span>
+            {%- if paper.comment or paper.note -%}<br>
+            <span class="pub-comment">
+            {%- if paper.comment.text or paper.comment.links -%}
+                {{ paper.comment.text }}
+                {%- if paper.comment.text and paper.comment.links -%}&#32;{%- endif -%}
+                {%- if paper.comment.links -%}
+                    {%- for link in paper.comment.links -%}
+                    <a href="{{ link.url }}">{{ link.name }}</a>
+                    {%- endfor -%}
+                {%- endif -%}
+            {%- else -%}
+                {{ paper.comment | default: paper.note }}
+            {%- endif -%}
+            </span>
+            {%- endif -%}
         </div>
     </li>

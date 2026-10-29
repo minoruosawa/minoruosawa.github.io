@@ -107,6 +107,22 @@
     color: $color-text-soft; 
 }
 
+.pub-comment {
+    color: $color-text-soft;
+    font-size: $font-size-medium;
+
+    a {
+        display: inline-block;
+        color: var(--color-link-strong);
+
+        + a::before {
+            content: "・";
+            margin: 0 .2rem;
+            color: $color-separator;
+        }
+    }
+}
+
 .pub-journal {
   color: var(--color-journal-text);
   white-space: nowrap;
