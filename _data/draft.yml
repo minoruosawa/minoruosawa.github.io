@@ -13,12 +13,12 @@
   misclinks:
     - name: "draft"
       url: "/notes/draft/HE.pdf"
+    - name: "slides"
+      url: "/notes/draft/HE_slides.pdf"
   comment:
     text: "Previous titles: 'Understanding regional dynamics'; 'Transport costs and the dynamic stability
 of regional agglomeration'"
     links:
-      - name: "old slides"
-        url: "/notes/draft/RD_slides.pdf"
       - name: "old poster(ja)"
         url: "/notes/draft/RD_poster_ja.pdf"
 
