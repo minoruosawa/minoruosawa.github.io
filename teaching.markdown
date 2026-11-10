@@ -44,7 +44,7 @@ lang: ja
       <li><a href="/notes/vip/VI26-02_Geometry.pdf">許容集合の幾何</a></li>
       <li><a href="/notes/vip/VI26-03_Optimization.pdf">最適化問題と均衡問題</a></li>
       <li><a href="/notes/vip/VI26-04_Equivalent-representations.pdf">均衡問題の種々の等価表現</a></li>
-      <li>ベクトル場の構造</li>
+      <li><a href="/notes/vip/VI26-05_Vector-fields.pdf">ベクトル場の構造</a></li>
       <li>均衡とその安定性・分岐</li>
       <li>最適化問題の数値解法</li>
       <li>変分不等式の数値解法</li>
