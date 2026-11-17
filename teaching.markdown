@@ -45,7 +45,7 @@ lang: ja
       <li><a href="/notes/vip/VI26-03_Optimization.pdf">最適化問題と均衡問題</a></li>
       <li><a href="/notes/vip/VI26-04_Equivalent-representations.pdf">均衡問題の種々の等価表現</a></li>
       <li><a href="/notes/vip/VI26-05_Vector-fields.pdf">ベクトル場の構造</a></li>
-      <li>均衡とその安定性・分岐</li>
+      <li><a href="/notes/vip/VI26-06_Dynamics_and_bifurcation.pdf">均衡とその安定性・分岐</a></li>
       <li>最適化問題の数値解法</li>
       <li>変分不等式の数値解法</li>
       <li>応用：3行動線形集団ゲーム</li>
@@ -54,7 +54,7 @@ lang: ja
       <li>応用：重力モデルと空間一般均衡</li>
     </ol>
 
-    <span style="display: inline-block; margin-top:1rem;">以下は昨年度資料（参考）</span>
+    <!-- <span style="display: inline-block; margin-top:1rem;">以下は昨年度資料（参考）</span>
     <ol>
       <li><a href="/notes/vip/VI25-01_Opt.pdf">最適化概論</a></li>
       <li><a href="/notes/vip/VI25-02_LP.pdf">線形最適化問題</a></li>
@@ -65,7 +65,7 @@ lang: ja
       <li><a href="/notes/vip/VI25-07_Urban.pdf">都市モデル</a></li>
       <li><a href="/notes/vip/24-08_Stability.pdf">均衡選択</a></li>
       <li>受講者による文献紹介：<a href="/notes/vip/VI25-Readings.pdf">対象リスト</a></li>
-    </ol>
+    </ol> -->
   </div>
 
 </section>
