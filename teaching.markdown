@@ -46,12 +46,10 @@ lang: ja
       <li><a href="/notes/vip/VI26-04_Equivalent-representations.pdf">均衡問題の種々の等価表現</a></li>
       <li><a href="/notes/vip/VI26-05_Vector-fields.pdf">ベクトル場の構造</a></li>
       <li><a href="/notes/vip/VI26-06_Dynamics_and_bifurcation.pdf">均衡とその安定性・分岐</a></li>
-      <li>最適化問題の数値解法</li>
-      <li>変分不等式の数値解法</li>
-      <li>応用：3行動線形集団ゲーム</li>
-      <li>応用：ネットワークの均衡フロー</li>
-      <li>応用：空間的な集積・分散のモデル</li>
-      <li>応用：重力モデルと空間一般均衡</li>
+      <li>話題：ネットワークの均衡フロー</li>
+      <li>話題：慣習の進化</li>
+      <li>話題：空間的な集積と都市の構造</li>
+      <li>話題：機械学習とダイナミクス</li>
     </ol>
 
     <!-- <span style="display: inline-block; margin-top:1rem;">以下は昨年度資料（参考）</span>
